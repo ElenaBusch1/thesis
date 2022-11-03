@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{iv}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Dedication}{v}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introduction or Preface}{1}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction and Background}{2}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Footnotes: Two ways of adding to your text}{2}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Other section of first chapter}{2}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Technical Approach}{6}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Some Technical Approach}{6}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Another Technical Approach}{6}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Example Subsection}{7}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Results}{8}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Discussion}{9}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion or Epilogue}{12}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{16}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\renewcommand {\cftchappresnum }{Appendix }
+\defcounter {refsection}{0}\relax 
+\renewcommand {\cftchapnumwidth }{6em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{16}{appendix.a.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data Processing}{17}{appendix.a.B}%
