@@ -7,7 +7,7 @@
 \usepackage{times}  %set Times New Roman as the font
 \usepackage[explicit]{titlesec}  %title control and formatting
 \usepackage[titles]{tocloft}  %table of contents control and formatting
-\usepackage[backend=bibtex, sorting=none, bibstyle=ieee]{biblatex}  %reference manager
+\usepackage[backend=bibtex, sorting=none, bibstyle=ieee, style=numeric]{biblatex}  %reference manager
 \usepackage{appendix}  %for appendices
 \usepackage{rotating}  %for rotated, landscape images
 \usepackage[normalem]{ulem}  %for underlined section titles
@@ -15,6 +15,8 @@
 \usepackage{indentfirst} % To indent the first line of every paragraph
 \usepackage{booktabs,array,arydshln} %for better table formatting. 
 \usepackage{amsmath} %for formula formatting
+\usepackage{ amssymb }
+\usepackage{gensymb}
 \usepackage[T1]{fontenc} % improved font encoding
 \usepackage[utf8]{inputenc} % for better handling of non-ASCII characters
 %\usepackage{newtxtext} % font choice
@@ -22,6 +24,7 @@
 %\usepackage{lmodern} % font choice 
 %\usepackage[bookmarks=true, hidelinks]{hyperref}
 \usepackage[hidelinks]{hyperref}
+\usepackage{physics}
 
 
 % Bibliography
@@ -79,6 +82,9 @@
 \renewcommand{\cftsecafterpnum}{\vskip\baselineskip}  %set correct spacing for entries in single space environment
 \renewcommand{\cftsubsecafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
 \renewcommand{\cftsubsubsecafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
+
+% My commands
+
 
 %format title font size and position (this also applys to list of figures and list of tables)
 \titleformat{\chapter}[display]
@@ -160,13 +166,6 @@
 %%%%%%%%%%%%%%%%
 
 \input{chapter3.tex}
-
-%%%%%%%%%%%%%%%%
-% Chapter 4
-%%%%%%%%%%%%%%%%
-
-\input{chapter4.tex}
-
 
 
 %%%%%%%%%%%%%%%%

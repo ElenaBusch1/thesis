@@ -1,2 +1,52 @@
-\chapter{Results}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\chapter{The ATLAS Detector}
+
+The ATLAS detector is one of two general purpose physics detectors designed to study the products of the proton-proton collisions produced by the LHC. The detectors is composed of a variety of specialized subsystems, designed to fully capture the large array of physics processes produced in the LHC. The apparatus is 25m high, 44m in length, and weighs over 7000 tons. Collisions occur directly in the center of the apparatus, and the cylindrical design of the detector allows a complete 360 view of any physics objects resulting from the collision to be reconstructed. \\
+
+Two magnet systems provide strong magnetic fields, which bend the trajectory of charged particles as they pass through the magnetic fields; this allows the calculation of the momentum of the particles. A 2T solenoid magnet provides a uniform magnetic field to the inner layers of the detector. Further out, a toroidal magnet system ( TODO: how many toroids?) provides fields strengths of 0.5 to 1T
+
+\section{Coordinate System and Geometry}
+
+The ATLAS detector employs a right hand cylindrical coordinate system. The $z$ axis is aligned with the beam line, and the x-y plane sits perpendicular to the beam line. The origin is centered on the detector, such that the origin corresponds with the interaction point of the two colliding beams. The detector geometry is usually characterized by polar coordinates, where the azimuthal angle $\phi$ spans the x-y plane. The polar angle $\theta$ represents the angle away from the beam line, or $z$ axis. $\theta = 0$ aligns with the positive $z$-axis, and $\phi = 0$ aligns with the positive x-axis. \\
+
+The polar coordinate $\theta$ is generally replaced by the Lorentz invariant quantity $rapidity y$. 
+
+\begin{equation}
+	y = \frac{1}{2} ln(\frac{E+p_z}{E-p_z})
+\end{equation}
+
+This substitution is advantageous because objects in the detector are traveling at highly relativistic speeds. The relativistic speed of objects passing through the ATLAS detector also means that the masses of the particles are generally small compared to their total energy. In the limit of zero mass, the rapidity $y$ reduces to the $pseudorapidity \eta$, which can be calculated directly from the polar angle $\theta$.
+
+\begin{equation}
+	\eta = -ln(\frac{\theta}{2})
+\end{equation}
+
+Figure \ref{fig:ATLASgeometry} depicts the orientation of the coordinate system with respect to the ATLAS detector, while Figure \ref{fig:etaTheta} illustrates the relationship between $\theta$, $\eta$, and the beamline axis $z$. The distance between physics objects in the detector is generally expressed in terms of the solid angle between them $\Delta R$.\\
+
+\begin{equation}
+	\Delta R = \sqrt{\Delta\phi^2 + \Delta\eta^2}
+\end{equation}
+
+Head on proton-proton collisions are more likely to results in objects with a lot of energy in the transverse plane; glancing proton-proton collisions are more likely to result in objects where most of the energy is directed along the $z$-axis. Due to the importance of categorizing these objects, as well the as the cylindrical design of the ATLAS detector, the detector is generally divided into regions in $\eta$. Each subsystem has a ``central" or ``barrel" region covering low $|\eta|$, while the ``forward" or ``endcap" regions cover $|\eta|$ up to 4.9. Each of the three main ATLAS subsystems will be discussed in the following sections.
+
+TODO: include figures (subfigure)
+
+\section{Inner Detector}
+
+The Inner Detector (ID) is the ATLAS subsystem closest to the interaction point. The primary purpose of the ID is to determine the charge, momentum, and trajectory of charged particles passing through the detector. With this information the ID is also able to precisely determine interaction vertices. \\
+
+The ID is composed of three sub-detectors; the pixel detector, the semiconductor tracker (SCT) and the transition radiation tracker (TRT). Figure \ref{fig:InnerDetector} shows the location of these three subsystems with respect to each other and the interaction point. 
+
+\subsection{Pixel Detector}
+The pixel detector is the first detector encountered by particles produced in LHC collisions. The original pixel detector consists of 3 barrel layers of silicon pixels, positioned at 4cm, 11cm and 14cm from the beamline. There are also 4 disks on each side positioned between 11 and 20cm, providing full coverage $|\eta| < 2.5$. The layers are comprised of silicon pixels each measuring 50 $\mu$m by 300 $\mu$m, with 140 million pixels in total. The pixels are organized into modules, which each contain a set of radiation hard readout electronics chips. In 2014, the Insertable B-layer (IBL) was installed, creating a new innermost layer of the pixel detector sitting just 3.3cm from the beamline. The pixels of the IBL measure 50 $\mu$m by 250 $\mu$m, and cover a pseudo-rapidity range up to $|\eta| < 3$. The IBL upgrade enhances the pixel detector's ability to reconstruct secondary vertices associated with short-lived particles such as the b-quark. The improved vertex identification also helped compensate for increasing pile-up in Run 2. 
+
+\subsection{Semiconductor Tracker}
+The SCT provides at least 4 additional measurements of each charged particle. It employs the same silicon technology as the Pixel Detector, but utilizes larger silicon strips which measure 80$\mu$m by 12.4cm. The SCT is composed of 4 barrel layers, located between 30cm and 52cm from the beamline, and 9 end-cap layers on each side. The SCT can distinguish tracks that are separated by at least 200$\mu$m.
+
+\subsection{Transition Radiation Tracker}
+The TRT provides an additional 36 hits per particle track. The detector relies on gas filled straw tubes, a technology which is intrinsically radiation hard. The straws which are each 4mm in diameter and up to 150cm in length and filled with xenon gas. The detector is composed of about 50000 barrel region straws and 640000 end-cap straws, comprising 420000 electronic readout channels. Each channel provides a drift time measurement with a spatial resolution of 170$\mu$m per straw. As charged particles pass through the detector and interact with the xenon, transition radiation is emitted. The use of two different drift time thresholds allows the detector to distinguish between tracking hits and transition radiation hits. 
+
+\section{Calorimeters}
+The ATLAS calorimeter system is responsible for measuring the energy of electromagnetically and hadronically interacting particles passing through the detector. The calorimeters are located just outside the central solenoid magnet, which encloses the inner detectors. The ATLAS calorimetry system is composed of two subsystems - the Liquid Argon (LAr) calorimeter for electromagnetic calorimetry and the Tile calorimeter for hadronic calorimetry. The full calorimetry system is showing in figure \ref{}.
+
+\section{Liquid Argon Calorimeter}
+The LAr calorimeter is specifically designed to measure the energies of electromagnetic EM particles such as electrons and photons. 
