@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 AUG 2023 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 JAN 2024 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,50 +810,50 @@ Package: xparse 2020-03-06 L3 Experimental document command parser
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 55.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 57.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 55.
+ 57.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-55.
+57.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 55.
+ 57.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 55.
+e 57.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -927,24 +927,54 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 
-(./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
+(./thesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'pdg':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'LHC_machine':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'CMS_at_LHC':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'ALICE_at_LHC':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'LHCb_at_LHC':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'higgs_paper':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/b/n on input line 55.
-Package gensymb Info: Math companion symbols declared on input line 55.
-LaTeX Info: Redefining \degree on input line 55.
-LaTeX Info: Redefining \celsius on input line 55.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/b/n on input line 57.
+Package gensymb Info: Math companion symbols declared on input line 57.
+LaTeX Info: Redefining \degree on input line 57.
+LaTeX Info: Redefining \celsius on input line 57.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 55.
-LaTeX Info: Redefining \ohm on input line 55.
-Package gensymb Info: Using \textohm for \ohm on input line 55.
-Package gensymb Info: Using \textmu for \micro on input line 55.
+erthousand on input line 57.
+LaTeX Info: Redefining \ohm on input line 57.
+Package gensymb Info: Using \textohm for \ohm on input line 57.
+Package gensymb Info: Using \textmu for \micro on input line 57.
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 55.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 57.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -956,9 +986,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count436
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -988,33 +1018,67 @@ fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.18 \end{titlepage}
-                     [3]) (./thesis.toc)
+                     [3]) (./thesis.toc
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
+e 3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+) [1
+
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [1
-
-] (./thesis.lof)
+ [2]
+(./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [2
+ [3
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
+ [4
 
-[3
-
-] (./acknowledgements.tex [4
+] (./acknowledgements.tex [5
 
 
-]) (./Dedication.tex) [5
+])
+(./Dedication.tex) [6
 
-] (./Preface.tex)
-(./chapter1.texpdfTeX warning (ext4): destination with the same identifier (nam
-e{page.1}) has been already used, duplicate ignored
+] (./Preface.tex) (./chapter1.texpdfTeX warning (ext4): destination with the sa
+me identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -1022,136 +1086,67 @@ l.1 \chapter
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 4.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
-File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-4.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-4.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxsym.fd
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-4.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/newtx/untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-
-LaTeX Warning: Reference `eq:SM_lang' on page 2 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'pdg' on page 2 undefined on input line 22.
-
 [2
 
 ]) (./chapter2.tex [3]
 Chapter 2.
-
-LaTeX Warning: Citation 'LHC_machine' on page 4 undefined on input line 2.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-LaTeX Warning: Citation 'ATLAS_at_LHC' on page 4 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'CMS_at_LHC' on page 4 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'ALICE_at_LHC' on page 4 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'LHCb_at_LHC' on page 4 undefined on input line 4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
-LaTeX Warning: Citation 'higgs_paper' on page 4 undefined on input line 6.
-
 [4
 
 ]
-
-LaTeX Warning: Reference `fig:accelerator_complex' on page 5 undefined on input
- line 10.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-<figures/accelerator_complex.png, id=86, 679.53876pt x 415.5525pt>
-File: figures/accelerator_complex.png Graphic file (type png)
-<use figures/accelerator_complex.png>
-Package pdftex.def Info: figures/accelerator_complex.png  used on input line 13
+<figures/ch2/hl_lhc_timeline.png, id=215, 811.03pt x 402.50375pt>
+File: figures/ch2/hl_lhc_timeline.png Graphic file (type png)
+<use figures/ch2/hl_lhc_timeline.png>
+Package pdftex.def Info: figures/ch2/hl_lhc_timeline.png  used on input line 11
 .
-(pdftex.def)             Requested size: 469.75502pt x 287.26416pt.
-
-LaTeX Warning: Citation 'cern_accelerator_complex' on page 5 undefined on input
- line 14.
-
-
-LaTeX Warning: Reference `fig:rf_buckets' on page 5 undefined on input line 18.
-
-
+(pdftex.def)             Requested size: 422.77664pt x 209.8252pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<figures/rf_buckets.png, id=88, 633.36626pt x 366.36874pt>
-File: figures/rf_buckets.png Graphic file (type png)
-<use figures/rf_buckets.png>
-Package pdftex.def Info: figures/rf_buckets.png  used on input line 21.
-(pdftex.def)             Requested size: 469.75502pt x 271.73474pt.
+[5 <./figures/ch2/hl_lhc_timeline.png>]
+<figures/ch2/accelerator_complex.png, id=227, 679.53876pt x 415.5525pt>
+File: figures/ch2/accelerator_complex.png Graphic file (type png)
+<use figures/ch2/accelerator_complex.png>
+Package pdftex.def Info: figures/ch2/accelerator_complex.png  used on input lin
+e 21.
+(pdftex.def)             Requested size: 469.75502pt x 287.26416pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[5] [6 <./figures/accelerator_complex.png> <./figures/rf_buckets.png>]
-
-LaTeX Warning: Reference `.' on page 7 undefined on input line 30.
-
-
-LaTeX Warning: Command \L invalid in math mode on input line 33.
-
-Missing character: There is no Š in font ntx-Regular-tlf-ot1!
-
-LaTeX Warning: Command \L invalid in math mode on input line 37.
-
-Missing character: There is no Š in font ntx-Regular-tlf-ot1!
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+[6 <./figures/ch2/accelerator_complex.png>]
+<figures/ch2/lhc_octants.png, id=238, 812.03375pt x 565.11125pt>
+File: figures/ch2/lhc_octants.png Graphic file (type png)
+<use figures/ch2/lhc_octants.png>
+Package pdftex.def Info: figures/ch2/lhc_octants.png  used on input line 36.
+(pdftex.def)             Requested size: 328.82707pt x 228.8343pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-) (./chapter3.tex [7]
+
+LaTeX Warning: Command \L invalid in math mode on input line 52.
+
+Missing character: There is no Š in font ntx-Regular-tlf-ot1!
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[8 <./figures/ch2/lhc_octants.png>]) (./chapter3.tex [9]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1163,15 +1158,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[8
+[10
 
 ]
 
-LaTeX Warning: Reference `fig:ATLASgeometry' on page 9 undefined on input line 
-23.
+LaTeX Warning: Reference `fig:ATLASgeometry' on page 11 undefined on input line
+ 23.
 
 
-LaTeX Warning: Reference `fig:etaTheta' on page 9 undefined on input line 23.
+LaTeX Warning: Reference `fig:etaTheta' on page 11 undefined on input line 23.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
@@ -1183,82 +1178,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[9]
+[11]
 
-LaTeX Warning: Reference `fig:InnerDetector' on page 10 undefined on input line
+LaTeX Warning: Reference `fig:InnerDetector' on page 12 undefined on input line
  37.
 
-[10]
+[12]
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 49.
+LaTeX Warning: Reference `' on page 13 undefined on input line 49.
 
-) [11] (./Conclusion.tex [12
+) [13] (./Conclusion.tex [14
 
-] [13] [14]) [15]
+] [15] [16]) [17]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 19
+7.
 
-LaTeX Warning: Empty bibliography on input line 195.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./appendix.tex
+[18
 
-(./appendix.tex
+
+]
 Appendix A.
-[16
-
+[19
 
 ]
 Appendix B.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
- [17
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+ [20
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 59573AD5B85C6A23CE38170A4B437B91;1354.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: B35F5D28F8745621F62E483D1A418D8A;156
-(rerunfilecheck)             After:  4F3FD95D961F0874D83245B3F98A6CDB;1241.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17988 strings out of 480608
- 291808 string characters out of 5903631
- 933000 words of memory out of 5000000
- 33463 multiletter control sequences out of 15000+600000
- 573421 words of font info for 108 fonts, out of 8000000 for 9000
+ 18125 strings out of 480608
+ 295007 string characters out of 5903631
+ 934041 words of memory out of 5000000
+ 33570 multiletter control sequences out of 15000+600000
+ 579612 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,44p,4474b,1277s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/u
-sr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
+ 44i,7n,46p,4474b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/newtx/txbsys.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2020/texmf-dist/fon
 ts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
-1/public/newtx/txsys.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on thesis.pdf (27 pages, 336528 bytes).
+1/public/newtx/txsys.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/co
+urier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on thesis.pdf (31 pages, 909702 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 35 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
