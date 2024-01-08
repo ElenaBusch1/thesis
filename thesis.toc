@@ -34,16 +34,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Calorimeters}{13}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Liquid Argon Calorimeter}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.1}Liquid Argon Calorimeter}{13}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{14}{section*.7}%
+\contentsline {chapter}{Conclusion or Epilogue}{17}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{18}{section*.8}%
+\contentsline {chapter}{References}{21}{section*.8}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A} Experimental Equipment}{19}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{23}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data Processing}{20}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Data Processing}{24}{appendix.a.B}%

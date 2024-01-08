@@ -46,7 +46,34 @@ The SCT provides at least 4 additional measurements of each charged particle. It
 The TRT provides an additional 36 hits per particle track. The detector relies on gas filled straw tubes, a technology which is intrinsically radiation hard. The straws which are each 4mm in diameter and up to 150cm in length and filled with xenon gas. The detector is composed of about 50000 barrel region straws and 640000 end-cap straws, comprising 420000 electronic readout channels. Each channel provides a drift time measurement with a spatial resolution of 170$\mu$m per straw. As charged particles pass through the detector and interact with the xenon, transition radiation is emitted. The use of two different drift time thresholds allows the detector to distinguish between tracking hits and transition radiation hits. 
 
 \section{Calorimeters}
-The ATLAS calorimeter system is responsible for measuring the energy of electromagnetically and hadronically interacting particles passing through the detector. The calorimeters are located just outside the central solenoid magnet, which encloses the inner detectors. The ATLAS calorimetry system is composed of two subsystems - the Liquid Argon (LAr) calorimeter for electromagnetic calorimetry and the Tile calorimeter for hadronic calorimetry. The full calorimetry system is showing in figure \ref{}.
+The ATLAS calorimeter system is responsible for measuring the energy of electromagnetically and hadronically interacting particles passing through the detector. The calorimeters are located just outside the central solenoid magnet, which encloses the inner detectors. The calorimeters also stop most known particles, which the exception of muons and neutrinos, preventing them from traveling to the outermost layers of the detector. The ATLAS calorimetry system is composed of two subsystems - the Liquid Argon (LAr) calorimeter for electromagnetic calorimetry and the Tile calorimeter for hadronic calorimetry. The full calorimetry system is shown in figure \ref{fig:calorimeters}.
 
-\section{Liquid Argon Calorimeter}
-The LAr calorimeter is specifically designed to measure the energies of electromagnetic EM particles such as electrons and photons. 
+\begin{figure}
+        \centering
+	\includegraphics[width=0.7\textwidth]{figures/ch3/calorimeter.png}
+	\caption{ATLAS calorimetery system \cite{calorimeter_img}}
+	\label{fig:calorimeters}
+\end{figure}
+
+\subsection{Liquid Argon Calorimeter}
+The LAr calorimeter is a sampling calorimeter designed to trigger on and measure the energies of electromagnetic particles, as well as hadronic particles in the high $\eta$ regions. It is divided in several regions, as shown in Figure \ref{fig:calorimeters}. For the region $|\eta| < 1.4$, the electromagnetic barrel (EMB) is responsible for electronic calorimetery, and provides high resolution energy, timing, and position measurements for electrons and photons passing through the detector. The electromagnetic endcap (EMEC) provides additional EM calorimetery up to $|\eta|<3.2$. In the region $1.4 < |\eta| < 3.2$, the hadronic endcap (HEC) provides hadronic calorimetery. For hadronic calorimetery In the region $|eta| < 1.4$, corresponding to a detector radii > 2.2m, the less expensive tile calorimeter (discussed in the next section) is used instead. A forward calorimeter (FCAL) extends the hadronic calorimetery coverage up to the limit at $|\eta| = 4.8$ \cite{lar_tdr}. \\
+ 
+The LAr calorimeter is composed of liquid argon sandwiched between layers of absorber material and electrodes. Liquid argon is advantageous as a calorimeter active medium due to its natural abundance and low cost, chemical stability, radiation tolerance, and linear response over a large energy range \cite{lar_ssc}. The calorimeter is cooled to 87k by three cryostats: one barrel cryostat encompassing the EMB, and two endcap cryostats. The barrel cryostat also encloses the solenoid which produces the 2T magnetic field for the inner detector. Front end electronics are housed outside the cryostats and are used to process, store and transfer the calorimeter signals. \\ 
+
+For the electromagnetic calorimeter, the layers of electrodes and absorber materials are arranged in an an accordion shape, as illustrated in Figure \ref{fig:lar_accordion}. The accordion shape ensures that each half barrel is continuous in the azimuthal angle, which is a key feature for ensuring consistent high resolution measurements. Liquid argon permeates the space between the lead absorber plates, and a multilayer copper-polymide readout board runs through the center of the liquid argon filled gap. \\
+
+\begin{figure}
+        \centering
+	\includegraphics[width=0.65\textwidth]{figures/ch3/lar_accordion.png}
+	\caption{Diagram of a segment of the EMB, demonstrating the accordion plate arrangement \cite{lar_tdr}}
+	\label{fig:lar_accordion}
+\end{figure}
+
+The detection principle for the LAr calorimeter is the current created by electrons which are released when a charged particle ionizes the liquid argon. In the barrel region, the electrons are driven towards the center electrodes by a 2000V potential with a drift time of less than 450ns \cite{lar_overview}. In the endcaps the voltage varies as a function of the radius in order to maintain a flat response \cite{lar_tdr}. The amount of current produced by the ionized electrons is proportional to the energy of the particle creating the signal. Figure \ref{lar_pulse} shows the shape of the signal produced in the LAr calorimeter, before and after it undergoes shaping during the readout process. The shaping of the pulse enforces a positive peak and a negative tail, which ensures that subsequence pulses can be separated with the precision required for the 25ns LHC bunch spacing \cite{lar_tdr}. \\
+
+\begin{figure}
+        \centering
+	\includegraphics[width=0.65\textwidth]{figures/ch3/lar_pulse.png}
+	\caption{A LAr pulse as produced in the detector (triangle) and after shaping (curve) \cite{lar_tdr}}
+	\label{fig:lar_pulse}
+\end{figure}
