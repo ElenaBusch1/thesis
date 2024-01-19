@@ -51,7 +51,14 @@ Head on proton-proton collisions are more likely to results in objects with a lo
 
 The Inner Detector (ID) is the ATLAS subsystem closest to the interaction point. The primary purpose of the ID is to determine the charge, momentum, and trajectory of charged particles passing through the detector. With this information the ID is also able to precisely determine interaction vertices. \\
 
-The ID is composed of three sub-detectors; the pixel detector, the semiconductor tracker (SCT) and the transition radiation tracker (TRT). Figure \ref{fig:InnerDetector} shows the location of these three subsystems with respect to each other and the interaction point. 
+The ID is composed of three sub-detectors; the pixel detector, the semiconductor tracker (SCT) and the transition radiation tracker (TRT). Figure \ref{fig:innerDetector} shows the location of these three subsystems with respect to each other and the interaction point. 
+
+\begin{figure}
+        \centering
+	\includegraphics[width=0.6\textwidth]{figures/ch3/innerDetector.png}
+	\caption{A 3D visualization of the structure of the ID in the barrel region \cite{innerDet}}
+	\label{fig:innerDetector}
+\end{figure}
 
 \subsection{Pixel Detector}
 The pixel detector is the first detector encountered by particles produced in LHC collisions. The original pixel detector consists of 3 barrel layers of silicon pixels, positioned at 4cm, 11cm and 14cm from the beamline. There are also 4 disks on each side positioned between 11 and 20cm, providing full coverage $|\eta| < 2.5$. The layers are comprised of silicon pixels each measuring 50 $\mu$m by 300 $\mu$m, with 140 million pixels in total. The pixels are organized into modules, which each contain a set of radiation hard readout electronics chips. In 2014, the Insertable B-layer (IBL) was installed, creating a new innermost layer of the pixel detector sitting just 3.3cm from the beamline. The pixels of the IBL measure 50 $\mu$m by 250 $\mu$m, and cover a pseudo-rapidity range up to $|\eta| < 3$. The IBL upgrade enhances the pixel detector's ability to reconstruct secondary vertices associated with short-lived particles such as the b-quark. The improved vertex identification also helped compensate for increasing pile-up in Run 2. 
@@ -73,6 +80,7 @@ The ATLAS calorimeter system is responsible for measuring the energy of electrom
 \end{figure}
 
 \subsection{Liquid Argon Calorimeter}
+\label{sec:lar}
 %regions
 The LAr calorimeter is a sampling calorimeter designed to trigger on and measure the energies of electromagnetic particles, as well as hadronic particles in the high $\eta$ regions. It is divided in several regions, as shown in Figure \ref{fig:calorimeters}. For the region $|\eta| < 1.4$, the electromagnetic barrel (EMB) is responsible for electronic calorimetery, and provides high resolution energy, timing, and position measurements for electrons and photons passing through the detector. The electromagnetic endcap (EMEC) provides additional EM calorimetery up to $|\eta|<3.2$. In the region $1.4 < |\eta| < 3.2$, the hadronic endcap (HEC) provides hadronic calorimetery. For hadronic calorimetery In the region $|eta| < 1.4$, corresponding to a detector radii > 2.2m, the less expensive tile calorimeter (discussed in the next section) is used instead. A forward calorimeter (FCAL) extends the hadronic calorimetery coverage up to $3.1 < |\eta| = 4.8$ \cite{lar_tdr}. \\
  
@@ -111,7 +119,7 @@ The HEC sits radially beyond the EMEC. The copper absorber plates in the HEC are
 \end{figure}
 
 \subsubsection{Forward Calorimeter}
-The forward range is covered by the FCAL, which provides both electromagnetic and hadronic calorimetry. It is composed of three active cylindrical modules; one EM module with copper absorber plates, and two hadronic modules with tungsten absorber plates. The plates are oriented perpendicular to the beamline, and LAr is used as the active material throughout.
+The forward range is covered by the FCAL, which provides both EM and hadronic calorimetry. It is composed of three active cylindrical modules; one EM module with copper absorber plates, and two hadronic modules with tungsten absorber plates. The plates are oriented perpendicular to the beamline, and LAr is used as the active material throughout. The electrodes of the FCal consist of tubes that run parallel to the beam line, arranged in a honeycomb pattern. The resulting LAr gaps are as small as 250 $\mu$m, which enables the FCal to handle the high luminosities and the resulting large influx of particles in the forward region \cite{lar_tdr}. 
 
 \subsection{Tile Calorimeter}
 The tile calorimeter (TileCal) provides hadronic calorimetry in the region $\eta < 1.7$, and surrounds the LAr calorimeter. It is responsible for measurements of jet energy and jet substructure, and also plays an important role in electron isolation and triggering (including muons) \cite{tile_tdr}. TileCal is composed of 3 sections, as shown in figure \ref{fig:calorimeters}; a barrel calorimeter sits directly outside the LAr EMB and provides coverage up to $\eta < 1.0$. Two extended barrel sections sit outside the LAr endcaps and cover the region $0.8 < \eta < 1.7$. \\
@@ -126,5 +134,33 @@ TileCal is a sampling calorimeter composed of steel and plastic scintillator pla
 \end{figure}
 
 The detection principle of the TileCal is the production of light from hadronic particles interacting with the scintillating tiles. When a hadronic particle hits the steel plate, a shower of particles are produced. The interaction of the shower with the plastic scintillator produces photons, the number and intensity of which are proportional to the original particle's energy. \\
+
+\section{Muon Spectrometer}
+Unlike electrons, photons, and hadrons, muons interact minimally with the ATLAS calorimeters, and can pass through large amounts of detector material without stopping. The ATLAS muon spectrometer (MS) provides additional tracking information to improve the identification and measurement of muons. The MS comprises the outermost layers of the detector, and is interspersed with toroid magnets (discussed in section\ref{sec:magnets}), which provide a magnetic field of approximately 0.5T. The magnetic field bends the trajectory of the muons as they pass through the detector, and the degree of the bend is directly correlated with the muon momentum. The path of the muon is primarily measured by hits in three layers of monitored drift tube (MDT) precision chambers, which cover the range $|\eta|$<2.7. The barrel layout of the MS is show in Figure \ref{fig:muonSpec}. \\
+
+\begin{figure}
+        \centering
+	\includegraphics[width=0.7\textwidth]{figures/ch3/muonSpec.png}
+	\caption{Cross section view of the muon spectrometer system \cite{muon_tdr} }
+	\label{fig:muonSpec}
+\end{figure}
+Muon triggering is provided by three layers of resistive place chambers (RPC) in the barrel ($|\eta|$ < 1.05), and 3-4 layers of thin gap chambers (TGC) in the endcaps (1.05 < $|\eta|$ < 2.4). RPCs and TGCs also provide muon track measurements in the non-bending coordinate ($\phi$). RPCs are constructed from two parallel resistive plates separated by a 2mm gap filled with a sensitive gas mixture. This provides a total of six independent measurements for each muon track, with a spatial resolution of ~1cm and a time resolution of ~1ns. Time measurements from the RPCs are primarily associated to hits in the MDT precision chambers to correct the bunch crossing. The time measurement is also used to reject cosmic muons, and to search for delayed signals. TCGs provide triggering in the endcap regions, and consist of parallel 30 $\mu$m wires suspended in a sensitive gas mixture. TCGs provide high radiation tolerance and a fast response time, both features that are necessary for handling the high flux of muons in the forward region \cite{muon_tdr}.\\
+
+Precision measurements of muon momentum and position are primarily achieved by MDTs. The MDTs are constructed from 30mm diameter tubes, permeated by a gas mixture of 93\% Ar and 7\% CO\textsubscript{2}. The average single-tube spatial resolution is 80 $\mu$m. Each chamber consists of six drift tube layers, which together provide a muon track segment resolution of 35 $\mu$m. The momentum of the muons can be calculated from the bend in the muon trajectory as they pass through the 0.5T magnetic field provided by the toroids. For a $p_T$ = 1 TeV track, the average $p_T$ resolution is 11\%. In the inner most endcap wheels, cathode strip chambers (CSC) are used instead of MDTs, covering the region $2.0 < |\eta| < 2.7$. CSCs are multiwire proportional chambers, with a cathode strip readout. The CSCs have a spatial resolution in the range of 50 $\mu$m, and a maximum drift time of about 30 ns, which makes them superior for handling the high flux of particles in the forward region \cite{muon_spec}. 
+
+\section{Magnet System}
+\label{sec:magnets}
+The ATLAS magnet system consists of four sets of superconducting magnets: a barrel solenoid, barrel toroid, and two endcap toroids. The solenoid magnet produces a 2T magnetic field responsible for bending the trajectories of charged particles as they pass through the inner detector. The three toroid magnets provide a field of 0.5 - 1 T and curve the path of muons passing through the muon spectrometer.\\
+
+The inner solenoid magnet is composed of over 9km of niobium-titanium superconductor wires, which are imbedded into strengthen pure aluminum strips. The solenoid is just 4.5 cm thick, which minimizes interactions between the magnet material and particles passing through the detector. It is housed in the LAr cryostat, as described in section \ref{sec:lar}, which further reduces the amount of non-detector material required to support the solenoid. The return yoke of the magnet is provided by the iron absorber of the TileCal \cite{magnet_tdr}.\\ 
+
+The central ATLAS toroid magnet, providing the magnetic field for the barrel region of the MS, is the largest toroidal magnet ever constructed at 25m in length. The toroid is composed of eight individual coils, each housed in their own cryostat. The toroidal magnetic field is advantageous as the direction of the field is almost perpendicular to the path of the charged particles. 56 km of aluminum stabilized niobium-titanium-copper superconductor wire compose the magnet. In each endcap, eight smaller superconducting coils extend the toroidal magnetic field to particles leaving the detector in the forward direction \cite{magnet_tdr}. Figure \ref{fig:magnets} shows the layout of the toroid magnets.
+
+\begin{figure}
+        \centering
+	\includegraphics[width=0.5\textwidth]{figures/ch3/magnets.png}
+	\caption{Layout of the barrel and endcap toroid magnets \cite{atlas_overview} }
+	\label{fig:magnets}
+\end{figure}
 
 
