@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Magnets}{7}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Luminosity}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Luminosity}{8}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}The ATLAS Detector}{10}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -28,22 +28,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Pixel Detector}{12}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Semiconductor Tracker}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Semiconductor Tracker}{13}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Transition Radiation Tracker}{13}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Calorimeters}{13}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Liquid Argon Calorimeter}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Liquid Argon Calorimeter}{14}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{17}{section*.7}%
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{15}{subsubsection*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{21}{section*.8}%
+\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{16}{subsubsection*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Forward Calorimeter}{16}{subsubsection*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Tile Calorimeter}{18}{subsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion or Epilogue}{20}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{24}{section*.20}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A} Experimental Equipment}{23}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{26}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data Processing}{24}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Data Processing}{27}{appendix.a.B}%
