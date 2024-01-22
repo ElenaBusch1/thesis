@@ -48,14 +48,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Magnet System}{21}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{23}{section*.22}%
+\contentsline {section}{\numberline {3.6}Forward Detectors}{22}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{27}{section*.23}%
+\contentsline {section}{\numberline {3.7}Trigger and Data Acquisition}{23}{section.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion or Epilogue}{24}{section*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{28}{section*.23}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A} Experimental Equipment}{29}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{30}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data Processing}{30}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Data Processing}{31}{appendix.a.B}%

@@ -158,9 +158,17 @@ The central ATLAS toroid magnet, providing the magnetic field for the barrel reg
 
 \begin{figure}
         \centering
-	\includegraphics[width=0.5\textwidth]{figures/ch3/magnets.png}
+	\includegraphics[width=0.65\textwidth]{figures/ch3/magnets.png}
 	\caption{Layout of the barrel and endcap toroid magnets \cite{atlas_overview} }
 	\label{fig:magnets}
 \end{figure}
+
+\section{Forward Detectors}
+In addition to the inner detector, calorimeters, and muon spectrometer, three smaller detectors provide coverage in the very forward region. The innermost forward detector at 17 m from the interaction point is the LUminosity measurement using Cerenkov Integrating Detector (LUCID). LUCID's primary purpose is to measure the relative online-luminosity for the ATLAS detector, from inelastic $p-p$ scattering. The detector is composed of 20 aluminum Cerenkov tubes which surround the beam pipe and face towards the interaction point. The second forward detector is the Zero-Degree Calorimeter (ZDC), located 140 m from the interaction point in both directions, at the point where the LHC beam-pipe divides into two separate pipes. The ZDC's primary purpose is to detector forward neutrons from heavy ion collisions. The third detector is the Absolute Luminosity for ATLAS (ALFA) system, located 240 m from the interaction point in both directions. ALFA determines luminosity by measuring elastic scattering at small angles, from which luminosity can be calculated via the optical theorem. The detector is built from scintillating fibre trackers, which are connected to the accelerator vacuum via Roman pots, which allow the detector to come as close as 1mm to the beam without disrupting the machine vacuum. The LUCID and ALFA detectors are crucial to determining the real-time conditions of the beams and the total luminosity delivered to the ATLAS detector  \cite{atlas_overview}.
+
+\section{Trigger and Data Acquisition}
+The trigger and Data Acquisition systems (TDAQ) are responsible for selecting the most viable events to save for further downstream processing. Because of the high luminosities delivered to the ATLAS detector, not all events recorded can be saved; the 40 MHz bunch crossing rate must be reduced by 5 order of magnitude to an event storage rate of ~1 kHz. The trigger system is composed of three distinct levels: level 1 (L1), level 2 (L2) and the event filter. Collectively the L2 trigger the event filter from the high level trigger (HLT).\\
+	The L1 trigger is implemented in the hardware of the ATLAS calorimeter and muon systems. The primary modality of the L1 trigger is to identify muons, electrons, photons, jets, and $\tau$-leptons with high transverse momentum. Particles with high transverse momentum are more likely to originate from direct, high energy collisions, which are most likely to produce interesting physics processes. The L1 trigger also identifies events with large missing transverse energy, which could be indicative of new physics. The L1 muon trigger (L1Muon) relies on RPC and TGC trigger chambers in the barrel and endcap regions of the muon spectrometer. The L1 calorimeter trigger (L1Calo) uses reduced granularity information collected by all the calorimeter subsystems. Results from the L1Muon and L1Calo triggers are combined by the central trigger processor (CTP), which implements a trigger `menu', listing various combinations of trigger requirements. The maximum L1 acceptance rate is 75 kHz, and the L1 trigger decision must reach the front-end eletronics within 2.5 $\mu$s of it's associated bunch-crossing \cite{atlas_overview}.
+
 
 
