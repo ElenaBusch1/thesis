@@ -10,56 +10,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The Large Hadron Collider}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}LHC Timeline}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Accelerator Physics}{5}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Accelerator Physics}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1.1}The Journey of a Proton}{5}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}The Journey of a Proton}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.1.2}Magnets}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Magnets}{7}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.2}Luminosity}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Luminosity}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}LHC Timeline}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The ATLAS Detector}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {3}The ATLAS Detector}{12}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Coordinate System and Geometry}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Coordinate System and Geometry}{12}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Inner Detector}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Inner Detector}{14}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Pixel Detector}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Pixel Detector}{14}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Semiconductor Tracker}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Semiconductor Tracker}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Transition Radiation Tracker}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Transition Radiation Tracker}{15}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Calorimeters}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Calorimeters}{16}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Liquid Argon Calorimeter}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Liquid Argon Calorimeter}{17}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{15}{subsubsection*.13}%
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{17}{subsubsection*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{17}{subsubsection*.16}%
+\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{18}{subsubsection*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Forward Calorimeter}{18}{subsubsection*.18}%
+\contentsline {subsubsection}{Forward Calorimeter}{19}{subsubsection*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Tile Calorimeter}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Tile Calorimeter}{20}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Muon Spectrometer}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Muon Spectrometer}{21}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Magnet System}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Magnet System}{23}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Forward Detectors}{22}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Forward Detectors}{24}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Trigger and Data Acquisition}{23}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Trigger and Data Acquisition}{25}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{26}{section*.22}%
+\contentsline {chapter}{\numberline {4}Particle Reconstruction and Identification}{27}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{30}{section*.23}%
+\contentsline {chapter}{Conclusion or Epilogue}{28}{section*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{32}{section*.24}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A} Experimental Equipment}{32}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{34}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data Processing}{33}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Data Processing}{35}{appendix.a.B}%
