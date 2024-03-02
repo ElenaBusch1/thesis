@@ -2,27 +2,38 @@
 \BOOKMARK [0][-]{section*.5}{Dedication}{}% 2
 \BOOKMARK [0][-]{section*.6}{Introduction or Preface}{}% 3
 \BOOKMARK [0][-]{chapter.1}{The Standard Model}{}% 4
-\BOOKMARK [0][-]{chapter.2}{The Large Hadron Collider}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Accelerator Physics}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.1.1}{The Journey of a Proton}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{Magnets}{section.2.1}% 8
-\BOOKMARK [1][-]{section.2.2}{Luminosity}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.3}{LHC Timeline}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{The ATLAS Detector}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Coordinate System and Geometry}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Inner Detector}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.2.1}{Pixel Detector}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.2}{Semiconductor Tracker}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.3}{Transition Radiation Tracker}{section.3.2}% 16
-\BOOKMARK [1][-]{section.3.3}{Calorimeters}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.1}{Liquid Argon Calorimeter}{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.2}{Tile Calorimeter}{section.3.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Muon Spectrometer}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.5}{Magnet System}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.6}{Forward Detectors}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.7}{Trigger and Data Acquisition}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{Particle Reconstruction and Identification}{}% 24
-\BOOKMARK [0][-]{section*.23}{Conclusion or Epilogue}{}% 25
-\BOOKMARK [0][-]{section*.24}{References}{}% 26
-\BOOKMARK [0][-]{appendix.a.A}{ Experimental Equipment}{}% 27
-\BOOKMARK [0][-]{appendix.a.B}{Data Processing}{}% 28
+\BOOKMARK [1][-]{section.1.1}{Phenomenology: Particles and Forces}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{Particles}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.2}{Forces}{section.1.1}% 7
+\BOOKMARK [1][-]{section.1.2}{QCD and Jets}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Symmetries}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Spontaneous Symmetry Breaking}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{Experimental Validation of the Standard Model}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{Limitations of the Standard Model}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Physics Beyond the Standard Model}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Hidden Valley Theories}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Semi-visible Jets}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{The Large Hadron Collider}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Accelerator Physics}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{The Journey of a Proton}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{Magnets}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{Luminosity}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{LHC Timeline}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{The ATLAS Detector}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Coordinate System and Geometry}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Inner Detector}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.2.1}{Pixel Detector}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.2}{Semiconductor Tracker}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.3}{Transition Radiation Tracker}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Calorimeters}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Liquid Argon Calorimeter}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Tile Calorimeter}{section.4.3}% 30
+\BOOKMARK [1][-]{section.4.4}{Muon Spectrometer}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Magnet System}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.6}{Forward Detectors}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.7}{Trigger and Data Acquisition}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Particle Reconstruction and Identification}{}% 35
+\BOOKMARK [0][-]{section*.26}{Conclusion or Epilogue}{}% 36
+\BOOKMARK [0][-]{section*.27}{References}{}% 37
+\BOOKMARK [0][-]{appendix.a.A}{ Experimental Equipment}{}% 38
+\BOOKMARK [0][-]{appendix.a.B}{Data Processing}{}% 39

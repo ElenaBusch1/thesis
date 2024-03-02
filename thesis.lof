@@ -2,35 +2,43 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Diagram of the 17 particles comprising the Standard Model\relax }}{3}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The LHC accelerator complex at CERN \cite {cern_accelerator_complex}\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Fundamental interactions of the three fundamental forces described by the Standard Model \cite {griffiths}. \relax }}{5}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The octants of the LHC and location of various beam activities \cite {lhc_faq}. Stars indicate the locations of beam collisions, and the associated detectors recording the outcome of those collisions.\relax }}{7}{figure.caption.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces (Left) Total integrated luminosity over the course of Run 2. (Right) Average number of $pp$ interactions per bunch crossing in Run 2. Each curve is weighted by the integrated luminosity for the year.\relax }}{9}{figure.caption.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Timeline of LHC and HL-LHC activities \cite {lhc_timeline}. Integrated luminosity estimates are approximate, and not reflective of the exact amount delivered to each experiment.\relax }}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces An example Feynmann diagram of jet production\relax }}{6}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces ATLAS coordinate system and geometry\relax }}{14}{figure.caption.11}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A 3D visualization of the structure of the ID in the barrel region \cite {innerDet}\relax }}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The LHC accelerator complex at CERN \cite {cern_accelerator_complex}\relax }}{14}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ATLAS calorimetery system \cite {calorimeter_img}\relax }}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The octants of the LHC and location of various beam activities \cite {lhc_faq}. Stars indicate the locations of beam collisions, and the associated detectors recording the outcome of those collisions.\relax }}{15}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagram of a segment of the EMB, demonstrating the accordion plate arrangement \cite {lar_tdr}\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (Left) Total integrated luminosity over the course of Run 2. (Right) Average number of $pp$ interactions per bunch crossing in Run 2. Each curve is weighted by the integrated luminosity for the year.\relax }}{17}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces A LAr pulse as produced in the detector (triangle) and after shaping (curve) \cite {lar_tdr}\relax }}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Timeline of LHC and HL-LHC activities \cite {lhc_timeline}. Integrated luminosity estimates are approximate, and not reflective of the exact amount delivered to each experiment.\relax }}{19}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Readout gap structure in HEC \cite {lar_tdr}\relax }}{19}{figure.caption.18}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces TileCal wedge module \cite {tile_tdr} \relax }}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ATLAS coordinate system and geometry\relax }}{22}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Cross section view of the muon spectrometer system \cite {muon_tdr} \relax }}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A 3D visualization of the structure of the ID in the barrel region \cite {innerDet}\relax }}{23}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Layout of the barrel and endcap toroid magnets \cite {atlas_overview} \relax }}{24}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ATLAS calorimetery system \cite {calorimeter_img}\relax }}{24}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagram of a segment of the EMB, demonstrating the accordion plate arrangement \cite {lar_tdr}\relax }}{26}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A LAr pulse as produced in the detector (triangle) and after shaping (curve) \cite {lar_tdr}\relax }}{27}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Readout gap structure in HEC \cite {lar_tdr}\relax }}{27}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces TileCal wedge module \cite {tile_tdr} \relax }}{29}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Cross section view of the muon spectrometer system \cite {muon_tdr} \relax }}{30}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Layout of the barrel and endcap toroid magnets \cite {atlas_overview} \relax }}{32}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
