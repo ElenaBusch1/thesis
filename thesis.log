@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 MAR 2024 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 MAR 2024 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,65 +1157,58 @@ l.1 \chapter
 
 ]
 Chapter 1.
-<figures/ch1/standard_model.png, id=327, 790.955pt x 704.6325pt>
+<figures/ch1/standard_model.png, id=330, 790.955pt x 704.6325pt>
 File: figures/ch1/standard_model.png Graphic file (type png)
 <use figures/ch1/standard_model.png>
-Package pdftex.def Info: figures/ch1/standard_model.png  used on input line 11.
+Package pdftex.def Info: figures/ch1/standard_model.png  used on input line 12.
 
 (pdftex.def)             Requested size: 328.82707pt x 292.94388pt.
 [2
 
 ] [3 <./figures/ch1/standard_model.png>]
-
-LaTeX Warning: Citation 'griffths' on page 4 undefined on input line 28.
-
-<figures/ch1/em_force.png, id=342, 251.94125pt x 125.46875pt>
+<figures/ch1/em_force.png, id=348, 251.94125pt x 125.46875pt>
 File: figures/ch1/em_force.png Graphic file (type png)
 <use figures/ch1/em_force.png>
-Package pdftex.def Info: figures/ch1/em_force.png  used on input line 36.
+Package pdftex.def Info: figures/ch1/em_force.png  used on input line 34.
 (pdftex.def)             Requested size: 201.99121pt x 100.59337pt.
-<figures/ch1/strong_force.png, id=343, 189.70876pt x 122.4575pt>
+<figures/ch1/strong_force.png, id=349, 189.70876pt x 122.4575pt>
 File: figures/ch1/strong_force.png Graphic file (type png)
 <use figures/ch1/strong_force.png>
-Package pdftex.def Info: figures/ch1/strong_force.png  used on input line 42.
+Package pdftex.def Info: figures/ch1/strong_force.png  used on input line 40.
 (pdftex.def)             Requested size: 187.89914pt x 121.2912pt.
-<figures/ch1/weak_neutral.png, id=344, 196.735pt x 142.5325pt>
+<figures/ch1/weak_neutral.png, id=350, 196.735pt x 142.5325pt>
 File: figures/ch1/weak_neutral.png Graphic file (type png)
 <use figures/ch1/weak_neutral.png>
-Package pdftex.def Info: figures/ch1/weak_neutral.png  used on input line 48.
+Package pdftex.def Info: figures/ch1/weak_neutral.png  used on input line 46.
 (pdftex.def)             Requested size: 187.89914pt x 136.12932pt.
-<figures/ch1/weak_charged.png, id=345, 188.705pt x 130.4875pt>
+<figures/ch1/weak_charged.png, id=351, 188.705pt x 130.4875pt>
 File: figures/ch1/weak_charged.png Graphic file (type png)
 <use figures/ch1/weak_charged.png>
-Package pdftex.def Info: figures/ch1/weak_charged.png  used on input line 54.
+Package pdftex.def Info: figures/ch1/weak_charged.png  used on input line 52.
 (pdftex.def)             Requested size: 187.89914pt x 129.92966pt.
-[4] [5 <./figures/ch1/em_force.png> <./figures/ch1/strong_force.png> <./figures
-/ch1/weak_neutral.png> <./figures/ch1/weak_charged.png>]
-<figures/ch1/jet_feynmann.png, id=363, 322.20375pt x 275.0275pt>
+ [4] [5 <./figures/ch1/em_force.png> <./figures/ch1/strong_force.png> <./figure
+s/ch1/weak_neutral.png> <./figures/ch1/weak_charged.png>]
+<figures/ch1/jet_feynmann.png, id=370, 322.20375pt x 275.0275pt>
 File: figures/ch1/jet_feynmann.png Graphic file (type png)
 <use figures/ch1/jet_feynmann.png>
 Package pdftex.def Info: figures/ch1/jet_feynmann.png  used on input line 67.
 (pdftex.def)             Requested size: 234.8775pt x 200.49562pt.
  [6 <./figures/ch1/jet_feynmann.png>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[9] [10]
+<figures/ch1/higgs_field.png, id=390, 465.74pt x 456.70625pt>
+File: figures/ch1/higgs_field.png Graphic file (type png)
+<use figures/ch1/higgs_field.png>
+Package pdftex.def Info: figures/ch1/higgs_field.png  used on input line 93.
+(pdftex.def)             Requested size: 140.92793pt x 138.19064pt.
+ [8 <./figures/ch1/higgs_field.png (PNG copy)>] [9] [10] [11]
 Chapter 2.
-) (./chapter2.tex [11
+) (./chapter2.tex [12
 
 ]
 Chapter 3.
-[12
+[13
 
 ]
-<figures/ch2/accelerator_complex.png, id=418, 679.53876pt x 415.5525pt>
+<figures/ch2/accelerator_complex.png, id=457, 679.53876pt x 415.5525pt>
 File: figures/ch2/accelerator_complex.png Graphic file (type png)
 <use figures/ch2/accelerator_complex.png>
 Package pdftex.def Info: figures/ch2/accelerator_complex.png  used on input lin
@@ -1226,82 +1219,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[13] [14 <./figures/ch2/accelerator_complex.png>]
-<figures/ch2/lhc_octants.png, id=437, 812.03375pt x 565.11125pt>
+[14] [15 <./figures/ch2/accelerator_complex.png>]
+<figures/ch2/lhc_octants.png, id=477, 812.03375pt x 565.11125pt>
 File: figures/ch2/lhc_octants.png Graphic file (type png)
 <use figures/ch2/lhc_octants.png>
 Package pdftex.def Info: figures/ch2/lhc_octants.png  used on input line 30.
 (pdftex.def)             Requested size: 328.82707pt x 228.8343pt.
- [15 <./figures/ch2/lhc_octants.png>]
-<figures/ch2/lumi_integrated.png, id=449, 798.985pt x 574.145pt>
+ [16 <./figures/ch2/lhc_octants.png>]
+<figures/ch2/lumi_integrated.png, id=489, 798.985pt x 574.145pt>
 File: figures/ch2/lumi_integrated.png Graphic file (type png)
 <use figures/ch2/lumi_integrated.png>
 Package pdftex.def Info: figures/ch2/lumi_integrated.png  used on input line 53
 .
 (pdftex.def)             Requested size: 230.18253pt x 165.4027pt.
-<figures/ch2/lumi_instantaneous.png, id=450, 798.985pt x 574.145pt>
+<figures/ch2/lumi_instantaneous.png, id=490, 798.985pt x 574.145pt>
 File: figures/ch2/lumi_instantaneous.png Graphic file (type png)
 <use figures/ch2/lumi_instantaneous.png>
 Package pdftex.def Info: figures/ch2/lumi_instantaneous.png  used on input line
  58.
 (pdftex.def)             Requested size: 225.4804pt x 162.0298pt.
- [16] [17 <./figures/ch2/lumi_integrated.png> <./figures/ch2/lumi_instantaneous
+ [17] [18 <./figures/ch2/lumi_integrated.png> <./figures/ch2/lumi_instantaneous
 .png>]
-<figures/ch2/hl_lhc_timeline.png, id=469, 811.03pt x 402.50375pt>
+<figures/ch2/hl_lhc_timeline.png, id=508, 811.03pt x 402.50375pt>
 File: figures/ch2/hl_lhc_timeline.png Graphic file (type png)
 <use figures/ch2/hl_lhc_timeline.png>
 Package pdftex.def Info: figures/ch2/hl_lhc_timeline.png  used on input line 87
 .
 (pdftex.def)             Requested size: 422.77664pt x 209.8252pt.
-) (./chapter3.tex [18] [19 <./figures/ch2/hl_lhc_timeline.png>]
+) (./chapter3.tex [19] [20 <./figures/ch2/hl_lhc_timeline.png>]
 Chapter 4.
-[20
+[21
 
 ]
-<figures/ch3/ATLASgeometry.png, id=491, 455.7025pt x 326.21875pt>
+<figures/ch3/ATLASgeometry.png, id=530, 455.7025pt x 326.21875pt>
 File: figures/ch3/ATLASgeometry.png Graphic file (type png)
 <use figures/ch3/ATLASgeometry.png>
 Package pdftex.def Info: figures/ch3/ATLASgeometry.png  used on input line 37.
 (pdftex.def)             Requested size: 211.38832pt x 151.32677pt.
-<figures/ch3/etaTheta.png, id=492, 387.4475pt x 312.16624pt>
+<figures/ch3/etaTheta.png, id=531, 387.4475pt x 312.16624pt>
 File: figures/ch3/etaTheta.png Graphic file (type png)
 <use figures/ch3/etaTheta.png>
 Package pdftex.def Info: figures/ch3/etaTheta.png  used on input line 44.
 (pdftex.def)             Requested size: 211.38832pt x 170.31537pt.
- [21]
-<figures/ch3/innerDetector.png, id=501, 447.6725pt x 360.34625pt>
+ [22]
+<figures/ch3/innerDetector.png, id=540, 447.6725pt x 360.34625pt>
 File: figures/ch3/innerDetector.png Graphic file (type png)
 <use figures/ch3/innerDetector.png>
 Package pdftex.def Info: figures/ch3/innerDetector.png  used on input line 60.
 (pdftex.def)             Requested size: 281.85587pt x 226.88187pt.
- [22 <./figures/ch3/ATLASgeometry.png> <./figures/ch3/etaTheta.png>]
-[23 <./figures/ch3/innerDetector.png>]
-<figures/ch3/calorimeter.png, id=517, 3914.625pt x 2634.84375pt>
+ [23 <./figures/ch3/ATLASgeometry.png> <./figures/ch3/etaTheta.png>]
+[24 <./figures/ch3/innerDetector.png>]
+<figures/ch3/calorimeter.png, id=556, 3914.625pt x 2634.84375pt>
 File: figures/ch3/calorimeter.png Graphic file (type png)
 <use figures/ch3/calorimeter.png>
 Package pdftex.def Info: figures/ch3/calorimeter.png  used on input line 79.
 (pdftex.def)             Requested size: 328.82707pt x 221.32536pt.
- [24 <./figures/ch3/calorimeter.png>]
-<figures/ch3/lar_accordion.png, id=528, 783.92876pt x 681.54625pt>
+ [25 <./figures/ch3/calorimeter.png>]
+<figures/ch3/lar_accordion.png, id=567, 783.92876pt x 681.54625pt>
 File: figures/ch3/lar_accordion.png Graphic file (type png)
 <use figures/ch3/lar_accordion.png>
 Package pdftex.def Info: figures/ch3/lar_accordion.png  used on input line 98.
 (pdftex.def)             Requested size: 281.85587pt x 245.04448pt.
 
-[25]
-<figures/ch3/lar_pulse.png, id=541, 291.0875pt x 276.03125pt>
+[26]
+<figures/ch3/lar_pulse.png, id=581, 291.0875pt x 276.03125pt>
 File: figures/ch3/lar_pulse.png Graphic file (type png)
 <use figures/ch3/lar_pulse.png>
 Package pdftex.def Info: figures/ch3/lar_pulse.png  used on input line 108.
 (pdftex.def)             Requested size: 234.8775pt x 222.73328pt.
- [26 <./figures/ch3/lar_accordion.png>]
-<figures/ch3/hec.png, id=553, 781.92125pt x 511.9125pt>
+ [27 <./figures/ch3/lar_accordion.png>]
+<figures/ch3/hec.png, id=592, 781.92125pt x 511.9125pt>
 File: figures/ch3/hec.png Graphic file (type png)
 <use figures/ch3/hec.png>
 Package pdftex.def Info: figures/ch3/hec.png  used on input line 118.
 (pdftex.def)             Requested size: 234.8775pt x 153.7702pt.
- [27 <./figures/ch3/lar_pulse.png> <./figures/ch3/hec.png>]
-<figures/ch3/tileWedge.png, id=568, 611.28375pt x 655.44875pt>
+ [28 <./figures/ch3/lar_pulse.png> <./figures/ch3/hec.png>]
+<figures/ch3/tileWedge.png, id=608, 611.28375pt x 655.44875pt>
 File: figures/ch3/tileWedge.png Graphic file (type png)
 <use figures/ch3/tileWedge.png>
 Package pdftex.def Info: figures/ch3/tileWedge.png  used on input line 133.
@@ -1311,49 +1304,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[28]
-<figures/ch3/muonSpec.png, id=577, 713.66624pt x 611.28375pt>
+[29]
+<figures/ch3/muonSpec.png, id=617, 713.66624pt x 611.28375pt>
 File: figures/ch3/muonSpec.png Graphic file (type png)
 <use figures/ch3/muonSpec.png>
 Package pdftex.def Info: figures/ch3/muonSpec.png  used on input line 145.
 (pdftex.def)             Requested size: 328.82707pt x 281.65099pt.
- [29 <./figures/ch3/tileWedge.png>] [30 <./figures/ch3/muonSpec.png>]
-<figures/ch3/magnets.png, id=597, 454.69875pt x 365.365pt>
+ [30 <./figures/ch3/tileWedge.png>] [31 <./figures/ch3/muonSpec.png>]
+<figures/ch3/magnets.png, id=636, 454.69875pt x 365.365pt>
 File: figures/ch3/magnets.png Graphic file (type png)
 <use figures/ch3/magnets.png>
 Package pdftex.def Info: figures/ch3/magnets.png  used on input line 164.
 (pdftex.def)             Requested size: 305.33789pt x 245.35077pt.
 
-[31] [32 <./figures/ch3/magnets.png>] [33]) (./chapter4.tex [34]
+[32] [33 <./figures/ch3/magnets.png>] [34]) (./chapter4.tex [35]
 Chapter 5.
-) [35
+) [36
 
-] (./Conclusion.tex [36
+] (./Conclusion.tex [37
 
-] [37] [38]) [39]
+] [38] [39]) [40]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
 6.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [40
+) [41
 
 
-]
+] [42]
 Overfull \hbox (5.726pt too wide) in paragraph at lines 206--206
 []\T1/ptm/m/it/12 ATLAS mag-net sys-tem: Tech-ni-cal De-sign Re-port, 1\T1/ptm/
 m/n/12 . Tech-ni-cal de-sign re-port. AT-LAS. Geneva:
  []
 
-(./appendix.tex [41]
+(./appendix.tex [43]
 Appendix A.
-[42
+[44
 
 ]
 Appendix B.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
- [43
+ [45
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
@@ -1361,25 +1354,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 490E93015381477FCC542D1DD37E98A2;2552.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: DF63F0EBD68CEF514AE1120AA0BADDE5;2576.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19815 strings out of 480608
- 326189 string characters out of 5903631
- 956130 words of memory out of 5000000
- 35145 multiletter control sequences out of 15000+600000
+ 19883 strings out of 480608
+ 328225 string characters out of 5903631
+ 957004 words of memory out of 5000000
+ 35195 multiletter control sequences out of 15000+600000
  602607 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,8n,79p,1533b,1477s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1395,10 +1379,10 @@ hvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on thesis.pdf (54 pages, 11359162 bytes).
+Output written on thesis.pdf (56 pages, 11615866 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 147 named destinations out of 1000 (max. 500000)
- 418 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 
