@@ -27,6 +27,8 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{physics}
 \usepackage{lineno}
+\usepackage{cancel}
+
 \linenumbers
 
 % My Definitions
@@ -89,7 +91,9 @@
 \renewcommand{\cftsubsubsecafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
 
 % My commands
-
+\newcommand{\met}{\ensuremath{E_{\text{T}}^{\text{miss}}}}
+\newcommand{\MET}{\ensuremath{E_{\text{T}}^{\text{miss}}}}
+\newcommand{\pt}{\ensuremath{p_{\text{T}}}}
 
 %format title font size and position (this also applys to list of figures and list of tables)
 \titleformat{\chapter}[display]
@@ -178,6 +182,12 @@
 %%%%%%%%%%%%%%%%
 
 \input{chapter4.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 5
+%%%%%%%%%%%%%%%%
+
+\input{chapter5.tex}
 
 %%%%%%%%%%%%%%%%
 % Conclusion

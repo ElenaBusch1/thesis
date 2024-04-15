@@ -12,37 +12,45 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of the hidden valley potential\relax }}{13}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The LHC accelerator complex at CERN \cite {cern_accelerator_complex}\relax }}{15}{figure.caption.11}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The octants of the LHC and location of various beam activities \cite {lhc_faq}. Stars indicate the locations of beam collisions, and the associated detectors recording the outcome of those collisions.\relax }}{16}{figure.caption.12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces (Left) Total integrated luminosity over the course of Run 2. (Right) Average number of $pp$ interactions per bunch crossing in Run 2. Each curve is weighted by the integrated luminosity for the year.\relax }}{18}{figure.caption.13}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Timeline of LHC and HL-LHC activities \cite {lhc_timeline}. Integrated luminosity estimates are approximate, and not reflective of the exact amount delivered to each experiment.\relax }}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The massive mediator particle Z' of the s-channel realization of a HV model\relax }}{13}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ATLAS coordinate system and geometry\relax }}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The LHC accelerator complex at CERN \cite {cern_accelerator_complex}\relax }}{18}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A 3D visualization of the structure of the ID in the barrel region \cite {innerDet}\relax }}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The octants of the LHC and location of various beam activities \cite {lhc_faq}. Stars indicate the locations of beam collisions, and the associated detectors recording the outcome of those collisions.\relax }}{19}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces ATLAS calorimetery system \cite {calorimeter_img}\relax }}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (Left) Total integrated luminosity over the course of Run 2. (Right) Average number of $pp$ interactions per bunch crossing in Run 2. Each curve is weighted by the integrated luminosity for the year.\relax }}{21}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagram of a segment of the EMB, demonstrating the accordion plate arrangement \cite {lar_tdr}\relax }}{27}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A LAr pulse as produced in the detector (triangle) and after shaping (curve) \cite {lar_tdr}\relax }}{28}{figure.caption.20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Readout gap structure in HEC \cite {lar_tdr}\relax }}{28}{figure.caption.22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces TileCal wedge module \cite {tile_tdr} \relax }}{30}{figure.caption.24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Cross section view of the muon spectrometer system \cite {muon_tdr} \relax }}{31}{figure.caption.25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Layout of the barrel and endcap toroid magnets \cite {atlas_overview} \relax }}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Timeline of LHC and HL-LHC activities \cite {lhc_timeline}. Integrated luminosity estimates are approximate, and not reflective of the exact amount delivered to each experiment.\relax }}{23}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ATLAS coordinate system and geometry\relax }}{26}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A 3D visualization of the structure of the ID in the barrel region \cite {innerDet}\relax }}{27}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ATLAS calorimetery system \cite {calorimeter_img}\relax }}{28}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagram of a segment of the EMB, demonstrating the accordion plate arrangement \cite {lar_tdr}\relax }}{30}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A LAr pulse as produced in the detector (triangle) and after shaping (curve) \cite {lar_tdr}\relax }}{31}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Readout gap structure in HEC \cite {lar_tdr}\relax }}{31}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces TileCal wedge module \cite {tile_tdr} \relax }}{33}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Cross section view of the muon spectrometer system \cite {muon_tdr} \relax }}{34}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Layout of the barrel and endcap toroid magnets \cite {atlas_overview} \relax }}{36}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Graphic illustrating the various objects and high level features identified by ATLAS object reconstruction, and their interaction with different systems of the ATLAS detector \cite {detector_events}\relax }}{40}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Track reconstruction seeding, finding and fitting illustration \cite {track_finding}\relax }}{41}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

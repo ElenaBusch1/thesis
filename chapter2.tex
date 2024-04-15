@@ -1,90 +1,52 @@
-\chapter{The Large Hadron Collider}
-The Large Hadron Collider (LHC) is a 26.7 km circular high-energy particle accelerator, spanning the Swiss-French border near the city of Geneva, Switzerland \cite{LHC_machine}. The LHC occupies the tunnel constructed in 1989 for the Large Electron-Positron (LEP) Collider, and reaches a maximum depth of 170m below the surface. The LHC is operated by the European Organization for Nuclear Research (CERN), the largest international scientific collaboration in the world.\par
+\chapter{Physics Beyond the Standard Model}
+In light of the various phenomenon unexplained by the Standard Model, physicists have proposed various extensions to the Standard Model, collectively termed \textit{Beyond the Standard Model} (BSM) theories. 
+A particular focus of the physic programs at the Large Hadron Collider (LHC) are BSM models which suggest dark matter candidate particles. If these particles couple to Standard Model, they could be produced and observed at the LHC.
 
-The LHC accelerates protons and heavy ions, and collides them at four interaction points around the ring, with a design center-of-mass energy per collision of $\sqrt{s}$ = 14 TeV. Each interaction point is home to one of four detector experiments, which study the products of the collisions. The largest of these experiments is the ATLAS detector, a general purpose detector designed to study the Standard Model and search for new physics that could be produced in LHC collisions \cite{ATLAS_at_LHC}. The CMS detector is another general purpose detector, designed and operated independently of the ATLAS detector, but intended to probe the same range of physics \cite{CMS_at_LHC}. The ALICE experiment is a dedicated heavy ion experiment, and the LHC-b experiment is a dedicated $b$-physics experiment  \cite{ALICE_at_LHC} \cite{LHCb_at_LHC}.\par
+\section{Hidden Valley Models}
+\label{sec:hiddenvalley}
 
-This chapter will cover the multi-component accelerator complex powering the LHC, the state-of-the-art magnets which steer the particle beams, measurements of the intensity and number of collisions produced by the LHC, and finally an overview of LHC activities in the past, present, and future.
+Hidden Valley (HV) models are a category of BSM models that allow for dark matter (DM) production at the LHC. They extend the Standard Model with an additional non-Abelian gauge group \cite{snowmass}. This introduces the possibility of a complex dark sector, which mirrors the complexities of Standard Model QCD, and introduces the possibility of dark quarks and gluons. The term ``hidden valley" refers to the idea that the DM is hidden from the SM by a high-energy barrier, as illustrated in Figure \ref{fig:ch2/hidden_valley_sketch.png}. The dark sector is assumed to communicate with the Standard Model via a ``portal", or ``messenger particle", that can interact with both Standard Model and HV forces. For the s-channel scenario, the portal is considered to be a new massive mediator particle Z' . \par
 
- \section{Accelerator Physics}
- \subsection{The Journey of a Proton}
- \label{sec:proton_journey}
-From 2010 - 2018, the protons which fed the LHC started as hydrogen gas. The electrons were removed from the hydrogen atoms through the use of strong electric fields. The linear accelerator LINAC2 then accelerated the protons to an energy of 50 MeV. Between 2018 and 2020, LINAC2 was replaced with LINAC4, which instead accelerates $H^{-}$ ions, hydrogen atoms with two electrons. LINAC4 is capable of accelerating the $H^-$ ions to 160 MeV. Before injection to the next part of the acceleration chain, both electrons are stripped from the $H^-$ ions, leaving just protons. From here the protons enter the Proton Synchrotron booster, where they are accelerated up to 1.4 GeV of energy. Subsequently they are sorted into bunches separated in time by 25 ns, where each bunch contains approximately $10^{11}$ protons. Next the bunches pass through the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS), where they reach energies of 25 GeV and 450 GeV respectively. Finally they are injected into the LHC as two beams traveling in opposite direction. The original design allowed each beam to be accelerated up to 7 TeV of energy. Due to limitations in the performance of the superconducting LHC magnets, the highest energy actually achieved by the LHC beams during Run 2 was 6.5 TeV, giving a collision center-of-mass energy of $\sqrt{s}$ = 13 TeV \cite{lhc_faq}. Figure \ref{fig:accelerator_complex} shows the full LHC accelerator complex.\par
-
-\begin{figure}
-	\includegraphics[width=\textwidth]{figures/ch2/accelerator_complex.png}
-	\caption{The LHC accelerator complex at CERN \cite{cern_accelerator_complex}}
-	\label{fig:accelerator_complex}
+\begin{figure}[h]
+        \centering
+	\includegraphics[width=.5\textwidth]{figures/ch2/hidden_valley_sketch.png}
+        \label{fig:ch2/hidden_valley_sketch.png}
+         \caption{Illustration of the hidden valley potential}
 \end{figure}
 
- Acceleration in the LHC is performed by eight radio frequency (RF) cavities located around the ring. Each RF cavity produces a 2 MV electric field oscillating at 40 MHz. The 40MHz oscillation produces a point of stable equilibrium every 2.5 ns. These points of equilibrium are synchronized with the occurrence of the proton bunches produced in the PS -- a proton bunch occupies one out of every ten points of stable equilibrium, such that the bunches maintain a 25 ns spacing \cite{lhc_faq}. \\
+The portal particle allows for the production of dark sector particles at hadron colliders. If dark quarks are produced via the decay $Z' \rightarrow q_D q_D$ they can hadronize and form dark jets. The properties of the dark jets are determined by the dynamics of the dark sector, which are explored in the subsequent section. Depending on the details of the model, the jets formed by the dark hadrons can be categorized as fully dark, semi-visible, leptonic, emerging, or other \cite{snowmass}. \par
 
-\subsection{Magnets}
-In addition to the acceleration cavities, the LHC houses 9593 superconducting magnets which direct and focus the proton beam on its 27 kilometer journey. The magnets are comprised of superconducting Niobium-Titanium coils cooled to 1.9K by superfluid helium. As the beams approach one of the four collision points around the ring, multipole magnets focus and squeeze the beam for optimal collisions \cite{lhc_faq}.\par
-
-The LHC is divided into sections, where each section contains an a smoothly curving \textit{arc} and a straight \textit{insertion}. The arcs are composed of 1232 large dipole magnets which bend the beam to follow the roughly circular 27 km path. The main dipoles generate powerful 8.3 tesla magnetic fields to achieve this bend. Each dipole magnet is 15 meters long and weighs 35 tonnes. The dipoles work in conjunction with quadrupole magnets, which keep the particles in a focused beam, and smaller sextupole, octupole and decapole magnets which tune the magnetic field at the ends of the dipole magnets \cite{lhc_magnets}.\par
-
-The straight insertion sections have different purposes depending on their location around the ring: beam collisions, beam injection, beam dumping, or beam cleaning. At the four collision points, insertion magnets squeeze the beam to ensure a highly focused collision. This is accomplished with a triplet of quadrupole magnets, which tighten the beam from 0.2 millimeters to just 16 micrometers in diameter. Insertion magnets also clean the beam, which prevents stray particles from hitting sensitive components throughout the LHC. When the LHC is ready to dispose of a beam of particles, beam dump magnets deflect the path of the beam into a straight line towards a block of concrete and graphite that stops the beam. A dilution magnet then reduces the beam intensity by a factor of 100,000 before the final stop \cite{lhc_magnets}. Figure \ref{fig:lhc_octants} shows the locations various beam activities.\par
-
-\begin{figure}
+\begin{figure}[h]
         \centering
-	\includegraphics[width=.7\textwidth]{figures/ch2/lhc_octants.png}
-	\caption{The octants of the LHC and location of various beam activities \cite{lhc_faq}. Stars indicate the locations of beam collisions, and the associated detectors recording the outcome of those collisions.}
-	\label{fig:lhc_octants}
-\end{figure} 
- 
- \section{Luminosity}
- 
-Collisions at the LHC occur when the two beams of proton bunches cross at one of the four interaction points. The intensity of collisions is described by the instantaneous luminosity, the formula for which is given in equation \ref{eq:lumi}.  
- \begin{equation}
-	L = \frac{f N_1 N_2}{4 \pi \sigma_x \sigma_y}
-	\label{eq:lumi}
+	\includegraphics[width=.5\textwidth]{figures/ch2/zprime_feynman_diagram.png}
+        \label{fig:ch2/zprime_feynman_diagram.png}
+        \caption{The massive mediator particle Z' of the s-channel realization of a HV model}
+\end{figure}
+
+\section{Dark QCD}
+\label{sec:darkqcd}
+The theoretical underpinning of the semi-visible jet phenomenology is a dark sector with a gauge group $SU(N_d)$ leading to confinement at a scale $\Lambda_d$. For illustration, let's consider the case of an $SU(2)_d$ gauge theory, which gives rise to two dark fermionic generations $\chi_a = \chi_1, \chi_2$. Following the work of Timothy Cohen, et.al. we can write the fundamental dark Lagrangian as:
+\begin{equation}
+	\mathcal{L}_{dark} \supset - \frac{1}{2} \Tr G^{d}_{\mu\nu} G^{d\mu\nu} - \bar{\chi_a} (i {D\mkern-11.5mu/}-M_{d,a}) \chi_a
 \end{equation}
 
-Here $f$ is the revolution frequency, $N_1$ and $N_2$ are the number of particle per bunch for each beam, and $\sigma_x$, $\sigma_y$ are the horizontal and vertical beam widths. \par
+The first term allows for the dark gluons to self-interact, while the second term enables the dark quarks to hadronize and acquire mass. The dark quarks are assumed to have a common mass $M_d$. The coupling strength of the strongly interacting dark quarks is termed $\alpha_d$. At the confinement scale $\Lambda_d$, the dark quarks can form bound states. At the scale $M_d \approx \Lambda_d$ a QCD-like show occurs. \par 
 
-The instantaneous luminosity gives the number of the collisions that could be produced at the interaction point per unit of cross-sectional area per unit of time, generally expressed in cm\textsuperscript{-2}s\textsuperscript{-1}. The integrated luminosity is obtained by integrating the instantaneous luminosity over a given block of time, and measures the total number of collisions which have occurred during that operation period. The total integrated luminosity is directly correlated with the size of the datasets collected by the LHC experiments. Total integrated luminosity for Run 2 is illustrated in Figure \ref{fig:lumi_run2}. \par 
+The properties of the hadrons formed by the dark quarks are of particular importance to the observed dark QCD dynamics. Dark-isospin number $U(1)_{1-2}$ and dark-baryon number $U(1)_{1+2}$ are accidental symmetries of the theory which determine the stability of the hadrons. In the case of two dark flavors, six dark hadrons can be formed: four mesons ($\chi_1\bar{\chi_1}$, $\chi_2\bar{\chi_2}$, $\chi_1\bar{\chi_2}$, $\bar{\chi_1}\chi_2$) and two baryons ($\bar{\chi_1}\bar{\chi_2}$, $\bar{\chi_1}\bar{\chi_2}$). The mesons $\chi_1\bar{\chi_2}$ and $\bar{\chi_1}\chi_2$ are charged under dark-isospin and will be stable if this symmetry is unbroken. The baryons would also be stable as they are charged under the dark-baryon number. These four stable hadrons become dark matter candidates of the theory. The $\chi_1\bar{\chi_1}$ and $\chi_2\bar{\chi_2}$ mesons are not charged under either symmetry and are thus expected to decay. The unstable mesons can decay into stable dark mesons, or into an off-shell Z'. The off-shell Z' will then decay into two DM quarks or two SM quarks, and it's products will continue to shower until the final state particles are stable.\par
 
-High levels of instantaneous luminosity result in multiple $pp$ collisions per bunch crossing, which leads to an effect known as $pileup$. Pileup poses a challenge for detector physics, as reconstructing the products of multiple simultaneous events is far more challenging than reconstructing a single event with no pileup. Pileup conditions vary from year-to-year and run-to-run of LHC operation, and the impact of these conditions are taken into account when analyzing the data, as will be discussed further in Chapter \ref{ch:part_reco}. Measurement of pileup conditions during Run 2 are illustrated in Figure \ref{fig:lumi_run2}. \par
- 
- \begin{figure}
-     \centering
-     \begin{subfigure}[b]{0.49\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/ch2/lumi_integrated.png}
-     \end{subfigure}
-     \hfill  
-     \begin{subfigure}[b]{0.48\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/ch2/lumi_instantaneous.png}
-     \end{subfigure}
-     \hfill
-     \caption { (Left) Total integrated luminosity over the course of Run 2. (Right) Average number of $pp$ interactions per bunch crossing in Run 2. Each curve is weighted by the integrated luminosity for the year.}
-     \label{fig:lumi_run2}
-\end{figure}
- 
- The design peak luminosity of the LHC is $1.0 \times 10^{34}$ cm\textsuperscript{-2}s\textsuperscript{-1}. During Run 1 of the LHC the peak instantaneous luminosity was $0.8 \times 10^{34}$ cm\textsuperscript{-2}s\textsuperscript{-1}. Over the course of Run 1 the LHC collected a total integrated luminosity of 5.46 \invfb at $\sqrt{s} = 7$ TeV, and 22.8 \invfb at $\sqrt{s} = 8$ TeV. Following the first long shutdown and upgrade phase of operations, the LHC achieved a center of mass energy $\sqrt{s} = 13$ TeV at the beginning of Run 2 in 2015. The LHC was also able to deliver $2.0 \times 10^{34}$ cm\textsuperscript{-2}s\textsuperscript{-1} peak instantaneous luminosity, double the design value. During LHC Run 2, from 2015-2018, the LHC delivered 156 \invfb of integrated luminosity for proton-proton collisions. Run 3 of the LHC began in 2022, and is expected to deliver $250$ \invfb of integrated luminosity to the ATLAS and CMS experiments by 2026 \cite{lhc_timeline}.\par
- 
-The goal of LHC physic analyses is to find and study rare events produced by interesting physics processes. The cross section $\sigma$ of a given process indicates the probability of that process occurring given the beam conditions of the LHC. Multiplying the cross section by the integrated luminosity of a dataset gives the expected number of events for that process within the dataset.
+The number of stable and unstable dark states varies substantially depending on the details of the model. The model discussed above can be generalized from $SU(2)_d$ to $SU(N)_d$, with any number of colors $N_c$ or flavors $N_f$. This affects the ratio of possible stable to unstable mesons, which can directly impact the amount of missing energy. The fraction of missing energy is a variable in many dark QCD models, and is especially important in the case of semi-visible jets.
 
- \begin{equation}
-	N\textsubscript{events} = \int \sigma L(t) dt = \mathcal{L} \times \sigma
-	\label{eq:xs}
+\section{Semi-visible Jets}
+\label{sec:semivisiblejets}
+
+A ``semi-visible jet" occurs when the heavy Z' messenger particle decays into dark quarks, which then hadronize in a QCD-like shower. If some of the dark hadrons are stable while others decay to SM quarks via the off-shell Z', a collimated mixture of visible and dark matter is formed – this is termed a semi-visible jet. If the Z' messenger particle is produced at rest, the two jets will be back-to-back in the transverse plane. If there is an imbalance in the amount of invisible particles between the two jets, one of the jets will be observed to be aligned with missing transverse energy. \par
+
+While there are a myriad of HV and dark QCD models, a handful of model parameters are most important in determining the observable of these showers within a particle detector. The coupling strength $\alpha_d$ is one of the most important, as it controls the fraction of dark hadrons emitted in the shower and their average \pt. The mass of the dark quarks directly impacts the jet mass. If the masses of the dark quark flavors are comparable, the ratio of stable to unstable dark hadrons will be approximately 1:1. However, if there is a mass splitting, stable or unstable dark hadrons may be favored, which impacts the amount of missing energy observed. \par
+
+The ratio of stable to unstable dark hadrons in the shower is a critical variable for capturing the behavior of dark showers. This value is termed $r_{inv}$:
+\begin{equation}
+	r_{inv} = \frac{\textrm{\# of stable hadrons}}{\textrm{\# of hadronss}}
 \end{equation}
 
-The cross section for most processes of interest, especially BSM processes, is several orders of magnitude below the total cross section for the LHC. Therefore maximizing the number of events produced in collisions is crucial to increase the likelihood of producing events from processes of interest. For this reason, maximizing instantaneous luminosity is a key factor in accelerator design and operation, while mitigating the resulting pileup effects is a key component in detector design and operation. \par 
+Events containing jets aligned with missing transverse momentum are generally considered to be misreconstructed by other DM searches, and therefore discarded. This class of final states is therefore largely uncovered by existing DM searches. The nature of the dark hadron shower is determined by the following parameters: the Z' mass $m_{Z'}$, the Z' couplings to visible and dark quarks $g_q$ and $g_{q_D}$, the number of dark colors and flavors, the characteristic scale of the dark sector confinement $\Lambda_D$, the scale of the dark hadrons $m_D$, and the average fraction of stable hadrons in the decay $r_{inv}$. The coupling to SM quarks determines the Z' production cross section.
 
-\section{LHC Timeline}
-The first proton-proton collisions at the LHC were achieved in 2010 with a center-of-mass energy of $\sqrt{s}$ = 7 TeV. Run 1 of the LHC took place between 2010 and early 2013, during which time the center-of-mass collision energy increased from 7 TeV to 8 TeV. Figure \ref{fig:lhc_timeline} shows an overview of LHC activities beginning in 2011, in the midst of Run 1. The data collected during Run 1 led to the discovery of the Higgs Boston in 2012 \cite{higgs_paper}. \par
-
-Between 2013 and 2015 the LHC underwent the first Long Shutdown (LS1) during which time maintenance and renovation was performed on the accelerator chain, including the repair and consolidation of the high-current splices which connect the super-conducting LHC magnets. Run 2 of the LHC took place from 2015 to 2018 and achieved a center-of-mass energy of $\sqrt{s}$ = 13 TeV. Analysis of data collected in Run 2 is still on going, and is the subject of study in this thesis. \par
-
-Between 2018 and 2022 the LHC underwent the second Long Shutdown (LS2), allowing for further detector and accelerator maintenance and upgrades. Key improvements to the LHC included the improvement of the insulation for over 1200 diode magnets, and the upgrade from LINAC2 to LINAC4 mentioned in Section \ref{sec:proton_journey}. Run 3 of the LHC began in 2022 and achieved a center-of-mass energy of $\sqrt{s}$ = 13.6 TeV. \par
-
-Run 3 is scheduled to continue through 2026, at which point the LHC machine and detectors will undergo upgrades for the \textit{high luminosity} LHC (HL-LHC). The HL-LHC will increase the instantaneous machine luminosity by a factor of 5 - 7.5 with respect to the nominal LHC design. The bottom panel of Figure \ref{fig:lhc_timeline} shows an overview of the preparation work for the HL-LHC that has been going on concurrently with Run 1, 2, and 3 of the LHC \cite{hl_lhc}. 
-
-\begin{figure}
-        \centering
-	\includegraphics[width=0.9\textwidth]{figures/ch2/hl_lhc_timeline.png}
-	\caption{Timeline of LHC and HL-LHC activities \cite{lhc_timeline}. Integrated luminosity estimates are approximate, and not reflective of the exact amount delivered to each experiment.}
-	\label{fig:lhc_timeline}
-\end{figure}
