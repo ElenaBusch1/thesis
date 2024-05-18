@@ -64,8 +64,20 @@ All muon track candidates are required to pass a series of quality selections to
 \end{figure}
 
 \section{Jets}
+The protons accelerated in the LHC are composed of quarks and gluons, and thus their collisions often result in the release of energetic quarks and gluons, collectively termed \textit{partons}. The energetic partons can radiate additional gluons, and these gluons can pair produce quarks in a process called \textit{fragmentation}. Fragmentation continues until the energy drops sufficiently that color conservation plays a dominant role. At that point, additional quarks and gluons are produced from vacuum to create neutral color states for the fragmented collection of partons. This process is known as \textit{hadronization} \cite{fragmentation}. The hadronized partons compose a collimated stream of particles, known as a \textit{jet}, which is then observed in the detector. The full process that produces jets is known as a \textit{parton shower}, and is illustrated in Figure~\ref{fig:parton_shower}. 
+
+\begin{figure}[h]
+        \centering
+	\includegraphics[width=0.6\textwidth]{figures/ch5/parton_shower}
+	\caption{The fragmentation and hadronization processes undergone by a quark produced in a proton-proton collision \cite{frag_im}. }
+	\label{fig:parton_shower}
+\end{figure}
+
+Jets are identified by the energy deposits they leave in the calorimeter, which are then matched to the tracks they leave in the ID. Jet reconstruction generally begins in the calorimeters, with the identification of \textit{topo-clusters}. Then jet reconstruction algorithms combine calorimeter information with tracking information. The anti-$k_t$ algorithm \cite{anti_kt} as provided by the FastJet library \cite{fast_jet} is generally used by the ATLAS experiment, with varying reconstruction radius settings. There are a variety of jet collections depending on the exact usage of calorimeter and tracking information in the reconstruction. Some common collections include particle flow iets(PFlow), track calo-cluster jets (TCC), EM topo-cluster jets (EMTopo), and unified flow object jets (UFO). Only particle flow jets will be discussed in greater detail due to their importance in this analysis. The following sections discuss jet identification in the calorimeters, particle flow jet construction using the anti-$k_t$ algorithm, jet clustering and jet substructure characteristics.
+
 \subsection{Calorimeter Clusters}
 \subsection{Particle Flow Reconstruction}
 \subsection{Jet Clustering}
 \subsection{Jet Substructure}
+
 \section{Missing Transverse Energy}
