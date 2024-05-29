@@ -1,109 +1,135 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{vii}{section*.4}%
+\contentsline {chapter}{Acknowledgments}{ix}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Dedication}{viii}{section*.5}%
+\contentsline {chapter}{Dedication}{x}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction or Preface}{1}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}The Standard Model}{2}{chapter.1}%
+\contentsline {part}{I\hspace {1em}Theory}{2}{part.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Phenomenology: Particles and Forces}{2}{section.1.1}%
+\contentsline {chapter}{\numberline {1}The Standard Model}{3}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Particles}{2}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.1}Phenomenology: Particles and Forces}{3}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Forces}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.1}Particles}{3}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}QCD and Jets}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Forces}{4}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Symmetries}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.2}QCD and Jets}{7}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Spontaneous Symmetry Breaking and The Higgs Mechanism}{8}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.3}Symmetries}{8}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Experimental Validation of the Standard Model}{9}{section.1.4}%
+\contentsline {subsection}{\numberline {1.3.1}Spontaneous Symmetry Breaking and The Higgs Mechanism}{9}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Limitations of the Standard Model}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.4}Experimental Validation of the Standard Model}{10}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Physics Beyond the Standard Model}{12}{chapter.2}%
+\contentsline {section}{\numberline {1.5}Limitations of the Standard Model}{11}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Hidden Valley Models}{12}{section.2.1}%
+\contentsline {chapter}{\numberline {2}Physics Beyond the Standard Model}{13}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Dark QCD}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Hidden Valley Models}{13}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Semi-visible Jets}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Dark QCD}{14}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The Large Hadron Collider}{16}{chapter.3}%
+\contentsline {section}{\numberline {2.3}Semi-visible Jets}{15}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Accelerator Physics}{17}{section.3.1}%
+\contentsline {part}{II\hspace {1em}Experiment}{17}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}The Journey of a Proton}{17}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {3}The Large Hadron Collider}{18}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Magnets}{18}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.1}Accelerator Physics}{19}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Luminosity}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.1.1}The Journey of a Proton}{19}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}LHC Timeline}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1.2}Magnets}{20}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}The ATLAS Detector}{24}{chapter.4}%
+\contentsline {section}{\numberline {3.2}Luminosity}{21}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Coordinate System and Geometry}{24}{section.4.1}%
+\contentsline {section}{\numberline {3.3}LHC Timeline}{24}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Inner Detector}{26}{section.4.2}%
+\contentsline {chapter}{\numberline {4}The ATLAS Detector}{26}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Pixel Detector}{26}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.1}Coordinate System and Geometry}{26}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Semiconductor Tracker}{27}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.2}Inner Detector}{28}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Transition Radiation Tracker}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.1}Pixel Detector}{28}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Calorimeters}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.2.2}Semiconductor Tracker}{29}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Liquid Argon Calorimeter}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.2.3}Transition Radiation Tracker}{29}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{29}{subsubsection*.20}%
+\contentsline {section}{\numberline {4.3}Calorimeters}{30}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{30}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {4.3.1}Liquid Argon Calorimeter}{31}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Forward Calorimeter}{31}{subsubsection*.25}%
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{31}{subsubsection*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Tile Calorimeter}{32}{subsection.4.3.2}%
+\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{32}{subsubsection*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Muon Spectrometer}{33}{section.4.4}%
+\contentsline {subsubsection}{Forward Calorimeter}{33}{subsubsection*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Magnet System}{35}{section.4.5}%
+\contentsline {subsection}{\numberline {4.3.2}Tile Calorimeter}{34}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Forward Detectors}{36}{section.4.6}%
+\contentsline {section}{\numberline {4.4}Muon Spectrometer}{35}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Trigger and Data Acquisition}{37}{section.4.7}%
+\contentsline {section}{\numberline {4.5}Magnet System}{37}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Particle Reconstruction and Identification}{39}{chapter.5}%
+\contentsline {section}{\numberline {4.6}Forward Detectors}{38}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Inner Detector Tracks}{39}{section.5.1}%
+\contentsline {section}{\numberline {4.7}Trigger and Data Acquisition}{39}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Photons and Electrons}{40}{section.5.2}%
+\contentsline {chapter}{\numberline {5}Particle Reconstruction and Identification}{41}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Muons}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.1}Inner Detector Tracks}{41}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Jets}{44}{section.5.4}%
+\contentsline {section}{\numberline {5.2}Photons and Electrons}{42}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Calorimeter Clusters}{45}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.3}Muons}{44}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Particle Flow Algorithm}{46}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.4}Jets}{46}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Jet Clustering}{47}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.1}Calorimeter Clusters}{47}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Ghost Track Association}{50}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.2}Particle Flow Algorithm}{48}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{51}{section.5.5}%
+\contentsline {subsection}{\numberline {5.4.3}Jet Clustering}{49}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{53}{section*.37}%
+\contentsline {subsection}{\numberline {5.4.4}Ghost Track Association}{52}{subsection.5.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{57}{section*.38}%
+\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{53}{section.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}Search}{55}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Machine Learning Tools}{56}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.0.1}Particle Flow Network (Supervised)}{56}{subsection.6.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Input Modeling, Scaling, and Rotation}{57}{subsubsection*.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Training}{59}{subsubsection*.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Performance}{63}{subsubsection*.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.0.2}ANTELOPE (Semi-supervised)}{67}{subsection.6.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Training}{68}{subsubsection*.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Performance}{70}{subsubsection*.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Model Independence}{70}{paragraph*.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Monte Carlo and Data}{74}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion or Epilogue}{75}{section*.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{79}{section*.62}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A} Experimental Equipment}{62}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A} Experimental Equipment}{84}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data Processing}{63}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Data Processing}{85}{appendix.a.B}%
