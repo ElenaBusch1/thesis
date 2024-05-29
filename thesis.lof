@@ -52,11 +52,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Track reconstruction seeding, finding and fitting illustration \cite {track_finding}\relax }}{41}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Four types of muon track candidates \cite {electron_photon_id}. \relax }}{42}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Three types of EM object candidates \cite {electron_photon_id}. \relax }}{42}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Four types of muon track candidates \cite {muon_id}. \relax }}{44}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.5}{\ignorespaces The fragmentation and hadronization processes undergone by a quark produced in a proton-proton collision \cite {frag_im}. \relax }}{45}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces A flow chart illustrating the particle flow algorithm progression \cite {pflow}. \relax }}{48}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces A comparison of jet clustering with four different jet algorithms. The anti-$k_t$ algorithm is observed to create the most conical jets, where the shape of the jet is immune to the presence of soft radiation \cite {anti_kt}. \relax }}{49}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces A comparison of MC simulation and data for $Z\rightarrow \mu \mu $ events where real \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}= 0 \cite {met_res}. The resolution of the missing energy in the transverse $(x-y)$ plane is observed to increase with increasing total $\DOTSI \sumop \slimits@ E_T$. \relax }}{52}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
