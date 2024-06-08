@@ -46,11 +46,18 @@
 \BOOKMARK [2][-]{subsection.5.4.4}{Ghost Track Association}{section.5.4}% 46
 \BOOKMARK [1][-]{section.5.5}{Missing Transverse Energy}{chapter.5}% 47
 \BOOKMARK [-1][-]{part.3}{III Search}{}% 48
-\BOOKMARK [0][-]{chapter.6}{Machine Learning Tools}{part.3}% 49
-\BOOKMARK [1][-]{subsection.6.0.1}{Particle Flow Network \(Supervised\)}{chapter.6}% 50
-\BOOKMARK [2][-]{subsection.6.0.2}{ANTELOPE \(Semi-supervised\)}{subsection.6.0.1}% 51
-\BOOKMARK [0][-]{chapter.7}{Monte Carlo and Data}{part.3}% 52
-\BOOKMARK [0][-]{section*.61}{Conclusion or Epilogue}{part.3}% 53
-\BOOKMARK [0][-]{section*.62}{References}{part.3}% 54
-\BOOKMARK [0][-]{appendix.a.A}{ Experimental Equipment}{part.3}% 55
-\BOOKMARK [0][-]{appendix.a.B}{Data Processing}{part.3}% 56
+\BOOKMARK [0][-]{chapter.6}{Monte Carlo and Data}{part.3}% 49
+\BOOKMARK [0][-]{chapter.7}{Machine Learning Tools}{part.3}% 50
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 51
+\BOOKMARK [2][-]{subsection.7.1.1}{Particle Flow Network \(Supervised\)}{section.7.1}% 52
+\BOOKMARK [2][-]{subsection.7.1.2}{ANTELOPE \(Semi-supervised\)}{section.7.1}% 53
+\BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 54
+\BOOKMARK [0][-]{section*.65}{Conclusion or Epilogue}{part.3}% 55
+\BOOKMARK [0][-]{section*.66}{References}{part.3}% 56
+\BOOKMARK [0][-]{appendix.a.A}{Machine Learning Approaches}{part.3}% 57
+\BOOKMARK [1][-]{section.a.A.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.A}% 58
+\BOOKMARK [1][-]{section.a.A.2}{PFN Optimality Checks}{appendix.a.A}% 59
+\BOOKMARK [1][-]{section.a.A.3}{Supervised: BDT vs. PFN}{appendix.a.A}% 60
+\BOOKMARK [1][-]{section.a.A.4}{Supervised: Variable Correlations}{appendix.a.A}% 61
+\BOOKMARK [1][-]{section.a.A.5}{Single Jet vs Jet System ML Approach}{appendix.a.A}% 62
+\BOOKMARK [1][-]{section.a.A.6}{PFN Training Composition}{appendix.a.A}% 63
