@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of the hidden valley potential\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of the hidden valley potential. \relax }}{14}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The massive mediator particle Z' of the s-channel realization of a HV model\relax }}{14}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
@@ -66,70 +66,86 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The transverse momentum slices of the QCD MC simulation, overlayed to show how they come together to create a smooth distribution (left) once weighted properly. The original unweighted distribution is shown on the right, illustrating the enhanced statistics for the high \ensuremath {p_{\text {T}}}\nobreakspace {}range. \relax }}{58}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The Energy/Particle Flow Network concept, from Ref.\nobreakspace {}\cite {pfn}. \relax }}{59}{figure.caption.38}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces An annotated diagram of the PFN architecture. $y$ and $\phi $ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. \relax }}{59}{figure.caption.39}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces A illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \ensuremath {E_{\text {T}}^{\text {miss}}}. \relax }}{60}{figure.caption.41}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Illustration of track coordinates $d_0$ and $z_0$. \relax }}{61}{figure.caption.42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples. \relax }}{61}{figure.caption.43}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces A diagram demonstrating how the two jet system is rotated in $(\phi ,\eta )$. \relax }}{62}{figure.caption.44}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces The 6 PFN track variables in background MC and signal MC. There are some differences between signal and background, but the track kinematics are largely similar. \relax }}{62}{figure.caption.45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces The 6 PFN track variables in data and background MC, after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the phi distribution is due to the modeling of dead TileCal cells by the QCD MC, which will be discussed in Chapter\nobreakspace {}\ref {ch:analysis}. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only. \relax }}{63}{figure.caption.46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces PFN score for background MC, data, and signal, comparing a PFN training on QCD-only vs all-background MC samples. The average AUC for the QCD-only training (left) is 0.93, while the average AUC for the mixed background training (right) is 0.84. The sensitivity estimate across the grid is better for the QCD-only training - from the distribution we can conclude that this is because the sensitivity to MET enhanced signals is greatly reduced. \relax }}{65}{figure.caption.48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces PFN architecture loss during training as a function of epoch (left) and the evaluated loss over the signal and background (right). \relax }}{65}{figure.caption.49}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces ROC the PFN score for combined signal (true positive) and QCD background (false positive). \relax }}{66}{figure.caption.51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample. \relax }}{67}{figure.caption.52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces PFN score for two signals and the total background MC (top), and between data and MC (bottom). The difference between data and MC efficiency is minimal ($<$ 5\%). \relax }}{67}{figure.caption.53}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.14}{\ignorespaces A visual representation of the 64 PFN latent space variables which create the input of the VAE component of ANTELOPE. The left shows a 2D histogram of the PFN latent space index (0-63) versus the value assumed by that index. The right shows 1D histograms of two particular PFN latent space variables. \relax }}{69}{figure.caption.55}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.15}{\ignorespaces An annotated diagram of the ANTELOPE architecture. \relax }}{70}{figure.caption.56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.16}{\ignorespaces ANTELOPE architecture loss during training as a function of epoch. \relax }}{71}{figure.caption.58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.17}{\ignorespaces ANTELOPE score distribution comparing data and the total background MC (left), with good agreement observed between data and simulated background, and comparing all background MC to signals (right), revealing good discrimination power. \relax }}{72}{figure.caption.60}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.18}{\ignorespaces AUC from the ANTELOPE score for each signal in the SVJ grid. \relax }}{73}{figure.caption.61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Comparing data and the alternate signal models for the PFN score (top left), ANTELOPE score (top right), \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}(bottom left), and $m_T$\nobreakspace {}(bottom right). The emerging jet signal is an example of the gain of the model-independent ANTELOPE approach, where it has a bimodal shape in PFN score but is clearly tagged as anomalous by ANTELOPE. \relax }}{74}{figure.caption.63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Comparing data and the alternate signal models in terms of sensitivity (S/$\sqrt {B}$) for the PFN and ANTELOPE tools, applying the selection that is used in the analysis. The ANTELOPE network is found to provide significant added sensitivity to alternate signals such as the gluino$\rightarrow $ R-hadron and emerging jets, which have higher \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}than the SVJs. \relax }}{75}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Background processes relevant to the SVJ signal. The agreement between the black line (data) and grey line (all MC processes combined) illustrates that this collection of background processes is sufficient to model the expected \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}in the selected data events. \relax }}{59}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The Energy/Particle Flow Network concept, from Ref.\nobreakspace {}\cite {pfn}. \relax }}{63}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces An annotated diagram of the PFN architecture. $y$ and $\phi $ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. \relax }}{63}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces A illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \ensuremath {E_{\text {T}}^{\text {miss}}}. \relax }}{64}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Illustration of track coordinates $d_0$ and $z_0$. \relax }}{65}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples. \relax }}{65}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces A diagram demonstrating how the two jet system is rotated in $(\phi ,\eta )$. \relax }}{66}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.7}{\ignorespaces The 6 PFN track variables in background MC and signal MC. There are some differences between signal and background, but the track kinematics are largely similar. \relax }}{66}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.8}{\ignorespaces The 6 PFN track variables in data and background MC, after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the phi distribution is due to the modeling of dead TileCal cells by the QCD MC, which will be discussed in Chapter\nobreakspace {}\ref {ch:analysis}. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only. \relax }}{67}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.9}{\ignorespaces PFN score for background MC, data, and signal, comparing a PFN training on QCD-only vs all-background MC samples. The average AUC for the QCD-only training (left) is 0.93, while the average AUC for the mixed background training (right) is 0.84. The sensitivity estimate across the grid is better for the QCD-only training - from the distribution we can conclude that this is because the sensitivity to MET enhanced signals is greatly reduced. \relax }}{69}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.10}{\ignorespaces PFN architecture loss during training as a function of epoch (left) and the evaluated loss over the signal and background (right). \relax }}{69}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.11}{\ignorespaces ROC the PFN score for combined signal (true positive) and QCD background (false positive). \relax }}{70}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.12}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample. \relax }}{71}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.13}{\ignorespaces PFN score for two signals and the total background MC (top), and between data and MC (bottom). The difference between data and MC efficiency is minimal ($<$ 5\%). \relax }}{71}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.14}{\ignorespaces A visual representation of the 64 PFN latent space variables which create the input of the VAE component of ANTELOPE. The left shows a 2D histogram of the PFN latent space index (0-63) versus the value assumed by that index. The right shows 1D histograms of two particular PFN latent space variables. \relax }}{73}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.15}{\ignorespaces An annotated diagram of the ANTELOPE architecture. \relax }}{74}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.16}{\ignorespaces ANTELOPE architecture loss during training as a function of epoch. \relax }}{75}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.17}{\ignorespaces ANTELOPE score distribution comparing data and the total background MC (left), with good agreement observed between data and simulated background, and comparing all background MC to signals (right), revealing good discrimination power. \relax }}{76}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.18}{\ignorespaces AUC from the ANTELOPE score for each signal in the SVJ grid. \relax }}{77}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Comparing data and the alternate signal models for the PFN score (top left), ANTELOPE score (top right), \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}(bottom left), and $m_T$\nobreakspace {}(bottom right). The emerging jet signal is an example of the gain of the model-independent ANTELOPE approach, where it has a bimodal shape in PFN score but is clearly tagged as anomalous by ANTELOPE. \relax }}{78}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Comparing data and the alternate signal models in terms of sensitivity (S/$\sqrt {B}$) for the PFN and ANTELOPE tools, applying the selection that is used in the analysis. The ANTELOPE network is found to provide significant added sensitivity to alternate signals such as the gluino$\rightarrow $ R-hadron and emerging jets, which have higher \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}than the SVJs. \relax }}{79}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \relax }}{86}{figure.caption.68}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces \relax }}{87}{figure.caption.70}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Trigger yield and efficiency for both the MET trigger and small-R jet trigger approach. Each entry represent a signal point, labelled by the $Z'$ mass and the R$_{inv}$\nobreakspace {}fraction.\nobreakspace {} \relax }}{90}{figure.caption.73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample (top) and the total MC background (bottom). Note the three missing points will be added shortly - they were delayed due to a DAOD production mistake. \relax }}{88}{figure.caption.71}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The factor of improvement in S/$\sqrt {B}$ for each trigger method compared to the untriggered case. \relax }}{91}{figure.caption.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Comparison of PFN AUC (top), SIC (middle), and sensitivity in the $m_T$\nobreakspace {}mass window (bottom) for a single PFN model (left) vs. two models, trained on R$_{inv}$\nobreakspace {}$<$ 0.5 and $>$ 0.5 separately. \relax }}{89}{figure.caption.72}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The ratio of S/$\sqrt {B}$ of jet trigger over \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}trigger selection. \relax }}{91}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Preferred cuts on the PFN score for each point in the grid, comparing the effect of adding the NCB preselection. \relax }}{90}{figure.caption.73}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Analysis variables where high R$_{inv}$\nobreakspace {} signals a clearly distinct from background and low R$_{inv}$\nobreakspace {} variables. On the contrary, leading jet \ensuremath {p_{\text {T}}}\nobreakspace {} is one of the only variables where low R$_{inv}$\nobreakspace {} signals are distinct from background. \relax }}{93}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Scans done to check for optimality of PFN training parameters. \relax }}{91}{figure.caption.74}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces OR of jet and \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}triggers. \relax }}{93}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \relax }}{91}{figure.caption.75}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.8}{\ignorespaces $\phi $ orientation variables in the CR and VR \relax }}{92}{figure.caption.76}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces \relax }}{94}{figure.caption.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Correlation between $\phi $ orientation variables and PFN score \relax }}{93}{figure.caption.77}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces \relax }}{95}{figure.caption.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.10}{\ignorespaces $\phi $ Performance comparison between single jet and jet system ML approach \relax }}{94}{figure.caption.78}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample (top) and the total MC background (bottom). Note the three missing points will be added shortly - they were delayed due to a DAOD production mistake. \relax }}{96}{figure.caption.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.11}{\ignorespaces $\phi $ Comparison in the AUC score across the grid for the mixed background strategy vs the QCD only strategy. The bottom table highlights that the QCD only strategy gives superior sensitivity across the signal grid. \relax }}{95}{figure.caption.79}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of PFN AUC (top), SIC (middle), and sensitivity in the $m_T$\nobreakspace {}mass window (bottom) for a single PFN model (left) vs. two models, trained on R$_{inv}$\nobreakspace {}$<$ 0.5 and $>$ 0.5 separately. \relax }}{97}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Preferred cuts on the PFN score for each point in the grid, comparing the effect of adding the NCB preselection. \relax }}{98}{figure.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Scans done to check for optimality of PFN training parameters. \relax }}{99}{figure.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.7}{\ignorespaces \relax }}{99}{figure.caption.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.8}{\ignorespaces $\phi $ orientation variables in the CR and VR \relax }}{100}{figure.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Correlation between $\phi $ orientation variables and PFN score \relax }}{101}{figure.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.10}{\ignorespaces $\phi $ Performance comparison between single jet and jet system ML approach \relax }}{102}{figure.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.11}{\ignorespaces $\phi $ Comparison in the AUC score across the grid for the mixed background strategy vs the QCD only strategy. The bottom table highlights that the QCD only strategy gives superior sensitivity across the signal grid. \relax }}{103}{figure.caption.89}%

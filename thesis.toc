@@ -104,52 +104,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Monte Carlo and Data}{56}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Machine Learning Tools}{57}{chapter.7}%
+\contentsline {section}{\numberline {6.1}Data}{56}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Introduction}{57}{section.7.1}%
+\contentsline {section}{\numberline {6.2}Simulation}{57}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Particle Flow Network (Supervised)}{58}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {6.2.1}Simulated Backgrounds}{57}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Architecture Fundamentals}{58}{subsubsection*.37}%
+\contentsline {subsection}{\numberline {6.2.2}Signal Simulation}{58}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input Modeling, Scaling, and Rotation}{60}{subsubsection*.40}%
+\contentsline {chapter}{\numberline {7}Machine Learning Tools}{61}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Training}{64}{subsubsection*.47}%
+\contentsline {section}{\numberline {7.1}Introduction}{61}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Performance}{66}{subsubsection*.50}%
+\contentsline {subsection}{\numberline {7.1.1}Particle Flow Network (Supervised)}{62}{subsection.7.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}ANTELOPE (Semi-supervised)}{68}{subsection.7.1.2}%
+\contentsline {subsubsection}{Architecture Fundamentals}{62}{subsubsection*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Architecture Fundamentals}{68}{subsubsection*.54}%
+\contentsline {subsubsection}{Input Modeling, Scaling, and Rotation}{64}{subsubsection*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Training}{71}{subsubsection*.57}%
+\contentsline {subsubsection}{Training}{68}{subsubsection*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Performance}{72}{subsubsection*.59}%
+\contentsline {subsubsection}{Performance}{70}{subsubsection*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Model Independence}{72}{paragraph*.62}%
+\contentsline {subsection}{\numberline {7.1.2}ANTELOPE (Semi-supervised)}{72}{subsection.7.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Analysis Strategy}{76}{chapter.8}%
+\contentsline {subsubsection}{Architecture Fundamentals}{72}{subsubsection*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{77}{section*.65}%
+\contentsline {subsubsection}{Training}{75}{subsubsection*.62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{81}{section*.66}%
+\contentsline {subsubsection}{Performance}{76}{subsubsection*.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Model Independence}{76}{paragraph*.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Analysis Strategy}{80}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Event Selection}{80}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion or Epilogue}{81}{section*.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{85}{section*.71}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Machine Learning Approaches}{86}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A}Trigger Studies}{90}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Unsupervised: AE vs. ANTELOPE}{86}{section.a.A.1}%
+\contentsline {chapter}{\numberline {B}Machine Learning Approaches}{94}{appendix.a.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal Contamination}{87}{subsubsection*.69}%
+\contentsline {section}{\numberline {B.1}Unsupervised: AE vs. ANTELOPE}{94}{section.a.B.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}PFN Optimality Checks}{87}{section.a.A.2}%
+\contentsline {subsubsection}{Signal Contamination}{95}{subsubsection*.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Supervised: BDT vs. PFN}{90}{section.a.A.3}%
+\contentsline {section}{\numberline {B.2}PFN Optimality Checks}{95}{section.a.B.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Supervised: Variable Correlations}{90}{section.a.A.4}%
+\contentsline {section}{\numberline {B.3}Supervised: BDT vs. PFN}{98}{section.a.B.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Single Jet vs Jet System ML Approach}{92}{section.a.A.5}%
+\contentsline {section}{\numberline {B.4}Supervised: Variable Correlations}{98}{section.a.B.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}PFN Training Composition}{93}{section.a.A.6}%
+\contentsline {section}{\numberline {B.5}Single Jet vs Jet System ML Approach}{100}{section.a.B.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.6}PFN Training Composition}{101}{section.a.B.6}%

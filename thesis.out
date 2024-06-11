@@ -47,17 +47,23 @@
 \BOOKMARK [1][-]{section.5.5}{Missing Transverse Energy}{chapter.5}% 47
 \BOOKMARK [-1][-]{part.3}{III Search}{}% 48
 \BOOKMARK [0][-]{chapter.6}{Monte Carlo and Data}{part.3}% 49
-\BOOKMARK [0][-]{chapter.7}{Machine Learning Tools}{part.3}% 50
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 51
-\BOOKMARK [2][-]{subsection.7.1.1}{Particle Flow Network \(Supervised\)}{section.7.1}% 52
-\BOOKMARK [2][-]{subsection.7.1.2}{ANTELOPE \(Semi-supervised\)}{section.7.1}% 53
-\BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 54
-\BOOKMARK [0][-]{section*.65}{Conclusion or Epilogue}{part.3}% 55
-\BOOKMARK [0][-]{section*.66}{References}{part.3}% 56
-\BOOKMARK [0][-]{appendix.a.A}{Machine Learning Approaches}{part.3}% 57
-\BOOKMARK [1][-]{section.a.A.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.A}% 58
-\BOOKMARK [1][-]{section.a.A.2}{PFN Optimality Checks}{appendix.a.A}% 59
-\BOOKMARK [1][-]{section.a.A.3}{Supervised: BDT vs. PFN}{appendix.a.A}% 60
-\BOOKMARK [1][-]{section.a.A.4}{Supervised: Variable Correlations}{appendix.a.A}% 61
-\BOOKMARK [1][-]{section.a.A.5}{Single Jet vs Jet System ML Approach}{appendix.a.A}% 62
-\BOOKMARK [1][-]{section.a.A.6}{PFN Training Composition}{appendix.a.A}% 63
+\BOOKMARK [1][-]{section.6.1}{Data}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.2}{Simulation}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.2.1}{Simulated Backgrounds}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.2}{Signal Simulation}{section.6.2}% 53
+\BOOKMARK [0][-]{chapter.7}{Machine Learning Tools}{part.3}% 54
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 55
+\BOOKMARK [2][-]{subsection.7.1.1}{Particle Flow Network \(Supervised\)}{section.7.1}% 56
+\BOOKMARK [2][-]{subsection.7.1.2}{ANTELOPE \(Semi-supervised\)}{section.7.1}% 57
+\BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 58
+\BOOKMARK [1][-]{section.8.1}{Event Selection}{chapter.8}% 59
+\BOOKMARK [0][-]{section*.70}{Conclusion or Epilogue}{part.3}% 60
+\BOOKMARK [0][-]{section*.71}{References}{part.3}% 61
+\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 62
+\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 63
+\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 64
+\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 65
+\BOOKMARK [1][-]{section.a.B.3}{Supervised: BDT vs. PFN}{appendix.a.B}% 66
+\BOOKMARK [1][-]{section.a.B.4}{Supervised: Variable Correlations}{appendix.a.B}% 67
+\BOOKMARK [1][-]{section.a.B.5}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 68
+\BOOKMARK [1][-]{section.a.B.6}{PFN Training Composition}{appendix.a.B}% 69

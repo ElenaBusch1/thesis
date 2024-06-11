@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  7 JUN 2024 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 JUN 2024 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,7 +1177,7 @@ l.171 \part
 
 ] (./chapter1.tex
 Chapter 1.
-<figures/ch1/standard_model.png, id=679, 790.955pt x 704.6325pt>
+<figures/ch1/standard_model.png, id=751, 790.955pt x 704.6325pt>
 File: figures/ch1/standard_model.png Graphic file (type png)
 <use figures/ch1/standard_model.png>
 Package pdftex.def Info: figures/ch1/standard_model.png  used on input line 12.
@@ -1186,35 +1186,35 @@ Package pdftex.def Info: figures/ch1/standard_model.png  used on input line 12.
 [3
 
 ] [4 <./figures/ch1/standard_model.png>]
-<figures/ch1/em_force.png, id=697, 251.94125pt x 125.46875pt>
+<figures/ch1/em_force.png, id=770, 251.94125pt x 125.46875pt>
 File: figures/ch1/em_force.png Graphic file (type png)
 <use figures/ch1/em_force.png>
 Package pdftex.def Info: figures/ch1/em_force.png  used on input line 34.
 (pdftex.def)             Requested size: 201.99121pt x 100.59337pt.
-<figures/ch1/strong_force.png, id=698, 189.70876pt x 122.4575pt>
+<figures/ch1/strong_force.png, id=771, 189.70876pt x 122.4575pt>
 File: figures/ch1/strong_force.png Graphic file (type png)
 <use figures/ch1/strong_force.png>
 Package pdftex.def Info: figures/ch1/strong_force.png  used on input line 40.
 (pdftex.def)             Requested size: 187.89914pt x 121.2912pt.
-<figures/ch1/weak_neutral.png, id=699, 196.735pt x 142.5325pt>
+<figures/ch1/weak_neutral.png, id=772, 196.735pt x 142.5325pt>
 File: figures/ch1/weak_neutral.png Graphic file (type png)
 <use figures/ch1/weak_neutral.png>
 Package pdftex.def Info: figures/ch1/weak_neutral.png  used on input line 46.
 (pdftex.def)             Requested size: 187.89914pt x 136.12932pt.
-<figures/ch1/weak_charged.png, id=700, 188.705pt x 130.4875pt>
+<figures/ch1/weak_charged.png, id=773, 188.705pt x 130.4875pt>
 File: figures/ch1/weak_charged.png Graphic file (type png)
 <use figures/ch1/weak_charged.png>
 Package pdftex.def Info: figures/ch1/weak_charged.png  used on input line 52.
 (pdftex.def)             Requested size: 187.89914pt x 129.92966pt.
  [5] [6 <./figures/ch1/em_force.png> <./figures/ch1/strong_force.png> <./figure
 s/ch1/weak_neutral.png> <./figures/ch1/weak_charged.png>]
-<figures/ch1/jet_feynmann.png, id=717, 322.20375pt x 275.0275pt>
+<figures/ch1/jet_feynmann.png, id=790, 322.20375pt x 275.0275pt>
 File: figures/ch1/jet_feynmann.png Graphic file (type png)
 <use figures/ch1/jet_feynmann.png>
 Package pdftex.def Info: figures/ch1/jet_feynmann.png  used on input line 67.
 (pdftex.def)             Requested size: 234.8775pt x 200.49562pt.
  [7 <./figures/ch1/jet_feynmann.png>] [8]
-<figures/ch1/higgs_field.png, id=737, 465.74pt x 456.70625pt>
+<figures/ch1/higgs_field.png, id=810, 465.74pt x 456.70625pt>
 File: figures/ch1/higgs_field.png Graphic file (type png)
 <use figures/ch1/higgs_field.png>
 Package pdftex.def Info: figures/ch1/higgs_field.png  used on input line 93.
@@ -1222,15 +1222,7 @@ Package pdftex.def Info: figures/ch1/higgs_field.png  used on input line 93.
  [9 <./figures/ch1/higgs_field.png (PNG copy)>] [10] [11]) (./chapter2.tex [12]
 
 Chapter 2.
-
-Package caption Warning: \label without proper reference on input line 13.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:ch2/hidden_valley_sketch.png' on page 13 undefine
-d on input line 8.
-
-<figures/ch2/hidden_valley_sketch.png, id=787, 577.15625pt x 443.6575pt>
+<figures/ch2/hidden_valley_sketch.png, id=859, 577.15625pt x 443.6575pt>
 File: figures/ch2/hidden_valley_sketch.png Graphic file (type png)
 <use figures/ch2/hidden_valley_sketch.png>
 Package pdftex.def Info: figures/ch2/hidden_valley_sketch.png  used on input li
@@ -1239,7 +1231,7 @@ ne 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/ch2/zprime_feynman_diagram.png, id=789, 578.16pt x 275.0275pt>
+<figures/ch2/zprime_feynman_diagram.png, id=861, 578.16pt x 275.0275pt>
 File: figures/ch2/zprime_feynman_diagram.png Graphic file (type png)
 <use figures/ch2/zprime_feynman_diagram.png>
 Package pdftex.def Info: figures/ch2/zprime_feynman_diagram.png  used on input 
@@ -1258,7 +1250,7 @@ Chapter 3.
 [18
 
 ]
-<figures/ch3/accelerator_complex.png, id=833, 679.53876pt x 415.5525pt>
+<figures/ch3/accelerator_complex.png, id=906, 679.53876pt x 415.5525pt>
 File: figures/ch3/accelerator_complex.png Graphic file (type png)
 <use figures/ch3/accelerator_complex.png>
 Package pdftex.def Info: figures/ch3/accelerator_complex.png  used on input lin
@@ -1270,19 +1262,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 [19] [20 <./figures/ch3/accelerator_complex.png>]
-<figures/ch3/lhc_octants.png, id=851, 812.03375pt x 565.11125pt>
+<figures/ch3/lhc_octants.png, id=924, 812.03375pt x 565.11125pt>
 File: figures/ch3/lhc_octants.png Graphic file (type png)
 <use figures/ch3/lhc_octants.png>
 Package pdftex.def Info: figures/ch3/lhc_octants.png  used on input line 30.
 (pdftex.def)             Requested size: 328.82707pt x 228.8343pt.
  [21 <./figures/ch3/lhc_octants.png>]
-<figures/ch3/lumi_integrated.png, id=863, 798.985pt x 574.145pt>
+<figures/ch3/lumi_integrated.png, id=936, 798.985pt x 574.145pt>
 File: figures/ch3/lumi_integrated.png Graphic file (type png)
 <use figures/ch3/lumi_integrated.png>
 Package pdftex.def Info: figures/ch3/lumi_integrated.png  used on input line 53
 .
 (pdftex.def)             Requested size: 230.18253pt x 165.4027pt.
-<figures/ch3/lumi_instantaneous.png, id=864, 798.985pt x 574.145pt>
+<figures/ch3/lumi_instantaneous.png, id=937, 798.985pt x 574.145pt>
 File: figures/ch3/lumi_instantaneous.png Graphic file (type png)
 <use figures/ch3/lumi_instantaneous.png>
 Package pdftex.def Info: figures/ch3/lumi_instantaneous.png  used on input line
@@ -1290,7 +1282,7 @@ Package pdftex.def Info: figures/ch3/lumi_instantaneous.png  used on input line
 (pdftex.def)             Requested size: 225.4804pt x 162.0298pt.
  [22] [23 <./figures/ch3/lumi_integrated.png> <./figures/ch3/lumi_instantaneous
 .png>]
-<figures/ch3/hl_lhc_timeline.png, id=882, 811.03pt x 402.50375pt>
+<figures/ch3/hl_lhc_timeline.png, id=955, 811.03pt x 402.50375pt>
 File: figures/ch3/hl_lhc_timeline.png Graphic file (type png)
 <use figures/ch3/hl_lhc_timeline.png>
 Package pdftex.def Info: figures/ch3/hl_lhc_timeline.png  used on input line 87
@@ -1301,50 +1293,50 @@ Chapter 4.
 [26
 
 ]
-<figures/ch4/ATLASgeometry.png, id=904, 455.7025pt x 326.21875pt>
+<figures/ch4/ATLASgeometry.png, id=976, 455.7025pt x 326.21875pt>
 File: figures/ch4/ATLASgeometry.png Graphic file (type png)
 <use figures/ch4/ATLASgeometry.png>
 Package pdftex.def Info: figures/ch4/ATLASgeometry.png  used on input line 37.
 (pdftex.def)             Requested size: 211.38832pt x 151.32677pt.
-<figures/ch4/etaTheta.png, id=905, 387.4475pt x 312.16624pt>
+<figures/ch4/etaTheta.png, id=977, 387.4475pt x 312.16624pt>
 File: figures/ch4/etaTheta.png Graphic file (type png)
 <use figures/ch4/etaTheta.png>
 Package pdftex.def Info: figures/ch4/etaTheta.png  used on input line 44.
 (pdftex.def)             Requested size: 211.38832pt x 170.31537pt.
  [27]
-<figures/ch4/innerDetector.png, id=914, 447.6725pt x 360.34625pt>
+<figures/ch4/innerDetector.png, id=986, 447.6725pt x 360.34625pt>
 File: figures/ch4/innerDetector.png Graphic file (type png)
 <use figures/ch4/innerDetector.png>
 Package pdftex.def Info: figures/ch4/innerDetector.png  used on input line 60.
 (pdftex.def)             Requested size: 281.85587pt x 226.88187pt.
  [28 <./figures/ch4/ATLASgeometry.png> <./figures/ch4/etaTheta.png>]
 [29 <./figures/ch4/innerDetector.png>]
-<figures/ch4/calorimeter.png, id=931, 3914.625pt x 2634.84375pt>
+<figures/ch4/calorimeter.png, id=1003, 3914.625pt x 2634.84375pt>
 File: figures/ch4/calorimeter.png Graphic file (type png)
 <use figures/ch4/calorimeter.png>
 Package pdftex.def Info: figures/ch4/calorimeter.png  used on input line 79.
 (pdftex.def)             Requested size: 328.82707pt x 221.32536pt.
  [30 <./figures/ch4/calorimeter.png>]
-<figures/ch4/lar_accordion.png, id=942, 783.92876pt x 681.54625pt>
+<figures/ch4/lar_accordion.png, id=1014, 783.92876pt x 681.54625pt>
 File: figures/ch4/lar_accordion.png Graphic file (type png)
 <use figures/ch4/lar_accordion.png>
 Package pdftex.def Info: figures/ch4/lar_accordion.png  used on input line 98.
 (pdftex.def)             Requested size: 281.85587pt x 245.04448pt.
 
 [31]
-<figures/ch4/lar_pulse.png, id=955, 291.0875pt x 276.03125pt>
+<figures/ch4/lar_pulse.png, id=1028, 291.0875pt x 276.03125pt>
 File: figures/ch4/lar_pulse.png Graphic file (type png)
 <use figures/ch4/lar_pulse.png>
 Package pdftex.def Info: figures/ch4/lar_pulse.png  used on input line 108.
 (pdftex.def)             Requested size: 234.8775pt x 222.73328pt.
  [32 <./figures/ch4/lar_accordion.png>]
-<figures/ch4/hec.png, id=966, 781.92125pt x 511.9125pt>
+<figures/ch4/hec.png, id=1039, 781.92125pt x 511.9125pt>
 File: figures/ch4/hec.png Graphic file (type png)
 <use figures/ch4/hec.png>
 Package pdftex.def Info: figures/ch4/hec.png  used on input line 118.
 (pdftex.def)             Requested size: 234.8775pt x 153.7702pt.
  [33 <./figures/ch4/lar_pulse.png> <./figures/ch4/hec.png>]
-<figures/ch4/tileWedge.png, id=981, 611.28375pt x 655.44875pt>
+<figures/ch4/tileWedge.png, id=1054, 611.28375pt x 655.44875pt>
 File: figures/ch4/tileWedge.png Graphic file (type png)
 <use figures/ch4/tileWedge.png>
 Package pdftex.def Info: figures/ch4/tileWedge.png  used on input line 133.
@@ -1355,13 +1347,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 [34]
-<figures/ch4/muonSpec.png, id=991, 713.66624pt x 611.28375pt>
+<figures/ch4/muonSpec.png, id=1064, 713.66624pt x 611.28375pt>
 File: figures/ch4/muonSpec.png Graphic file (type png)
 <use figures/ch4/muonSpec.png>
 Package pdftex.def Info: figures/ch4/muonSpec.png  used on input line 145.
 (pdftex.def)             Requested size: 328.82707pt x 281.65099pt.
  [35 <./figures/ch4/tileWedge.png>] [36 <./figures/ch4/muonSpec.png>]
-<figures/ch4/magnets.png, id=1010, 454.69875pt x 365.365pt>
+<figures/ch4/magnets.png, id=1083, 454.69875pt x 365.365pt>
 File: figures/ch4/magnets.png Graphic file (type png)
 <use figures/ch4/magnets.png>
 Package pdftex.def Info: figures/ch4/magnets.png  used on input line 164.
@@ -1369,7 +1361,7 @@ Package pdftex.def Info: figures/ch4/magnets.png  used on input line 164.
 
 [37] [38 <./figures/ch4/magnets.png>] [39]) (./chapter5.tex [40]
 Chapter 5.
-<figures/ch5/detector_objects.png, id=1038, 451.6875pt x 366.36874pt>
+<figures/ch5/detector_objects.png, id=1110, 451.6875pt x 366.36874pt>
 File: figures/ch5/detector_objects.png Graphic file (type png)
 <use figures/ch5/detector_objects.png>
 Package pdftex.def Info: figures/ch5/detector_objects.png  used on input line 1
@@ -1378,13 +1370,13 @@ Package pdftex.def Info: figures/ch5/detector_objects.png  used on input line 1
 [41
 
 ]
-<figures/ch5/track_reco.png, id=1047, 511.9125pt x 359.3425pt>
+<figures/ch5/track_reco.png, id=1119, 511.9125pt x 359.3425pt>
 File: figures/ch5/track_reco.png Graphic file (type png)
 <use figures/ch5/track_reco.png>
 Package pdftex.def Info: figures/ch5/track_reco.png  used on input line 23.
 (pdftex.def)             Requested size: 281.85587pt x 197.85281pt.
  [42 <./figures/ch5/detector_objects.png>]
-<figures/ch5/electron_photon_id.png, id=1058, 696.6025pt x 256.96pt>
+<figures/ch5/electron_photon_id.png, id=1130, 696.6025pt x 256.96pt>
 File: figures/ch5/electron_photon_id.png Graphic file (type png)
 <use figures/ch5/electron_photon_id.png>
 Package pdftex.def Info: figures/ch5/electron_photon_id.png  used on input line
@@ -1392,12 +1384,12 @@ Package pdftex.def Info: figures/ch5/electron_photon_id.png  used on input line
 (pdftex.def)             Requested size: 422.77664pt x 155.95334pt.
  [43 <./figures/ch5/track_reco.png>] [44 <./figures/ch5/electron_photon_id.png>
 ] [45]
-<figures/ch5/muon_tracks.png, id=1077, 543.02875pt x 399.4925pt>
+<figures/ch5/muon_tracks.png, id=1150, 543.02875pt x 399.4925pt>
 File: figures/ch5/muon_tracks.png Graphic file (type png)
 <use figures/ch5/muon_tracks.png>
 Package pdftex.def Info: figures/ch5/muon_tracks.png  used on input line 61.
 (pdftex.def)             Requested size: 281.85587pt x 207.35934pt.
-<figures/ch5/parton_shower.png, id=1082, 827.09pt x 459.7175pt>
+<figures/ch5/parton_shower.png, id=1155, 827.09pt x 459.7175pt>
 File: figures/ch5/parton_shower.png Graphic file (type png)
 <use figures/ch5/parton_shower.png>
 Package pdftex.def Info: figures/ch5/parton_shower.png  used on input line 71.
@@ -1408,7 +1400,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [46 <./figures/ch5/muon_tracks.png>] [47 <./figures/ch5/parton_shower.png>]
 [48]
-<figures/ch5/pflow_diagram.png, id=1113, 1079.03125pt x 202.7575pt>
+<figures/ch5/pflow_diagram.png, id=1186, 1079.03125pt x 202.7575pt>
 File: figures/ch5/pflow_diagram.png Graphic file (type png)
 <use figures/ch5/pflow_diagram.png>
 Package pdftex.def Info: figures/ch5/pflow_diagram.png  used on input line 102.
@@ -1419,7 +1411,7 @@ Package pdftex.def Info: figures/ch5/pflow_diagram.png  used on input line 102.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [49] [50 <./figures/ch5/pflow_diagram.png>]
-<figures/ch5/jet_algorithms.png, id=1138, 839.135pt x 599.23875pt>
+<figures/ch5/jet_algorithms.png, id=1211, 839.135pt x 599.23875pt>
 File: figures/ch5/jet_algorithms.png Graphic file (type png)
 <use figures/ch5/jet_algorithms.png>
 Package pdftex.def Info: figures/ch5/jet_algorithms.png  used on input line 128
@@ -1432,7 +1424,7 @@ quire-ments of in-frared safety and collinear
  []
 
 [51 <./figures/ch5/jet_algorithms.png>] [52]
-<figures/ch5/met_res.png, id=1161, 572.1375pt x 581.17125pt>
+<figures/ch5/met_res.png, id=1233, 572.1375pt x 581.17125pt>
 File: figures/ch5/met_res.png Graphic file (type png)
 <use figures/ch5/met_res.png>
 Package pdftex.def Info: figures/ch5/met_res.png  used on input line 152.
@@ -1445,199 +1437,223 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] (./chapter6.tex
 Chapter 6.
-) (./chapter7.tex [56
+[56
 
 ]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 30
+.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [57]
+<figures/ch6/jz_slices.jpeg, id=1266, 1601.985pt x 1176.395pt>
+File: figures/ch6/jz_slices.jpeg Graphic file (type jpg)
+<use figures/ch6/jz_slices.jpeg>
+Package pdftex.def Info: figures/ch6/jz_slices.jpeg  used on input line 42.
+(pdftex.def)             Requested size: 230.18253pt x 169.0202pt.
+<figures/ch6/jz_slices_uw.jpeg, id=1267, 1601.985pt x 1176.395pt>
+File: figures/ch6/jz_slices_uw.jpeg Graphic file (type jpg)
+<use figures/ch6/jz_slices_uw.jpeg>
+Package pdftex.def Info: figures/ch6/jz_slices_uw.jpeg  used on input line 43.
+(pdftex.def)             Requested size: 230.18253pt x 169.0202pt.
+<figures/ch6/bkg_mc.png, id=1270, 268.8444pt x 262.581pt>
+File: figures/ch6/bkg_mc.png Graphic file (type png)
+<use figures/ch6/bkg_mc.png>
+Package pdftex.def Info: figures/ch6/bkg_mc.png  used on input line 57.
+(pdftex.def)             Requested size: 258.36668pt x 252.34732pt.
+
+[58 <./figures/ch6/jz_slices.jpeg> <./figures/ch6/jz_slices_uw.jpeg>] [59 <./fi
+gures/ch6/bkg_mc.png>])
+Overfull \hbox (10.00984pt too wide) in paragraph at lines 141--212
+[]\T1/ptm/m/n/12 Samples are gen-er-ated us-ing \T1/ptm/m/sc/12 Mad-Graph5 \T1/
+ptm/m/n/12 [[]65[]] ver-sion 2.9.9 in-ter-faced to \T1/ptm/m/sc/12 Pythia8.244p
+3 \T1/ptm/m/n/12 [[]63[]]
+ []
+
+(./chapter7.tex [60]
 Chapter 7.
-(./sections/pfn.tex [57
+(./sections/pfn.tex [61
 
 ]
-<figures/ml/pfn_paper.pdf, id=1191, 399.36531pt x 288.8642pt>
+<figures/ml/pfn_paper.pdf, id=1310, 399.36531pt x 288.8642pt>
 File: figures/ml/pfn_paper.pdf Graphic file (type pdf)
 <use figures/ml/pfn_paper.pdf>
 Package pdftex.def Info: figures/ml/pfn_paper.pdf  used on input line 18.
 (pdftex.def)             Requested size: 328.82707pt x 237.85307pt.
-<figures/ml/pfn_arch.pdf, id=1195, 453.03886pt x 291.16399pt>
+<figures/ml/pfn_arch.pdf, id=1314, 453.03886pt x 291.16399pt>
 File: figures/ml/pfn_arch.pdf Graphic file (type pdf)
 <use figures/ml/pfn_arch.pdf>
 Package pdftex.def Info: figures/ml/pfn_arch.pdf  used on input line 26.
 (pdftex.def)             Requested size: 422.77664pt x 271.71712pt.
- [58] [59 <./figures/ml/pfn_paper.pdf> <./figures/ml/pfn_arch.pdf>]
-<figures/ml/dijet_topology.pdf, id=1297, 239.96953pt x 275.74417pt>
+ [62] [63 <./figures/ml/pfn_paper.pdf> <./figures/ml/pfn_arch.pdf>]
+<figures/ml/dijet_topology.pdf, id=1414, 239.96953pt x 275.74417pt>
 File: figures/ml/dijet_topology.pdf Graphic file (type pdf)
 <use figures/ml/dijet_topology.pdf>
 Package pdftex.def Info: figures/ml/dijet_topology.pdf  used on input line 38.
 (pdftex.def)             Requested size: 187.89914pt x 215.90845pt.
- [60 <./figures/ml/dijet_topology.pdf>]
-<figures/ml/trackcoordinates.png, id=1328, 496.10344pt x 411.78844pt>
+ [64 <./figures/ml/dijet_topology.pdf>]
+<figures/ml/trackcoordinates.png, id=1445, 496.10344pt x 411.78844pt>
 File: figures/ml/trackcoordinates.png Graphic file (type png)
 <use figures/ml/trackcoordinates.png>
 Package pdftex.def Info: figures/ml/trackcoordinates.png  used on input line 47
 .
 (pdftex.def)             Requested size: 187.89914pt x 155.96599pt.
-<figures/ml/ntracks.pdf, id=1329, 885.3075pt x 279.0425pt>
+<figures/ml/ntracks.pdf, id=1446, 885.3075pt x 279.0425pt>
 File: figures/ml/ntracks.pdf Graphic file (type pdf)
 <use figures/ml/ntracks.pdf>
 Package pdftex.def Info: figures/ml/ntracks.pdf  used on input line 54.
 (pdftex.def)             Requested size: 446.26582pt x 140.662pt.
-<figures/ml/jet_rotate.png, id=1333, 481.8pt x 218.8175pt>
+<figures/ml/jet_rotate.png, id=1450, 481.8pt x 218.8175pt>
 File: figures/ml/jet_rotate.png Graphic file (type png)
 <use figures/ml/jet_rotate.png>
 Package pdftex.def Info: figures/ml/jet_rotate.png  used on input line 63.
 (pdftex.def)             Requested size: 305.33789pt x 138.67711pt.
- [61 <./figures/ml/trackcoordinates.png> <./figures/ml/ntracks.pdf>]
-<figures/ml/pfn_bkgsig_input.png, id=1342, 785.43437pt x 406.51875pt>
+ [65 <./figures/ml/trackcoordinates.png> <./figures/ml/ntracks.pdf>]
+<figures/ml/pfn_bkgsig_input.png, id=1460, 785.43437pt x 406.51875pt>
 File: figures/ml/pfn_bkgsig_input.png Graphic file (type png)
 <use figures/ml/pfn_bkgsig_input.png>
 Package pdftex.def Info: figures/ml/pfn_bkgsig_input.png  used on input line 72
 .
 (pdftex.def)             Requested size: 469.75502pt x 243.13776pt.
-<figures/ml/pfn_datamc_input.pdf, id=1343, 348.64786pt x 433.20215pt>
+<figures/ml/pfn_datamc_input.pdf, id=1461, 348.64786pt x 433.20215pt>
 File: figures/ml/pfn_datamc_input.pdf Graphic file (type pdf)
 <use figures/ml/pfn_datamc_input.pdf>
 Package pdftex.def Info: figures/ml/pfn_datamc_input.pdf  used on input line 79
 .
 (pdftex.def)             Requested size: 328.82707pt x 408.59819pt.
- [62 <./figures/ml/jet_rotate.png> <./figures/ml/pfn_bkgsig_input.png>] [63 <./
+ [66 <./figures/ml/jet_rotate.png> <./figures/ml/pfn_bkgsig_input.png>] [67 <./
 figures/ml/pfn_datamc_input.pdf>]
-<figures/ml/pfn_MC_training_mixture.png, id=1407, 884.30376pt x 408.52625pt>
+<figures/ml/pfn_MC_training_mixture.png, id=1525, 884.30376pt x 408.52625pt>
 File: figures/ml/pfn_MC_training_mixture.png Graphic file (type png)
 <use figures/ml/pfn_MC_training_mixture.png>
 Package pdftex.def Info: figures/ml/pfn_MC_training_mixture.png  used on input 
 line 96.
 (pdftex.def)             Requested size: 422.77664pt x 195.31117pt.
 
-[64]
-<figures/ml/pfn_loss.pdf, id=1416, 385.2351pt x 288.80862pt>
+[68]
+<figures/ml/pfn_loss.pdf, id=1533, 385.2351pt x 288.80862pt>
 File: figures/ml/pfn_loss.pdf Graphic file (type pdf)
 <use figures/ml/pfn_loss.pdf>
 Package pdftex.def Info: figures/ml/pfn_loss.pdf  used on input line 107.
 (pdftex.def)             Requested size: 211.38832pt x 158.47945pt.
-<figures/ml/pfn_score.pdf, id=1417, 428.33212pt x 323.64848pt>
+<figures/ml/pfn_score.pdf, id=1534, 428.33212pt x 323.64848pt>
 File: figures/ml/pfn_score.pdf Graphic file (type pdf)
 <use figures/ml/pfn_score.pdf>
 Package pdftex.def Info: figures/ml/pfn_score.pdf  used on input line 108.
 (pdftex.def)             Requested size: 211.38832pt x 159.72499pt.
- [65 <./figures/ml/pfn_MC_training_mixture.png> <./figures/ml/pfn_loss.pdf> <./
+ [69 <./figures/ml/pfn_MC_training_mixture.png> <./figures/ml/pfn_loss.pdf> <./
 figures/ml/pfn_score.pdf>]
-<figures/ml/pfn_roc.pdf, id=1469, 408.8208pt x 298.69438pt>
+<figures/ml/pfn_roc.pdf, id=1586, 408.8208pt x 298.69438pt>
 File: figures/ml/pfn_roc.pdf Graphic file (type pdf)
 <use figures/ml/pfn_roc.pdf>
 Package pdftex.def Info: figures/ml/pfn_roc.pdf  used on input line 123.
 (pdftex.def)             Requested size: 328.82707pt x 240.2502pt.
-<figures/ml/pfn_AUC_grid.pdf, id=1470, 306.12415pt x 206.34566pt>
+<figures/ml/pfn_AUC_grid.pdf, id=1587, 306.12415pt x 206.34566pt>
 File: figures/ml/pfn_AUC_grid.pdf Graphic file (type pdf)
 <use figures/ml/pfn_AUC_grid.pdf>
 Package pdftex.def Info: figures/ml/pfn_AUC_grid.pdf  used on input line 129.
 (pdftex.def)             Requested size: 328.82707pt x 221.66925pt.
-<figures/ml/pfn_score_all.pdf, id=1471, 407.76198pt x 328.90874pt>
+<figures/ml/pfn_score_all.pdf, id=1588, 407.76198pt x 328.90874pt>
 File: figures/ml/pfn_score_all.pdf Graphic file (type pdf)
 <use figures/ml/pfn_score_all.pdf>
 Package pdftex.def Info: figures/ml/pfn_score_all.pdf  used on input line 137.
 (pdftex.def)             Requested size: 211.38832pt x 170.51157pt.
-<figures/ml/mlscore_effComp.pdf, id=1472, 412.6053pt x 320.25026pt>
+<figures/ml/mlscore_effComp.pdf, id=1589, 412.6053pt x 320.25026pt>
 File: figures/ml/mlscore_effComp.pdf Graphic file (type pdf)
 <use figures/ml/mlscore_effComp.pdf>
 Package pdftex.def Info: figures/ml/mlscore_effComp.pdf  used on input line 138
 .
 (pdftex.def)             Requested size: 211.38832pt x 164.07312pt.
- [66 <./figures/ml/pfn_roc.pdf>] [67 <./figures/ml/pfn_AUC_grid.pdf> <./figures
+ [70 <./figures/ml/pfn_roc.pdf>] [71 <./figures/ml/pfn_AUC_grid.pdf> <./figures
 /ml/pfn_score_all.pdf> <./figures/ml/mlscore_effComp.pdf>]) (./sections/antelop
 e.tex
-<figures/ml/antelope_input_rep.png, id=1589, 673.51625pt x 338.26375pt>
+<figures/ml/antelope_input_rep.png, id=1707, 673.51625pt x 338.26375pt>
 File: figures/ml/antelope_input_rep.png Graphic file (type png)
 <use figures/ml/antelope_input_rep.png>
 Package pdftex.def Info: figures/ml/antelope_input_rep.png  used on input line 
 17.
 (pdftex.def)             Requested size: 422.77664pt x 212.33305pt.
- [68
+ [72
 
 ]
-<figures/ml/antelope_arch.png, id=1599, 1817.79124pt x 1535.7375pt>
+<figures/ml/antelope_arch.png, id=1717, 1817.79124pt x 1535.7375pt>
 File: figures/ml/antelope_arch.png Graphic file (type png)
 <use figures/ml/antelope_arch.png>
 Package pdftex.def Info: figures/ml/antelope_arch.png  used on input line 30.
 (pdftex.def)             Requested size: 422.77664pt x 357.17245pt.
- [69 <./figures/ml/antelope_input_rep.png>] [70 <./figures/ml/antelope_arch.png
+ [73 <./figures/ml/antelope_input_rep.png>] [74 <./figures/ml/antelope_arch.png
 >]
-<figures/ml/antelope_loss.jpeg, id=1612, 1003.75pt x 803.0pt>
+<figures/ml/antelope_loss.jpeg, id=1729, 1003.75pt x 803.0pt>
 File: figures/ml/antelope_loss.jpeg Graphic file (type jpg)
 <use figures/ml/antelope_loss.jpeg>
 Package pdftex.def Info: figures/ml/antelope_loss.jpeg  used on input line 56.
 (pdftex.def)             Requested size: 234.8775pt x 187.89635pt.
- [71 <./figures/ml/antelope_loss.jpeg>]
-<figures/ml/antelope_score.pdf, id=1621, 336.26869pt x 263.17744pt>
+ [75 <./figures/ml/antelope_loss.jpeg>]
+<figures/ml/antelope_score.pdf, id=1738, 336.26869pt x 263.17744pt>
 File: figures/ml/antelope_score.pdf Graphic file (type pdf)
 <use figures/ml/antelope_score.pdf>
 Package pdftex.def Info: figures/ml/antelope_score.pdf  used on input line 71.
 (pdftex.def)             Requested size: 225.4804pt x 176.4685pt.
-<figures/ml/antelope_score_mcsig.pdf, id=1622, 315.44489pt x 247.25273pt>
+<figures/ml/antelope_score_mcsig.pdf, id=1739, 315.44489pt x 247.25273pt>
 File: figures/ml/antelope_score_mcsig.pdf Graphic file (type pdf)
 <use figures/ml/antelope_score_mcsig.pdf>
 Package pdftex.def Info: figures/ml/antelope_score_mcsig.pdf  used on input lin
 e 72.
 (pdftex.def)             Requested size: 225.4804pt x 176.73907pt.
-<figures/ml/antelope_AUC_score_grid.pdf, id=1624, 328.14946pt x 214.35434pt>
+<figures/ml/antelope_AUC_score_grid.pdf, id=1741, 328.14946pt x 214.35434pt>
 File: figures/ml/antelope_AUC_score_grid.pdf Graphic file (type pdf)
 <use figures/ml/antelope_AUC_score_grid.pdf>
 Package pdftex.def Info: figures/ml/antelope_AUC_score_grid.pdf  used on input 
 line 83.
 (pdftex.def)             Requested size: 328.82707pt x 214.8117pt.
- [72 <./figures/ml/antelope_score.pdf> <./figures/ml/antelope_score_mcsig.pdf>]
-<figures/ml/pfn_altsignals.pdf, id=1686, 287.2765pt x 221.53923pt>
+ [76 <./figures/ml/antelope_score.pdf> <./figures/ml/antelope_score_mcsig.pdf>]
+<figures/ml/pfn_altsignals.pdf, id=1804, 287.2765pt x 221.53923pt>
 File: figures/ml/pfn_altsignals.pdf Graphic file (type pdf)
 <use figures/ml/pfn_altsignals.pdf>
 Package pdftex.def Info: figures/ml/pfn_altsignals.pdf  used on input line 105.
 
 (pdftex.def)             Requested size: 225.4804pt x 173.88837pt.
-<figures/ml/antelope_altsignals.pdf, id=1687, 292.60406pt x 222.90848pt>
+<figures/ml/antelope_altsignals.pdf, id=1805, 292.60406pt x 222.90848pt>
 File: figures/ml/antelope_altsignals.pdf Graphic file (type pdf)
 <use figures/ml/antelope_altsignals.pdf>
 Package pdftex.def Info: figures/ml/antelope_altsignals.pdf  used on input line
  106.
 (pdftex.def)             Requested size: 225.4804pt x 171.77611pt.
-<figures/ml/met_altsignals.pdf, id=1688, 280.1633pt x 212.49146pt>
+<figures/ml/met_altsignals.pdf, id=1806, 280.1633pt x 212.49146pt>
 File: figures/ml/met_altsignals.pdf Graphic file (type pdf)
 <use figures/ml/met_altsignals.pdf>
 Package pdftex.def Info: figures/ml/met_altsignals.pdf  used on input line 107.
 
 (pdftex.def)             Requested size: 225.4804pt x 171.01796pt.
-<figures/ml/mT_altsignals.pdf, id=1689, 280.16339pt x 212.49147pt>
+<figures/ml/mT_altsignals.pdf, id=1807, 280.16339pt x 212.49147pt>
 File: figures/ml/mT_altsignals.pdf Graphic file (type pdf)
 <use figures/ml/mT_altsignals.pdf>
 Package pdftex.def Info: figures/ml/mT_altsignals.pdf  used on input line 108.
 (pdftex.def)             Requested size: 225.4804pt x 171.01797pt.
- [73 <./figures/ml/antelope_AUC_score_grid.pdf>] [74 <./figures/ml/pfn_altsigna
+ [77 <./figures/ml/antelope_AUC_score_grid.pdf>] [78 <./figures/ml/pfn_altsigna
 ls.pdf> <./figures/ml/antelope_altsignals.pdf> <./figures/ml/met_altsignals.pdf
 > <./figures/ml/mT_altsignals.pdf>]
-<figures/ml/antelope_pfn_comp.pdf, id=1849, 616.63443pt x 120.84799pt>
+<figures/ml/antelope_pfn_comp.pdf, id=1967, 616.63443pt x 120.84799pt>
 File: figures/ml/antelope_pfn_comp.pdf Graphic file (type pdf)
 <use figures/ml/antelope_pfn_comp.pdf>
 Package pdftex.def Info: figures/ml/antelope_pfn_comp.pdf  used on input line 1
 19.
 (pdftex.def)             Requested size: 446.26582pt x 87.45856pt.
-)) (./chapter8.tex [75 <./figures/ml/antelope_pfn_comp.pdf>]
+)) (./chapter8.tex [79 <./figures/ml/antelope_pfn_comp.pdf>]
 Chapter 8.
-) [76
+) [80
 
-] (./Conclusion.tex [77
+] (./Conclusion.tex [81
 
-] [78] [79]) [80]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 24
-6.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [81
+] [82] [83]) [84] [85
 
 
-] [82]
+] [86]
 Overfull \hbox (5.726pt too wide) in paragraph at lines 246--246
 []\T1/ptm/m/it/12 ATLAS mag-net sys-tem: Tech-ni-cal De-sign Re-port, 1\T1/ptm/
 m/n/12 . Tech-ni-cal de-sign re-port. AT-LAS. Geneva:
  []
 
-[83]
+[87]
 Overfull \hbox (24.6635pt too wide) in paragraph at lines 246--246
 []\T1/ptm/m/n/12 B. R. Web-ber. \T1/ptm/m/it/12 Frag-men-ta-tion and Hadroniza-
 tion\T1/ptm/m/n/12 . 1999. arXiv: []$\T1/pcr/m/n/12 hep -[] ph / 9912292$ [hep-
@@ -1651,79 +1667,129 @@ Overfull \hbox (4.96541pt too wide) in paragraph at lines 246--246
 s :
  []
 
-[84]
+[88]
 Overfull \hbox (156.54428pt too wide) in paragraph at lines 246--246
 \T1/ptm/m/n/12 All fig-ures in-clud-ing aux-il-iary fig-ures are avail-able at 
 https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-
  []
 
-(./appendix.tex (./appendices/ml.tex [85]
+(./appendix.tex (./appendices/trigger.tex [89]
 Appendix A.
-<figures/appendices/ml/ae_perf_ntracks.pdf, id=1960, 849.16283pt x 555.38423pt>
+<figures/appendices/trig_sig_efficiency.png, id=2081, 1322.9425pt x 552.0625pt>
+
+File: figures/appendices/trig_sig_efficiency.png Graphic file (type png)
+<use figures/appendices/trig_sig_efficiency.png>
+Package pdftex.def Info: figures/appendices/trig_sig_efficiency.png  used on in
+put line 10.
+(pdftex.def)             Requested size: 446.26582pt x 186.2246pt.
+<figures/appendices/trigger_sb_untriggered_jet.png, id=2084, 667.49374pt x 258.
+9675pt>
+File: figures/appendices/trigger_sb_untriggered_jet.png Graphic file (type png)
+
+<use figures/appendices/trigger_sb_untriggered_jet.png>
+Package pdftex.def Info: figures/appendices/trigger_sb_untriggered_jet.png  use
+d on input line 23.
+(pdftex.def)             Requested size: 281.85587pt x 109.35437pt.
+<figures/appendices/trigger_sb_untriggered_met.png, id=2085, 577.15625pt x 268.
+00125pt>
+File: figures/appendices/trigger_sb_untriggered_met.png Graphic file (type png)
+
+<use figures/appendices/trigger_sb_untriggered_met.png>
+Package pdftex.def Info: figures/appendices/trigger_sb_untriggered_met.png  use
+d on input line 24.
+(pdftex.def)             Requested size: 281.85587pt x 130.88419pt.
+<figures/appendices/trigger_sb_comp.pdf, id=2087, 448.27225pt x 153.31448pt>
+File: figures/appendices/trigger_sb_comp.pdf Graphic file (type pdf)
+<use figures/appendices/trigger_sb_comp.pdf>
+Package pdftex.def Info: figures/appendices/trigger_sb_comp.pdf  used on input 
+line 33.
+(pdftex.def)             Requested size: 281.85587pt x 96.40146pt.
+[90
+
+ <./figures/appendices/trig_sig_efficiency.png>] [91 <./figures/appendices/trig
+ger_sb_untriggered_jet.png> <./figures/appendices/trigger_sb_untriggered_met.pn
+g> <./figures/appendices/trigger_sb_comp.pdf>]
+<figures/appendices/met_discrim_vars.png, id=2127, 627.34375pt x 476.78125pt>
+File: figures/appendices/met_discrim_vars.png Graphic file (type png)
+<use figures/appendices/met_discrim_vars.png>
+Package pdftex.def Info: figures/appendices/met_discrim_vars.png  used on input
+ line 52.
+(pdftex.def)             Requested size: 422.77664pt x 321.31874pt.
+<figures/appendices/jet_met_or.png, id=2129, 1255.69125pt x 491.8375pt>
+File: figures/appendices/jet_met_or.png Graphic file (type png)
+<use figures/appendices/jet_met_or.png>
+Package pdftex.def Info: figures/appendices/jet_met_or.png  used on input line 
+66.
+(pdftex.def)             Requested size: 422.77664pt x 165.59398pt.
+) (./appendices/ml.tex
+[92] [93 <./figures/appendices/met_discrim_vars.png> <./figures/appendices/jet_
+met_or.png>]
+Appendix B.
+<figures/appendices/ml/ae_perf_ntracks.pdf, id=2141, 849.16283pt x 555.38423pt>
 
 File: figures/appendices/ml/ae_perf_ntracks.pdf Graphic file (type pdf)
 <use figures/appendices/ml/ae_perf_ntracks.pdf>
 Package pdftex.def Info: figures/appendices/ml/ae_perf_ntracks.pdf  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 422.77664pt x 276.50499pt.
-[86
+[94
 
  <./figures/appendices/ml/ae_perf_ntracks.pdf>]
-<figures/appendices/ml/ant_sigcont.png, id=1984, 1240.635pt x 529.98pt>
+<figures/appendices/ml/ant_sigcont.png, id=2165, 1240.635pt x 529.98pt>
 File: figures/appendices/ml/ant_sigcont.png Graphic file (type png)
 <use figures/appendices/ml/ant_sigcont.png>
 Package pdftex.def Info: figures/appendices/ml/ant_sigcont.png  used on input l
 ine 28.
 (pdftex.def)             Requested size: 422.77664pt x 180.60323pt.
-<figures/ml/pfn_AUC_grid_qcd.jpg, id=1986, 824.07875pt x 558.085pt>
+<figures/ml/pfn_AUC_grid_qcd.jpg, id=2167, 824.07875pt x 558.085pt>
 File: figures/ml/pfn_AUC_grid_qcd.jpg Graphic file (type jpg)
 <use figures/ml/pfn_AUC_grid_qcd.jpg>
 Package pdftex.def Info: figures/ml/pfn_AUC_grid_qcd.jpg  used on input line 42
 .
 (pdftex.def)             Requested size: 375.80544pt x 254.50815pt.
-<figures/ml/pfn_AUC_grid_repbkg.jpg, id=1987, 824.07875pt x 558.085pt>
+<figures/ml/pfn_AUC_grid_repbkg.jpg, id=2168, 824.07875pt x 558.085pt>
 File: figures/ml/pfn_AUC_grid_repbkg.jpg Graphic file (type jpg)
 <use figures/ml/pfn_AUC_grid_repbkg.jpg>
 Package pdftex.def Info: figures/ml/pfn_AUC_grid_repbkg.jpg  used on input line
  43.
 (pdftex.def)             Requested size: 375.80544pt x 254.50815pt.
- [87 <./figures/appendices/ml/ant_sigcont.png>] [88 <./figures/ml/pfn_AUC_grid_
+ [95 <./figures/appendices/ml/ant_sigcont.png>] [96 <./figures/ml/pfn_AUC_grid_
 qcd.jpg> <./figures/ml/pfn_AUC_grid_repbkg.jpg>]
-<figures/appendices/ml/highlowMET_auc.pdf, id=2000, 844.35635pt x 270.92447pt>
+<figures/appendices/ml/highlowMET_auc.pdf, id=2180, 844.35635pt x 270.92447pt>
 File: figures/appendices/ml/highlowMET_auc.pdf Graphic file (type pdf)
 <use figures/appendices/ml/highlowMET_auc.pdf>
 Package pdftex.def Info: figures/appendices/ml/highlowMET_auc.pdf  used on inpu
 t line 57.
 (pdftex.def)             Requested size: 446.26582pt x 143.19241pt.
-<figures/appendices/ml/highlowMET_sic.pdf, id=2001, 904.11433pt x 269.55952pt>
+<figures/appendices/ml/highlowMET_sic.pdf, id=2181, 904.11433pt x 269.55952pt>
 File: figures/appendices/ml/highlowMET_sic.pdf Graphic file (type pdf)
 <use figures/appendices/ml/highlowMET_sic.pdf>
 Package pdftex.def Info: figures/appendices/ml/highlowMET_sic.pdf  used on inpu
 t line 58.
 (pdftex.def)             Requested size: 446.26582pt x 133.0519pt.
-<figures/appendices/ml/highlowMET_sens.pdf, id=2002, 884.33554pt x 285.14023pt>
+<figures/appendices/ml/highlowMET_sens.pdf, id=2182, 884.33554pt x 285.14023pt>
 
 File: figures/appendices/ml/highlowMET_sens.pdf Graphic file (type pdf)
 <use figures/appendices/ml/highlowMET_sens.pdf>
 Package pdftex.def Info: figures/appendices/ml/highlowMET_sens.pdf  used on inp
 ut line 59.
 (pdftex.def)             Requested size: 446.26582pt x 143.89243pt.
-<figures/appendices/ml/pfn_cuts.pdf, id=2004, 873.70496pt x 296.61821pt>
+<figures/appendices/ml/pfn_cuts.pdf, id=2184, 873.70496pt x 296.61821pt>
 File: figures/appendices/ml/pfn_cuts.pdf Graphic file (type pdf)
 <use figures/appendices/ml/pfn_cuts.pdf>
 Package pdftex.def Info: figures/appendices/ml/pfn_cuts.pdf  used on input line
  67.
 (pdftex.def)             Requested size: 446.26582pt x 151.5041pt.
- [89 <./figures/appendices/ml/highlowMET_auc.pdf> <./figures/appendices/ml/high
+ [97 <./figures/appendices/ml/highlowMET_auc.pdf> <./figures/appendices/ml/high
 lowMET_sic.pdf> <./figures/appendices/ml/highlowMET_sens.pdf>]
-<figures/appendices/ml/training_size_scan.png, id=2067, 945.5325pt x 307.1475pt
+<figures/appendices/ml/training_size_scan.png, id=2247, 945.5325pt x 307.1475pt
 >
 File: figures/appendices/ml/training_size_scan.png Graphic file (type png)
 <use figures/appendices/ml/training_size_scan.png>
 Package pdftex.def Info: figures/appendices/ml/training_size_scan.png  used on 
 input line 76.
 (pdftex.def)             Requested size: 281.85587pt x 91.55911pt.
-<figures/appendices/ml/training_parameter_scan.png, id=2068, 1139.25626pt x 295
+<figures/appendices/ml/training_parameter_scan.png, id=2248, 1139.25626pt x 295
 .1025pt>
 File: figures/appendices/ml/training_parameter_scan.png Graphic file (type png)
 
@@ -1731,48 +1797,48 @@ File: figures/appendices/ml/training_parameter_scan.png Graphic file (type png)
 Package pdftex.def Info: figures/appendices/ml/training_parameter_scan.png  use
 d on input line 77.
 (pdftex.def)             Requested size: 446.26582pt x 115.59383pt.
-<figures/appendices/ml/training_epoch_scan.png, id=2069, 796.9775pt x 282.05376
+<figures/appendices/ml/training_epoch_scan.png, id=2249, 796.9775pt x 282.05376
 pt>
 File: figures/appendices/ml/training_epoch_scan.png Graphic file (type png)
 <use figures/appendices/ml/training_epoch_scan.png>
 Package pdftex.def Info: figures/appendices/ml/training_epoch_scan.png  used on
  input line 78.
 (pdftex.def)             Requested size: 281.85587pt x 99.74889pt.
-<figures/appendices/ml/hlv_bdt_perf.pdf, id=2071, 793.89133pt x 485.4555pt>
+<figures/appendices/ml/hlv_bdt_perf.pdf, id=2251, 793.89133pt x 485.4555pt>
 File: figures/appendices/ml/hlv_bdt_perf.pdf Graphic file (type pdf)
 <use figures/appendices/ml/hlv_bdt_perf.pdf>
 Package pdftex.def Info: figures/appendices/ml/hlv_bdt_perf.pdf  used on input 
 line 94.
 (pdftex.def)             Requested size: 422.77664pt x 258.52724pt.
- [90 <./figures/appendices/ml/pfn_cuts.pdf>] [91 <./figures/appendices/ml/train
+ [98 <./figures/appendices/ml/pfn_cuts.pdf>] [99 <./figures/appendices/ml/train
 ing_size_scan.png> <./figures/appendices/ml/training_parameter_scan.png> <./fig
 ures/appendices/ml/training_epoch_scan.png> <./figures/appendices/ml/hlv_bdt_pe
 rf.pdf>]
-<figures/appendices/ml/dphi_CR.png, id=2116, 994.71625pt x 301.125pt>
+<figures/appendices/ml/dphi_CR.png, id=2296, 994.71625pt x 301.125pt>
 File: figures/appendices/ml/dphi_CR.png Graphic file (type png)
 <use figures/appendices/ml/dphi_CR.png>
 Package pdftex.def Info: figures/appendices/ml/dphi_CR.png  used on input line 
 108.
 (pdftex.def)             Requested size: 446.26582pt x 135.09605pt.
-<figures/appendices/ml/dphi_VR.png, id=2117, 969.6225pt x 289.08pt>
+<figures/appendices/ml/dphi_VR.png, id=2297, 969.6225pt x 289.08pt>
 File: figures/appendices/ml/dphi_VR.png Graphic file (type png)
 <use figures/appendices/ml/dphi_VR.png>
 Package pdftex.def Info: figures/appendices/ml/dphi_VR.png  used on input line 
 109.
 (pdftex.def)             Requested size: 446.26582pt x 133.04898pt.
-<figures/appendices/ml/dphi_corr_data.png, id=2118, 986.68625pt x 338.26375pt>
+<figures/appendices/ml/dphi_corr_data.png, id=2298, 986.68625pt x 338.26375pt>
 File: figures/appendices/ml/dphi_corr_data.png Graphic file (type png)
 <use figures/appendices/ml/dphi_corr_data.png>
 Package pdftex.def Info: figures/appendices/ml/dphi_corr_data.png  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 422.77664pt x 144.93958pt.
-<figures/appendices/ml/dphi_corr_bkg.png, id=2119, 981.6675pt x 336.25626pt>
+<figures/appendices/ml/dphi_corr_bkg.png, id=2299, 981.6675pt x 336.25626pt>
 File: figures/appendices/ml/dphi_corr_bkg.png Graphic file (type png)
 <use figures/appendices/ml/dphi_corr_bkg.png>
 Package pdftex.def Info: figures/appendices/ml/dphi_corr_bkg.png  used on input
  line 117.
 (pdftex.def)             Requested size: 422.77664pt x 144.81313pt.
-<figures/appendices/ml/dphi_corr_sig.png, id=2120, 981.6675pt x 319.1925pt>
+<figures/appendices/ml/dphi_corr_sig.png, id=2300, 981.6675pt x 319.1925pt>
 File: figures/appendices/ml/dphi_corr_sig.png Graphic file (type png)
 <use figures/appendices/ml/dphi_corr_sig.png>
 Package pdftex.def Info: figures/appendices/ml/dphi_corr_sig.png  used on input
@@ -1782,7 +1848,7 @@ Package pdftex.def Info: figures/appendices/ml/dphi_corr_sig.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/appendices/ml/single_jet_performance.png, id=2122, 651.43375pt x 494.8
+<figures/appendices/ml/single_jet_performance.png, id=2302, 651.43375pt x 494.8
 4875pt>
 File: figures/appendices/ml/single_jet_performance.png Graphic file (type png)
 <use figures/appendices/ml/single_jet_performance.png>
@@ -1792,9 +1858,9 @@ Package pdftex.def Info: figures/appendices/ml/single_jet_performance.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[92 <./figures/appendices/ml/dphi_CR.png> <./figures/appendices/ml/dphi_VR.png>
-]
-<figures/appendices/ml/pfn_training_comp.png, id=2131, 456.70625pt x 691.58376p
+[100 <./figures/appendices/ml/dphi_CR.png> <./figures/appendices/ml/dphi_VR.png
+>]
+<figures/appendices/ml/pfn_training_comp.png, id=2313, 456.70625pt x 691.58376p
 t>
 File: figures/appendices/ml/pfn_training_comp.png Graphic file (type png)
 <use figures/appendices/ml/pfn_training_comp.png>
@@ -1805,33 +1871,29 @@ nput line 151.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[93 <./figures/appendices/ml/dphi_corr_data.png> <./figures/appendices/ml/dphi_
-corr_bkg.png> <./figures/appendices/ml/dphi_corr_sig.png>] [94 <./figures/appen
-dices/ml/single_jet_performance.png>] [95 <./figures/appendices/ml/pfn_training
-_comp.png>]))
+[101 <./figures/appendices/ml/dphi_corr_data.png> <./figures/appendices/ml/dphi
+_corr_bkg.png> <./figures/appendices/ml/dphi_corr_sig.png>] [102 <./figures/app
+endices/ml/single_jet_performance.png>] [103 <./figures/appendices/ml/pfn_train
+ing_comp.png>]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BF20186780A6FA0749DA0E4ED21ADCCF;4261.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 4595740E2E144B717D7352D44F23B190;4637.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20751 strings out of 480608
- 350685 string characters out of 5903631
- 978479 words of memory out of 5000000
- 35803 multiletter control sequences out of 15000+600000
- 629486 words of font info for 201 fonts, out of 8000000 for 9000
+ 20902 strings out of 480608
+ 355000 string characters out of 5903631
+ 982567 words of memory out of 5000000
+ 35911 multiletter control sequences out of 15000+600000
+ 630130 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,10n,81p,1533b,1477s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,81p,1533b,1477s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2020
@@ -1851,10 +1913,10 @@ ocal/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2020/texmf-dist/
 fonts/type1/public/newtx/ztmr.pfb>
-Output written on thesis.pdf (110 pages, 36870468 bytes).
+Output written on thesis.pdf (118 pages, 41925059 bytes).
 PDF statistics:
- 2275 PDF objects out of 2487 (max. 8388607)
- 1596 compressed objects within 16 object streams
- 325 named destinations out of 1000 (max. 500000)
- 890 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2460 PDF objects out of 2487 (max. 8388607)
+ 1741 compressed objects within 18 object streams
+ 354 named destinations out of 1000 (max. 500000)
+ 983 words of extra memory for PDF output out of 10000 (max. 10000000)
 
