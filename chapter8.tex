@@ -1,5 +1,70 @@
 \chapter{Analysis Strategy}
 \label{ch:analysis}
 
-\section{Event Selection}
+This chapter will present the strategies used to isolate ATLAS data events most consistent with the SVJ model and to estimate the relevant background. The data and MC samples discussed in Chapter~\ref{ch:mc_data} are studied to create the analysis strategy, and the ML scores discussed in Chapter~\ref{ch:ml_tools} are used to isolate the most signal like events. A \textit{preselection} selects events consistent with the SVJ topology based on basic features of the jets and \met. Preselected events are then split into a \textit{control region} (CR), \textit{validation region} (VR), and \textit{signal region} (SR). The CR is used to estimate the estimate the background and the VR is used to validate that estimation. The SR is blinded during the development of the analysis strategy, and only unblinded to make the final measurements presented in Chapter~\ref{ch:results}. The final result is a polynomial fit of the \textit{transverse mass} (\mt) spectrum in the SR. The preselection, region definitions, and polynomial fit will be discussed in detail in the following sections.
+
+%------------------------------------------------- 
+\section{Preselection}
 \label{sec:eventsel}
+
+The preselection isolates the phase space of events that most closely match the SVJ signal topology. Each cut was determined to reduced the background and enhance signal sensitivity.
+The list of preselection cuts and the motivation behind each cut are as follows. 
+Here ``jets" refer to anti-$k_t$ R=0.4 jets, as discussed in Chapter~\ref{ch:part_reco}.
+
+\begin{itemize}
+\item At least 2 jets; in order to reconstruct the resonance mass
+\item Leading jet \pt $>$ 450 GeV; to ensure the use of the trigger in its efficiency plateau
+\item Subleading jet \pt $>$ 150 GeV; to mitigate the presence of non-collision background (Appendix~\ref{app:ncb})
+\item $|\eta_{j1,j2}|$ $<$ 2.1; to ensure jets are fully within the tracker
+\item $\Delta$Y $<$ 2.8 (difference in rapidity between the two leading jets); to ensure central production associated to hard scatter  
+\item \met $>$ 200 GeV; to focus phase space on events with dark particles 
+\item \mt $>$ 1.2 TeV, to ensure a smoothly falling \mt~distribution for fitting (Section~\ref{sec:background})
+\item At least 3 tracks for each of the two leading jets; to ensure good modeling
+\item $\Delta\Phi$($j_1$,$j_2$) $>$ 0.8; to mitigate the presence of non-collision background (Appendix~\ref{app:ncb}).
+\end{itemize}
+
+A cutflow showing the impact of these cuts in data and signal is shown in Figure~\ref{fig:presel_cutflow}. 
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel_cutflow}
+    \caption{Preselection cutflow for data (left) and signal (right).
+    \label{fig:presel_cutflow}}
+\end{figure}
+
+With the exception of the cuts necessary to reduce the non-collision background, all cuts were verified to enhance signal sensitivity by improving $s/\sqrt{b}$, a standard estimate of discovery sensitivity, where $s$ is the number of signal events and $b$ is the number of background events. The cuts on $\Delta$Y and \met were optimized to enhance $s/\sqrt{b}$, and the other cuts were informed by the physics motivations provided above. \par
+
+Vetos are applied to reject any events where an error for a subdetector is flagged. 
+This covers Tile/LAr calorimeter errors, single event upsets in the SCT, and incomplete events.
+To reject non-collision backgrounds (NCB), such as calorimeter noise, beam halo interactions, or cosmic rays, the standard ATLAS event cleaning procedure is applied.
+As this analysis is very dependent on \met~associated to jets, the \textsc{Tight} event cleaning working point is applied. 
+Tight cleaning requires jets to pass a stricter set of quality requirements compare to the \textsc{Loose} cleaning option.
+Due to the alignment between jets and \met~ in this phase space, it was found that two additional cuts (indicated above) are needed to remove NCB.
+The process for selecting these cuts is presented in Appendix~\ref{app:ncb}. 
+
+The two leading in \pt~ jets in the event are considered as the dark quark candidates.
+This choice was determined by truth studies matching the dark quark to reconstructed jets in simulation, which indicate that the leading \pt~assignment allows for high accuracy in $\Delta R$ matching to dark quarks.
+These studies can be found in Appendix~\ref{app:truthstudies}.
+
+Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2} show the distribution of signal and background MC in several key analysis variables after preselection is applied.
+
+\begin{figure}[!htbp]
+\centering
+    \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel1}
+    \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel2}
+    \caption{Energy and momentum analysis variables at preselection, for data, all background MC and representative signal models. \mt is the key fit variable, and this plot illustrates the smoothly falling background in comparison to the resonant shape of the signals. \mt is further illustrated in Figure~\ref{fig:mt_mass}.
+    \label{fig:presel_vars}}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+    \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel3}
+    \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel4}
+     \caption{Orientation analysis variables at preselection, for data, all background MC and representative signal models. While $\Delta\phi$(\met,$j$) variables are not used explicitly in the analysis flow, they help create a picture of the event.
+    \label{fig:presel_vars2}}
+\end{figure}
+
+%\input{sections/object}
+\input{sections/regions}
+\input{sections/background}
+\input{sections/fit_exclusion}
+\input{sections/fit_discovery}

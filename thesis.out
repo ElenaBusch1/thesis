@@ -56,14 +56,28 @@
 \BOOKMARK [2][-]{subsection.7.1.1}{Particle Flow Network \(Supervised\)}{section.7.1}% 56
 \BOOKMARK [2][-]{subsection.7.1.2}{ANTELOPE \(Semi-supervised\)}{section.7.1}% 57
 \BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 58
-\BOOKMARK [1][-]{section.8.1}{Event Selection}{chapter.8}% 59
-\BOOKMARK [0][-]{section*.70}{Conclusion or Epilogue}{part.3}% 60
-\BOOKMARK [0][-]{section*.71}{References}{part.3}% 61
-\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 62
-\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 63
-\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 64
-\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 65
-\BOOKMARK [1][-]{section.a.B.3}{Supervised: BDT vs. PFN}{appendix.a.B}% 66
-\BOOKMARK [1][-]{section.a.B.4}{Supervised: Variable Correlations}{appendix.a.B}% 67
-\BOOKMARK [1][-]{section.a.B.5}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 68
-\BOOKMARK [1][-]{section.a.B.6}{PFN Training Composition}{appendix.a.B}% 69
+\BOOKMARK [1][-]{section.8.1}{Preselection}{chapter.8}% 59
+\BOOKMARK [1][-]{section.8.2}{SVJ Fit and Discovery Analysis Strategies}{chapter.8}% 60
+\BOOKMARK [1][-]{section.8.3}{Analysis Regions}{chapter.8}% 61
+\BOOKMARK [2][-]{subsection.8.3.1}{Control and Validation Regions}{section.8.3}% 62
+\BOOKMARK [2][-]{subsection.8.3.2}{Signal Region}{section.8.3}% 63
+\BOOKMARK [1][-]{section.8.4}{Background Estimation}{chapter.8}% 64
+\BOOKMARK [1][-]{section.8.5}{Fit Strategy and Validation}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.5.1}{SVJ Fit Strategy}{section.8.5}% 66
+\BOOKMARK [2][-]{subsection.8.5.2}{Discovery Strategy\)}{section.8.5}% 67
+\BOOKMARK [0][-]{chapter.9}{Results}{part.3}% 68
+\BOOKMARK [0][-]{section*.106}{Conclusion or Epilogue}{part.3}% 69
+\BOOKMARK [0][-]{section*.107}{References}{part.3}% 70
+\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 71
+\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 72
+\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 73
+\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 74
+\BOOKMARK [1][-]{section.a.B.3}{Supervised: BDT vs. PFN}{appendix.a.B}% 75
+\BOOKMARK [1][-]{section.a.B.4}{Supervised: Variable Correlations}{appendix.a.B}% 76
+\BOOKMARK [1][-]{section.a.B.5}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 77
+\BOOKMARK [1][-]{section.a.B.6}{PFN Training Composition}{appendix.a.B}% 78
+\BOOKMARK [1][-]{section.a.B.7}{ETmiss and ETmiss Shapes}{appendix.a.B}% 79
+\BOOKMARK [2][-]{subsection.a.B.7.1}{NCB Preselection}{section.a.B.7}% 80
+\BOOKMARK [2][-]{subsection.a.B.7.2}{TileCal Correction }{section.a.B.7}% 81
+\BOOKMARK [0][-]{appendix.a.C}{Truth Studies}{part.3}% 82
+\BOOKMARK [1][-]{section.a.C.1}{Jet dR Matching}{appendix.a.C}% 83
