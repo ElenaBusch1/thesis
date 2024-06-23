@@ -50,160 +50,156 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}The ATLAS Detector}{26}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Coordinate System and Geometry}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Coordinate System and Geometry}{27}{section.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Inner Detector}{28}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Pixel Detector}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Pixel Detector}{29}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Semiconductor Tracker}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Semiconductor Tracker}{31}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Transition Radiation Tracker}{29}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Transition Radiation Tracker}{31}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Calorimeters}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Calorimeters}{31}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Liquid Argon Calorimeter}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Liquid Argon Calorimeter}{32}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{31}{subsubsection*.20}%
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{33}{subsubsection*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{32}{subsubsection*.23}%
+\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{34}{subsubsection*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Forward Calorimeter}{33}{subsubsection*.25}%
+\contentsline {subsubsection}{Forward Calorimeter}{35}{subsubsection*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Tile Calorimeter}{34}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Tile Calorimeter}{35}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Muon Spectrometer}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Muon Spectrometer}{36}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Magnet System}{37}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Magnet System}{38}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Forward Detectors}{38}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Forward Detectors}{39}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Trigger and Data Acquisition}{39}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Trigger and Data Acquisition}{40}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Particle Reconstruction and Identification}{41}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Particle Reconstruction and Identification}{44}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Inner Detector Tracks}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Inner Detector Tracks}{44}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Photons and Electrons}{42}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Photons and Electrons}{45}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Muons}{44}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Muons}{47}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Jets}{46}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Jets}{49}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Calorimeter Clusters}{47}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Calorimeter Clusters}{50}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Particle Flow Algorithm}{48}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.2}Particle Flow Algorithm}{51}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Jet Clustering}{49}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}Jet Clustering}{52}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Ghost Track Association}{52}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.4}Ghost Track Association}{55}{subsection.5.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{53}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{56}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Search}{55}{part.3}%
+\contentsline {part}{III\hspace {1em}Search}{58}{part.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Monte Carlo and Data}{56}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Monte Carlo and Data}{59}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Data}{56}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Data}{59}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Simulation}{57}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Simulation}{60}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Simulated Backgrounds}{57}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Simulated Backgrounds}{60}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Signal Simulation}{58}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.2}Signal Simulation}{61}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Machine Learning Tools}{61}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Machine Learning Tools}{64}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Introduction}{61}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Introduction}{64}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Particle Flow Network (Supervised)}{62}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.1}Particle Flow Network (Supervised)}{65}{subsection.7.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Architecture Fundamentals}{62}{subsubsection*.42}%
+\contentsline {subsubsection}{Architecture Fundamentals}{65}{subsubsection*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input Modeling, Scaling, and Rotation}{64}{subsubsection*.45}%
+\contentsline {subsubsection}{Input Modeling, Scaling, and Rotation}{67}{subsubsection*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Training}{68}{subsubsection*.52}%
+\contentsline {subsubsection}{Training}{71}{subsubsection*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Performance}{70}{subsubsection*.55}%
+\contentsline {subsubsection}{Performance}{73}{subsubsection*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}ANTELOPE (Semi-supervised)}{72}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.2}ANTELOPE (Semi-supervised)}{75}{subsection.7.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Architecture Fundamentals}{72}{subsubsection*.59}%
+\contentsline {subsubsection}{Architecture Fundamentals}{75}{subsubsection*.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Training}{75}{subsubsection*.62}%
+\contentsline {subsubsection}{Training}{78}{subsubsection*.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Performance}{76}{subsubsection*.64}%
+\contentsline {subsubsection}{Performance}{79}{subsubsection*.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Model Independence}{76}{paragraph*.67}%
+\contentsline {paragraph}{Model Independence}{79}{paragraph*.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Analysis Strategy}{79}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Analysis Strategy}{82}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Preselection}{79}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Preselection}{82}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}SVJ Fit and Discovery Analysis Strategies}{81}{section.8.2}%
+\contentsline {section}{\numberline {8.2}SVJ Fit and Discovery Analysis Strategies}{84}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Analysis Regions}{85}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Analysis Regions}{88}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Control and Validation Regions}{85}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.1}Control and Validation Regions}{88}{subsection.8.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Signal Region}{87}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.2}Signal Region}{90}{subsection.8.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Background Estimation}{89}{section.8.4}%
+\contentsline {section}{\numberline {8.4}Background Estimation}{92}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Fit Strategy and Validation}{90}{section.8.5}%
+\contentsline {section}{\numberline {8.5}Fit Strategy and Validation}{93}{section.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.1}SVJ Fit Strategy}{90}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.1}SVJ Fit Strategy}{93}{subsection.8.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Background Only Fits}{90}{subsubsection*.79}%
+\contentsline {subsubsection}{Background Only Fits}{93}{subsubsection*.84}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal + Background Fits}{94}{subsubsection*.86}%
+\contentsline {subsubsection}{Signal + Background Fits}{98}{subsubsection*.91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Spurious Signal}{94}{paragraph*.88}%
+\contentsline {subsubsection}{Expected Sensitivity}{100}{subsubsection*.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Signal Injection in CR Template}{97}{paragraph*.89}%
+\contentsline {subsection}{\numberline {8.5.2}Discovery Strategy}{102}{subsection.8.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Signal Injection in Asimov Data}{97}{paragraph*.92}%
+\contentsline {subsubsection}{BumpHunter Fits}{103}{subsubsection*.98}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Expected Sensitivity}{102}{subsubsection*.95}%
+\contentsline {chapter}{\numberline {9}Results}{105}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.2}Discovery Strategy)}{103}{subsection.8.5.2}%
+\contentsline {chapter}{Conclusion or Epilogue}{106}{section*.101}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal Mass Resolution $m_T$\nobreakspace {}Binning}{103}{subsubsection*.99}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BumpHunter Fits}{106}{subsubsection*.103}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Results}{108}{chapter.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion or Epilogue}{109}{section*.106}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{113}{section*.107}%
+\contentsline {chapter}{References}{110}{section*.102}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchapnumwidth }{6em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Trigger Studies}{119}{appendix.a.A}%
+\contentsline {chapter}{\numberline {A}Trigger Studies}{116}{appendix.a.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Machine Learning Approaches}{123}{appendix.a.B}%
+\contentsline {chapter}{\numberline {B}Machine Learning Approaches}{120}{appendix.a.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Unsupervised: AE vs. ANTELOPE}{123}{section.a.B.1}%
+\contentsline {section}{\numberline {B.1}Unsupervised: AE vs. ANTELOPE}{120}{section.a.B.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal Contamination}{124}{subsubsection*.115}%
+\contentsline {subsubsection}{Signal Contamination}{121}{subsubsection*.110}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}PFN Optimality Checks}{124}{section.a.B.2}%
+\contentsline {section}{\numberline {B.2}PFN Optimality Checks}{121}{section.a.B.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Supervised: BDT vs. PFN}{127}{section.a.B.3}%
+\contentsline {section}{\numberline {B.3}Supervised: BDT vs. PFN}{124}{section.a.B.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Single Jet vs Jet System ML Approach}{127}{section.a.B.4}%
+\contentsline {section}{\numberline {B.4}Single Jet vs Jet System ML Approach}{124}{section.a.B.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.5}PFN Training Composition}{129}{section.a.B.5}%
+\contentsline {section}{\numberline {B.5}PFN Training Composition}{126}{section.a.B.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.6}$E_T^{miss}$ and $E_T^{miss}$$\phi $ Shapes}{131}{section.a.B.6}%
+\contentsline {section}{\numberline {B.6}$E_T^{miss}$ and $E_T^{miss}$$\phi $ Shapes}{128}{section.a.B.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.6.1}NCB Preselection}{131}{subsection.a.B.6.1}%
+\contentsline {subsection}{\numberline {B.6.1}NCB Preselection}{128}{subsection.a.B.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.6.2}TileCal Correction }{133}{subsection.a.B.6.2}%
+\contentsline {subsection}{\numberline {B.6.2}TileCal Correction }{130}{subsection.a.B.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Truth Studies}{136}{appendix.a.C}%
+\contentsline {chapter}{\numberline {C}Truth Studies}{133}{appendix.a.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Jet dR Matching}{136}{section.a.C.1}%
+\contentsline {section}{\numberline {C.1}Jet dR Matching}{133}{section.a.C.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}BumpHunter}{135}{appendix.a.D}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Signal Mass Resolution $m_T$\nobreakspace {}Binning}{135}{section.a.D.1}%

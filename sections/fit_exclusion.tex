@@ -29,7 +29,7 @@ The high background-only $p$-value indicates a good fit.
 \end{figure}
 
 A slight sinusoidal pattern in the residuals may be observed. 
-This arises due to the ``stitching" together of the \pt~slices for the QCD MC (as shown in Figure~\ref{fig:jzslices}), which is picked up by the fit.
+This arises due to the ``stitching" of the \pt~slices for the QCD MC (as shown in Figure~\ref{fig:jzslices}), which is picked up by the fit.
 For this reason, fitting to MC is only checked to verify that the differences in the slope of \mt~between the three regions (as shown in Figure~\ref{fig:crvrsr_mt}) do not pose a problem for the fitting strategy.
 
 The nature of the functional fitting method allows it to easily adapt to changes in slope of a smoothly falling distribution.
@@ -37,28 +37,45 @@ Thus validation of the fit can be performed in data using the CR and the VR dist
 Figure~\ref{fig:bkgfit_data_fullstats} shows the a successful fit performed on the full statistics CR and VR regions.
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.82\textwidth]{figures/stats/bkgfit_data_fullstats}
+   \includegraphics[width=0.8\textwidth]{figures/stats/bkgfit_data_fullstats}
     \caption{Background-only \mt~fits using data in the full statistics CR and VR regions.
     \label{fig:bkgfit_data_fullstats}}
 \end{figure}
 
 Figure~\ref{fig:postfit_param_pfn} shows the post-fit values of the fit parameters and their uncertainties for each fit. 
-TODO: recalculate so it matches plot
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.65\textwidth]{figures/stats/postfit_param_pfn}
-    \caption{Post-fit parameters for the PFN CR and VR.
+   \includegraphics[width=0.75\textwidth]{figures/stats/postfit_param_pfn}
+    \caption{Post-fit parameters for the PFN CR and VR. $p1$ can also be considered $N_{bkg}$ or the normalization factor.
     \label{fig:postfit_param_pfn}}
 \end{figure}
 
+To further validate the fit stability of the fit against potential statistical fluctuations, \textit{pseudo-data} (also known as \textit{toy datasets}) are created from the CR data distribution. 
+The pseudo-data is created following an \textit{Asimov} prescription \cite{asimov}, using a template to generate a set of toys representing different possible statistical fluctuations.
+When studied as a group, the performance of the pseudo-data collection represents the range of possible behavior for an unknown distribution (the SR data in this case), given its statistical uncertainties.
 
+The template used to generate the pseudo-data is a \textit{smoothed} and \textit{scaled} version of the CR. 
+The smoothing applied follows the procedure for functional decomposition described in Ref.~\cite{edgar2018functional}.
+Figure~\ref{fig:smoothing} shows the impact of smoothing on the source data distribution in the CR.
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.95\textwidth]{figures/stats/smoothing}
+    \caption{\mt~distribution in the data CR, before (left) and after (right) smoothing.
+    \label{fig:smoothing}}
+\end{figure}
+
+The scaling adjusts the statistics of the smoothed template to the expected statistics of the SR.
 Recall Figure~\ref{fig:crvrsr_2d}, which illustrates that the statistics of the CR and the VR are almost 3x the expected statistics of the SR.
-The polynomial fitting strategy is sensitive to the statistics of the fitted template.
-Its performance can very substantially depending on the statistical power of the fitted distribution.
-To mitigate this, template \mt~histograms are obtained by randomly sampling the data in the CR/VR until a sample that is \textit{statistically identical} to the SR is obtained.
-This process is referred to as \textit{downsampling}.
-Examples of three downsampled histograms are provided for each region in Figure~\ref{fig:bkgfit_data}.
-TODO: recalculate VR see if it's still bad
+The polynomial fitting strategy is sensitive to the statistics of the fitted template, so its performance can very substantially depending on the statistical power of the fitted distribution.
+To mitigate this, the smoothed template is scaled to the expected statistics of the SR.
+Toys are then generated from the smoothed distribution, by varying each bin within its statistical uncertainty according to a Poisson distribution. 
+Each toy has the same statistical power as the SR, within statistical uncertainly.
+
+Figure~\ref{fig:bkgfit_data} shows example fits to three such toy datasets.
+Figure~\ref{fig:asimov_hist} shows the resulting p-values after an ensemble of 100 Asimov pseudo-datasets are each individually fit. 
+This test determines the likelihood of exceptionally good (high p-value) or poor (low p-value) fits due to randoms statistical fluctuations in the data. 
+A flat distribution is observed, indicating good statistical behavior. 
+
 \begin{figure}[!htbp]
 \centering
    %\includegraphics[width=0.32\textwidth]{figures/stats/dataDSfiveParFitChi2_CR0.png}
@@ -67,41 +84,25 @@ TODO: recalculate VR see if it's still bad
    %\includegraphics[width=0.32\textwidth]{figures/stats/dataDSfiveParFitChi2_VR0.png}
    %\includegraphics[width=0.32\textwidth]{figures/stats/dataDSfiveParFitChi2_VR1.png}
    %\includegraphics[width=0.32\textwidth]{figures/stats/dataDSfiveParFitChi2_VR2.png}
-   \includegraphics[width=0.92\textwidth]{figures/stats/bkgfit_data_cr}
-   \includegraphics[width=0.92\textwidth]{figures/stats/bkgfit_data_vr}
-    \caption{Background-only \mt~fits using data in orthogonal but statistically identical samples to the SR, obtained by downsampling the CR/VR statistics, for the CR (top) and VR (bottom).
-    \label{fig:bkgfit_data}}
+   \includegraphics[width=0.97\textwidth]{figures/stats/bkgfit_data_cr}
+    \caption{Background-only \mt~fits using pseudo-data from the CR template.
+     \label{fig:bkgfit_data}}
 \end{figure}
 
-To further validate the fit stability of the fit against potential statistical fluctuations, \textit{pseudo-data} (also known as \textit{toy datasets}) are created from the CR data distribution. 
-The pseudo-data is created following an \textit{Asimov} prescription \cite{asimov}, using a template to generate a set of toys representing different possible statistical fluctuations.
-When studied as a group, the performance of the pseudo-data collection represents the range of possible behavior for an unknown distribution (the SR data in this case), given its statistical uncertainties.
-The template used to generate the pseudo-data is a smoothed version of the CR. 
-The smoothing applied follows the procedure for functional decomposition described in Ref.~\cite{edgar2018functional}.
-Figure~\ref{fig:smoothing} shows the impact of smoothing on the source data distribution in the CR.
-Toys are then generated from the smoothed distribution, by varying each bin within its statistical uncertainty according to a Poisson distribution. 
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.85\textwidth]{figures/stats/smoothing}
-    \caption{\mt~distribution in the data CR, before (left) and after (right) smoothing.
-    \label{fig:smoothing}}
-\end{figure}
-
-Figure~\ref{fig:asimov_hist} shows the resulting p-values after an ensemble of 100 Asimov pseudo-data are each individually fit. 
-This test determines the likelihood of exceptionally good (high p-value) or poor (low p-value) fits due to randoms statistical fluctuations in the data. 
-A flat distribution is observed, indicating good statistical behavior. 
-\begin{figure}[!htbp]
-\centering
-   \includegraphics[width=0.45\textwidth]{figures/stats/asimov_cr_hist}
+   \includegraphics[width=0.6\textwidth]{figures/stats/asimov_cr_hist}
     \caption{$p$-value histograms from 100 fits to Asimov data in the CR. %, demonstrating a flat shape across p-value.
     \label{fig:asimov_hist}}
 \end{figure}
 
+\clearpage
 %------------------------------------------------- 
 \subsubsection{Signal + Background Fits}
 \label{subsec:fit_splusb}
 
 Figure~\ref{fig:splusb_sigInj} shows an example of an injected signal into the exclusion region \mt~spectrum, and the ability of the fit framework to accurately fit the number of signal events.
+TODO: updated fit
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/stats/splusb_sigInj}
@@ -109,15 +110,15 @@ Figure~\ref{fig:splusb_sigInj} shows an example of an injected signal into the e
     \label{fig:splusb_sigInj}}
 \end{figure}
 
-\paragraph{Signal Injection in Asimov Data}
-To better understand the correlations of fit errors in the above single-template injection test and avoid drawing conclusions from a single scenario, signal injection tests using Asimov data will be performed before unblinding. 
-50 Asimov trials are run for representative signal points across Z' mass and \rinv.
+Signal injection tests demonstrate the a linear relationship between the amount of signal injected and the amount of signal measured by the fit.
+The signal injection tests are performed in Asimov datasets to counter the impact of statistical fluctuations in any given template.
+50 Asimov trials are run for all signal points across Z' mass and \rinv.
 
 %Bias within the Asimov signal injection test could indicate a lack of sufficient normalization uncertainties on the signal model. 
 %In the event of systematic mismeasurement in signal injection, the spurious signal uncertainty as derived from Loose-not-tight or additional uncertainties will be considered.
 
 Figure~\ref{fig:siginj_asimov} provides the results of these tests. 
-The uncertainty of the measurement varies according to mass point, due to the larger relative background for lower mass points. 
+The uncertainty of the measurement varies according to the Z' mass, due to the larger relative background for lower mass points. 
 However, a strong linear relationship between amount of signal injected and amount of signal measured is observed for all signal points, which is the key feature.
 \begin{figure}[!htbp]
 \centering
@@ -130,19 +131,20 @@ However, a strong linear relationship between amount of signal injected and amou
     \label{fig:siginj_asimov}}
 \end{figure}
 
+\clearpage
 %------------------------------------------------- 
 \subsubsection{Expected Sensitivity}
 \label{subsec:fit_expsens}
 
-Limits are obtained by determining the cross section of the signal that can be excluded to 95\% confidence. 
-Figure~\ref{fig:limits_exp_1D} shows the expected limits obtained from S+B fits to statistically identical \mt~spectra from the CR region (which is closest in \mt~shape to the SR according to MC studies). 
+Limits on the signal process are obtained by determining the cross section of the signal that can be excluded to 95\% confidence. 
+Figure~\ref{fig:limits_exp_1D} shows the expected limits obtained from an average of Asimov data fits. The limits shown do not include systematics uncertainties in the fit, which will be discussed in Section~\ref{sec:syst}. 
 %Figure~\ref{fig:limits_exp_1D_asimov} shows the expected limits obtained from an average of 50 Asimov toys thrown from the CR.
 %The limits are very stable across individual data fits and Asimov, as well as across the CR and VR.
 %The alignment of fluctuations between the single CR fit and Asimov toys indicates that the particular shape of data in the CR influences the shape of the limits.
 %The limits shown come from an average of 10 Asimov pseudodata fits of the CR. Figure~\ref{fig:perc_success_limit} shows the percentage of Asimov limit tests that result in a successful fit. 
 
 Considerable exclusion power is predicted for low \rinv~signal points, with the higher \rinv~points presenting more difficulty due to the very broad signal bump. 
-A similar trend is observed in the CMS s-channel search~\cite{cms_schan}.
+TODO: update limit plots
 
 \begin{figure}[!htbp]
 \centering
@@ -165,8 +167,15 @@ A similar trend is observed in the CMS s-channel search~\cite{cms_schan}.
 %    \label{fig:perc_success_limit}}
 %\end{figure}
 
+TODO: 2D limit
 A 2D limit presentation is also being considered, in the (\rinv, mass) plane.
 
+The ability of the fit to identify is a significant excess is tested by calculating the limits on signal injected toys. $5\sigma$ of signal is injected for each signal point into 50 Asimov data toys.
+The number of signal events necessary for a $5\sigma$ excess is calculated for each signal point from the expected limits in the background-only case shown in Figure~\ref{fig:limits_exp_1D}.
+The expected limit represents the limit on a $2\sigma$ excess, so a $5\sigma$ excess requires 2.5x as much signal.
+Figure~\ref{fig:limits_exp_1D_injected} demonstrates the impact of this signal injection on the limits. 
+The observed limit is significantly higher than the expected limit for all signal points, indicating the ability of the fit to identify a significant signal excess. 
+TODO: observed limit plots
 
 \clearpage
 
