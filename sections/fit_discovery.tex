@@ -2,7 +2,7 @@
 \subsection{Discovery Strategy}
 \label{subsec:fit_bh}
 
-Model-independent fits for the discovery region are performed using \textit{pyBumpHunter} \cite{bumphunt}.
+Model-independent fits for the discovery region are performed using \textsc{pyBumpHunter} \cite{bumphunt}.
 The strategy consists of comparing the data in a given \mt~spectrum of interest to a background estimation derived by performing the polynomial fit and sampling from the post-fit function into a histogram.
 
 The polynomial fit is done to an \mt~distribution with 180 bins (25 GeV wide), half the width of the fits in the SVJ Fit region (50 GeV wide). %90 bins, as with the PFN 
@@ -62,6 +62,60 @@ A spurious signal would be indicated by a fit with a p-value $<$ 0.01, indicting
     \label{fig:bh_asimov_pvals}}
 \end{figure}
 
+%----------------------------------------------------------------------------------------
+\subsubsection{BumpHunter Signal Injection}
+\label{subsec:bhsiginj}
 
+To explore a model independent signal hypothesis, signal injection tests in the ANTELOPE region are done with generic Gaussian shapes.
+Two Gaussian models are built with a mean ranging from 2000 GeV to 5000 GeV and a standard deviation equal to 10 or 20\% the mean value.
+Figure~\ref{fig:gauss_inj} illustrates an injected Gaussian and its effect on the \mt~distribution.
+The 20\% gaussian represents the widest possible signals we might be sensitive to with a BH strategy, while the 10\% injection represents a narrower signal peak. 
 
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.5\textwidth]{figures/stats/gauss_inj}
+    \caption{Example injected gaussian signal.
+    \label{fig:gauss_inj}}
+\end{figure}
 
+%The polynomial fit framework is run over background-only Asimov data to determine the injection level, as discussed in Section~\ref{subsec:fit_expsens}. 
+%It should be noted that the $5\sigma$ injection level as determined by the polynomial fit is an underestimate, as the flexibility of the fit absorbs some of the signal.
+
+An estimated $5\sigma$ of signal is injected for these tests.
+The estimate is derived from the polynomial fitting framework, and is therefore an underestimate, as the flexibility of the polynomial fit absorbs some of the signal.
+Therefore we do not expect to measure $5\sigma$ significance with the BH approach, but rather hope to see that some level of signal (at least $\geq2\sigma$ significance)  is observed by the BumpHunter framework. 
+
+Results are obtained by averaging over 100 toys for each injection.
+Figure~\ref{fig:siginj_bh} shows the resulting max local significance (in an \mt~bin) and the location of the determined bump, indicating a good response of the BumpHunter framework for detecting generic \mt~resonances at the right location.
+Only the 5000 GeV 20\% width point is not properly identified by the framework. 
+While some sensitivity is lost due to the flexible nature of the fitting framework, the ability to identify a bump with substantial local significance in the correct location is observed.
+Figure~\ref{fig:bh_bump_example} shows an example of the identified bump.
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.65\textwidth]{figures/stats/siginj_bh_localsig.pdf}
+   \includegraphics[width=0.65\textwidth]{figures/stats/siginj_bh_bumploc.pdf}
+    \caption{Response of the BumpHunter framework to signal injection of $5\sigma$ significance to the model-dependent polynomial fit framework. The local significance (top) and bump location (bottom) are shown.
+    \label{fig:siginj_bh}}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.5\textwidth]{figures/stats/bh_bump_example}
+    \caption{Example BH response to gaussian signal injection at 4000 GeV with width of 10\%. 
+    \label{fig:bh_bump_example}}
+\end{figure}
+
+%The BH significance can be slightly enhanced by repeating the polynomial fit after blinding the the most significant bump.
+%This serves to ``flatten" the fit, allowing the bump to be more significant compared to the the background distribution. 
+%This process is illustrated in Figure~\ref{fig:bh_masked}. 
+%This strategy has the potential impact of enhancing non-signal deviations in the fit as well.
+%Therefore, both BH results are considered together.
+
+%\begin{figure}[!htbp]
+%\centering
+%   \includegraphics[width=0.95\textwidth]{figures/stats/bh_mask_before.pdf}
+%   \includegraphics[width=0.95\textwidth]{figures/stats/bh_mask_after.pdf}
+%    \caption{Improvement of the BH response after masking the region []redoing the polynomial background fit
+%    \label{fig:siginj_bh}}
+%\end{figure}

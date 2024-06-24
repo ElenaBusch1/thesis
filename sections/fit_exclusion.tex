@@ -1,12 +1,12 @@
 \section{Fit Strategy and Validation}
 \label{sec:fit_strategy}
 
-The steps taken to validate the fitting approach for both the SVJ Fit strategy and the Discovery strategy will be outlined in the following sections. The signal region fits which compromise the final result will be presented in Chapter~\ref{ch:results},.
+The steps taken to validate the fitting approach for both the SVJ Fit strategy and the Discovery strategy will be outlined in the following sections. The signal region fits which comprise the final result will be presented in Chapter~\ref{ch:results}.
 
 \subsection{SVJ Fit Strategy}
 \label{subsec:fit_exclusion}
 
-The ability of the five parameter fit function to capture the shape of the background is studied extensively, using data from the CR and VR. Signal injection tests are performed to determine the ability of the fit to recover and quantify any SVJ signal excess. Finally, estimates of the expected sensitivity are made. 
+The ability of the five parameter fit function to capture the shape of the background is studied extensively, using data from the CR and VR. Signal injection tests are performed to determine the ability of the fit to recover and quantify any SVJ signal excess. Estimates of the expected sensitivity and the ability to set upper limits on the cross-section of the signal process are also verified.
 %Results: An overview of the final fit setup including the final discriminating variables(s), the (SR/CR) regions to be included in the fit and the floating normalization parameters. 
 %Some rough first expected limits/discovery sensitivity plots are useful if you have them but not necessary. In this case the binning of the final variable(s) and the systematics smoothing/pruning should be indicated.
 
@@ -102,11 +102,10 @@ A flat distribution is observed, indicating good statistical behavior.
 \label{subsec:fit_splusb}
 
 Figure~\ref{fig:splusb_sigInj} shows an example of an injected signal into the exclusion region \mt~spectrum, and the ability of the fit framework to accurately fit the number of signal events.
-TODO: updated fit
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/stats/splusb_sigInj}
-    \caption{Example S+B fits on a background \mt~spectrum with injected signal from the point (2500 GeV, \rinv=0.2).
+    \caption{Example S+B fit on a background \mt~spectrum with injected signal from the point (4000 GeV, \rinv=0.2).
     \label{fig:splusb_sigInj}}
 \end{figure}
 
@@ -137,19 +136,20 @@ However, a strong linear relationship between amount of signal injected and amou
 \label{subsec:fit_expsens}
 
 Limits on the signal process are obtained by determining the cross section of the signal that can be excluded to 95\% confidence. 
-Figure~\ref{fig:limits_exp_1D} shows the expected limits obtained from an average of Asimov data fits. The limits shown do not include systematics uncertainties in the fit, which will be discussed in Section~\ref{sec:syst}. 
+Figure~\ref{fig:limits_exp_1D} shows the expected limits obtained from an average of 50 Asimov data fits. The limits shown do not include systematics uncertainties in the fit, the impacts of which are discussed in Chaper~\ref{ch:results}. 
 %Figure~\ref{fig:limits_exp_1D_asimov} shows the expected limits obtained from an average of 50 Asimov toys thrown from the CR.
 %The limits are very stable across individual data fits and Asimov, as well as across the CR and VR.
 %The alignment of fluctuations between the single CR fit and Asimov toys indicates that the particular shape of data in the CR influences the shape of the limits.
 %The limits shown come from an average of 10 Asimov pseudodata fits of the CR. Figure~\ref{fig:perc_success_limit} shows the percentage of Asimov limit tests that result in a successful fit. 
 
-Considerable exclusion power is predicted for low \rinv~signal points, with the higher \rinv~points presenting more difficulty due to the very broad signal bump. 
-TODO: update limit plots
+Considerable exclusion power is predicted for low \rinv~signal points and lower mass points.
+Higher \rinv~points present more difficulty due to the very broad signal bump.
+Higher Z' mass points are more difficult to exclude due to the low theory cross-sections.
 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/stats/limits_exp_1D}
-    \caption{95\% C.L. upper limits for signal models across Z' mass, for four different \rinv~fractions, from the CR region (without systematics).
+    \caption{95\% C.L. upper limits for signal models across Z' mass, for four different \rinv~fractions, from the CR region (without systematics). TODO - ATLAS style
     \label{fig:limits_exp_1D}}
 \end{figure}
 %\begin{figure}[!htbp]
@@ -160,23 +160,24 @@ TODO: update limit plots
 %    \label{fig:limits_exp_1D_asimov}}
 %\end{figure}
 
-%\begin{figure}[!htbp]
+%\begin{figure}[!htbp]ß
 %\centering
 %   \includegraphics[width=0.6\textwidth]{figures/stats/perc_success_limit}
 %    \caption{Percent of Asimov pseudodata S+B fits with successful fit and successful limit convergence.
 %    \label{fig:perc_success_limit}}
 %\end{figure}
 
-TODO: 2D limit
-A 2D limit presentation is also being considered, in the (\rinv, mass) plane.
+The ability of the fit to identify is a significant excess is tested by calculating the limits on signal injected toys. $2\sigma$ and $5\sigma$ of signal is injected for each signal point into 50 Asimov data toys.
+%The number of signal events necessary for a $2\sigma$/ $5\sigma$ excess is calculated for each signal point from the expected limits in the background-only case shown in Figure~\ref{fig:limits_exp_1D}.
+%The expected limit represents the limit on a $2\sigma$ excess, so a $5\sigma$ excess requires 2.5x as much signal.
+Figure~\ref{fig:lim_sig_inj} demonstrates the impact of this signal injection on the limit for \rinv~= 0.2.
+The observed limit rises as more signal is injected, indicating the ability of the fit to identify a significant signal excess. 
 
-The ability of the fit to identify is a significant excess is tested by calculating the limits on signal injected toys. $5\sigma$ of signal is injected for each signal point into 50 Asimov data toys.
-The number of signal events necessary for a $5\sigma$ excess is calculated for each signal point from the expected limits in the background-only case shown in Figure~\ref{fig:limits_exp_1D}.
-The expected limit represents the limit on a $2\sigma$ excess, so a $5\sigma$ excess requires 2.5x as much signal.
-Figure~\ref{fig:limits_exp_1D_injected} demonstrates the impact of this signal injection on the limits. 
-The observed limit is significantly higher than the expected limit for all signal points, indicating the ability of the fit to identify a significant signal excess. 
-TODO: observed limit plots
-
-\clearpage
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.98\textwidth]{figures/stats/lim_sig_inj}
+    \caption{95\% C.L. upper limits and observed limit for signal models across Z' mass, with varying amounts of signal injected. TODO - ATLAS style
+    \label{fig:lim_sig_inj}}
+\end{figure}
 
 
