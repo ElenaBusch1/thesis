@@ -66,19 +66,23 @@
 \BOOKMARK [2][-]{subsection.8.5.1}{SVJ Fit Strategy}{section.8.5}% 66
 \BOOKMARK [2][-]{subsection.8.5.2}{Discovery Strategy}{section.8.5}% 67
 \BOOKMARK [0][-]{chapter.9}{Results}{part.3}% 68
-\BOOKMARK [0][-]{section*.106}{Conclusion or Epilogue}{part.3}% 69
-\BOOKMARK [0][-]{section*.107}{References}{part.3}% 70
-\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 71
-\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 72
-\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 73
-\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 74
-\BOOKMARK [1][-]{section.a.B.3}{Supervised: BDT vs. PFN}{appendix.a.B}% 75
-\BOOKMARK [1][-]{section.a.B.4}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 76
-\BOOKMARK [1][-]{section.a.B.5}{PFN Training Composition}{appendix.a.B}% 77
-\BOOKMARK [1][-]{section.a.B.6}{ETmiss and ETmiss Shapes}{appendix.a.B}% 78
-\BOOKMARK [2][-]{subsection.a.B.6.1}{NCB Preselection}{section.a.B.6}% 79
-\BOOKMARK [2][-]{subsection.a.B.6.2}{TileCal Correction }{section.a.B.6}% 80
-\BOOKMARK [0][-]{appendix.a.C}{Truth Studies}{part.3}% 81
-\BOOKMARK [1][-]{section.a.C.1}{Jet dR Matching}{appendix.a.C}% 82
-\BOOKMARK [0][-]{appendix.a.D}{BumpHunter}{part.3}% 83
-\BOOKMARK [1][-]{section.a.D.1}{Signal Mass Resolution mT Binning}{appendix.a.D}% 84
+\BOOKMARK [1][-]{section.9.1}{SVJ Fit Result}{chapter.9}% 69
+\BOOKMARK [2][-]{subsection.9.1.1}{Systematics}{section.9.1}% 70
+\BOOKMARK [2][-]{subsection.9.1.2}{Interpretation}{section.9.1}% 71
+\BOOKMARK [1][-]{section.9.2}{Discovery Result}{chapter.9}% 72
+\BOOKMARK [0][-]{section*.120}{Conclusion or Epilogue}{part.3}% 73
+\BOOKMARK [0][-]{section*.121}{References}{part.3}% 74
+\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 75
+\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 76
+\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 77
+\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 78
+\BOOKMARK [1][-]{section.a.B.3}{Supervised: BDT vs. PFN}{appendix.a.B}% 79
+\BOOKMARK [1][-]{section.a.B.4}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 80
+\BOOKMARK [1][-]{section.a.B.5}{PFN Training Composition}{appendix.a.B}% 81
+\BOOKMARK [1][-]{section.a.B.6}{ETmiss and ETmiss Shapes}{appendix.a.B}% 82
+\BOOKMARK [2][-]{subsection.a.B.6.1}{NCB Preselection}{section.a.B.6}% 83
+\BOOKMARK [2][-]{subsection.a.B.6.2}{TileCal Correction }{section.a.B.6}% 84
+\BOOKMARK [0][-]{appendix.a.C}{Truth Studies}{part.3}% 85
+\BOOKMARK [1][-]{section.a.C.1}{Jet dR Matching}{appendix.a.C}% 86
+\BOOKMARK [0][-]{appendix.a.D}{BumpHunter}{part.3}% 87
+\BOOKMARK [1][-]{section.a.D.1}{Signal Mass Resolution mT Binning}{appendix.a.D}% 88
