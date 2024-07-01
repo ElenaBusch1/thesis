@@ -2,11 +2,94 @@
 \label{ch:ml_tools}
 
 \section{Introduction}
-The search for semi-visible jets presents an opportunity to use novel machine learning (ML) tools to uncover patterns in the behavior of dark QCD. The subtlety of the shower differences between dark QCD (signal) and SM QCD (background) motivates a complex model that can accept high-dimensional low-level information, such as travel level information, to best understand key differences between signal and background correlations. Additionally, the large number of theory parameters which can be chosen arbitrarily and affect the shape of the dark QCD shower motivate exploring a data-driven machine learning approach, which could be sensitive to a wider variety of dark QCD behavior. \par
+The search for semi-visible jets presents an opportunity to use novel machine learning (ML) tools to uncover patterns in the behavior of dark QCD. The subtlety of the shower differences between dark QCD (signal) and SM QCD (background) motivates a complex model that can accept high-dimensional low-level information, such as particle track information, to understand key differences between signal and background patterns. Additionally, the large number of theory parameters which can be chosen arbitrarily and affect the shape of the dark QCD shower motivate exploring a data-driven machine learning approach, which could be sensitive to a wide variety of dark QCD behavior. \par
 
-To this end, two machine learning approaches are developed for this search, which are used in tandem. The first is a supervised ML method where the ML algorithm is built to maximize exclusion sensitivity to the specific generated SVJ signal models used in this analysis. Here, supervised refers to the use of full and correct \textit{labels}\footnote{In machine learning a label refers to the correct identification information for an input. In the case of the binary classifier algorithm discussed here, the label is either ``signal" or ``background".} for all events considered during model training, which necessitates training over simulated data. The second is a semi-supervised method, where training of the model is data-driven and labels are only partially provided during training. The semi-supervised ML algorithm broadens the discovery sensitivity of the search, and reduces the dependence on the exact theory parameters chosen for signal model simulation. \par
+To this end, two machine learning approaches are developed for this search, which are used in tandem. The first is a \textit{supervised} ML method where the ML algorithm is built to maximize sensitivity to the specific SVJ signal models described in Section~\ref{subsec:signals}. Here, supervised refers to the use of full and correct \textit{labels}\footnote{In machine learning a label refers to the correct identification information for an input. In the case of the binary classifier algorithm discussed here, the label is either ``signal'' or ``background''.} for all events considered during model training. The second is a semi-supervised method, where training of the model is data-driven (no signal hypothesis used during training) and labels are only partially provided during training. The semi-supervised ML algorithm broadens the discovery sensitivity of the search, and reduces the dependence on the exact theory parameters chosen for signal model simulation. \par
 
-The two different ML algorithms used in this approach will be explained in the following sections, along with their application in the SVJ analysis strategy.
+The two different ML algorithms used in this approach will be explored in Section~\ref{subsec:supervised} and Section~\ref{subsec:unsupervised}, along with their application in the SVJ analysis strategy. In the following Section~\ref{sec:ml_fund}, a brief overview of fundamental machine learning concepts is presented.
+
+\subsection{Machine Learning Fundamentals}
+\label{sec:ml_fund}
+
+The machine learning tools presented in this chapter depend on two basic \textit{architectures}.
+An ML architecture refers to the specific neural network design used to create an ML \textit{algorithm} (or \textit{tool}). 
+
+The first basic architecture is a \textit{deep neural network} (DNN) \cite{dnn}.
+Figure~\ref{fig:dnn} illustrates the concept.
+The hidden layers of a DNN allow the network to store information about the importance of each input feature and the importance of correlations amongst the input features.
+The elements of each layer are known as \textit{nodes}.
+In a fully connected network like the one shown each node receives input from every node in the previous layer, represented by the arrows in the diagram.
+Each node input has an associated \textit{weight} which is adjusted during training.
+The node combines the inputs and their associated weights according to an \textit{activation function}.
+The output of the activation function becomes the value associated to the node, which is then used as input to the subsequent layer.
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.7\textwidth]{figures/ml/dnn}
+    \caption{A diagram of a deep neural network architecture \cite{dnn_pic}. 
+    \label{fig:dnn}}
+\end{figure}
+
+A \textit{loss function} measures the performance of the model. 
+The \textit{loss} calculated by the loss function compares the output of the model to the correct response.
+In a \textit{classifier} model the output layer is the probability that the input fits a certain category, for example ``signal'' (1.0) or ``background" (0.0).
+This probability is called the \textit{score}.
+The loss function calculates the accuracy of the scores.
+For example a signal input that receives a score of 0.9 would result in a small loss, while the same event given a score of 0.1 would result in a large loss.
+Figure~\ref{fig:score_example} illustrates a typical classifier score response.
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.5\textwidth]{figures/ml/ml_score_example}
+    \caption{An example score distribution for a binary classifier. A higher score indicates a greater probability of being signal. Most signal events (orange) receive a high score while most background events (blue) receive a low score, indicating good classification.
+    \label{fig:score_example}}
+\end{figure}
+
+The network improves by training over many \textit{epochs}, which refers to the process of the ML algorithm evaluating all training events.
+After each epoch, the \textit{optimizer} adjusts the weights to reduce the loss.
+The \textit{learning rate} determines how big of an adjustment the network is allowed to make. 
+During training, a set of events are set aside to use for \textit{validation}.
+The purpose of the validation data is to prevent \textit{overtraining}.
+If a network is sufficiently large and complex, the network could lose generality by perfectly learning (or ``memorizing'') the correct response for every training event.
+This would minimize the training loss, but could result in the network failing to correctly classify events it hasn't seen before. 
+By evaluating the loss of the validation data the user can determine if the network is overtrained; the training loss should not greatly exceed the validation loss.
+
+ML algorithms are often evaluated through a \textit{receiver operating characteristic} (ROC). 
+The ROC compares the true positive rate (correct classification) with the false positive rate (false classification).
+An example ROC curve is shown in Figure~\ref{fig:roc}. 
+If a classifier is performant, the true positive rate will be larger than the false positive rate for all possible false positive rates.
+If the network has no classifying power, the true positive rate and false positive rate will be equal throughout.
+The \textit{area under the curve} (AUC) is an important metric for evaluating the ROC.
+The AUC is the integral of the ROC curve.
+An AUC of 1.0 indicates perfect performance, while an AUC of 0.5 indicates that the network is no better than random guessing.
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.6\textwidth]{figures/ml/roc_example}
+    \caption{Several example ROC curves. The AUC is also illustrated \cite{auc_example}.
+    \label{fig:roc}}
+\end{figure}
+
+The second architecture that is important to this thesis is the \textit{auto-encoder} (AE)~\cite{autoencoders}. 
+Unlike a DNN, which is a supervised network that depends on the use of correct labels to determine the loss, the AE calculates loss by comparing the input and output layers.
+Figure~\ref{fig:ae} illustrates the concept.
+The network is designed to extract the most salient features of the input via dimensionality reduction.
+This is achieved by compressing the input to a lower dimensional \textit{latent space}, and then attempting to reconstruct the original input from that latent space.
+The loss is calculated by comparing the output of the network with the input.
+While the goal of a classifier is to correctly categorize the inputs, the goal of the AE is to correctly reconstruct the inputs.
+This allows the AE to be used for \textit{anomaly detection}.
+The kinds of events that are seen most often during training will be reconstructed well by the algorithm, and therefore have the smallest loss.
+Events which are anomalous or unusual in the training data will be more difficult for the AE to reconstruct, and therefore receive a larger loss. 
+The loss can be used to create an \textit{anomaly score}, which identifies unusual events with a higher anomaly score.
+
+\begin{figure}[!htbp]
+\centering
+   \includegraphics[width=0.7\textwidth]{figures/ml/ae}
+    \caption{A diagram of auto-encoder architecture. The loss is computed as a difference (often the \textit{mean squared error} or MSE) between the input x and the output y \cite{vrnn}.
+    \label{fig:ae}}
+\end{figure}
+
+
 
 \input{sections/pfn}
 \input{sections/antelope}

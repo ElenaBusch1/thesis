@@ -82,170 +82,170 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The Energy/Particle Flow Network concept, from Ref.\nobreakspace {}\cite {pfn}. \relax }}{68}{figure.caption.49}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces A diagram of a deep neural network architecture \cite {dnn_pic}. \relax }}{67}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces An annotated diagram of the PFN architecture. $y$ and $\phi $ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. \relax }}{68}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces An example score distribution for a binary classifier. A higher score indicates a greater probability of being signal. Most signal events (orange) receive a high score while most background events (blue) receive a low score, indicating good classification. \relax }}{68}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces A illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \ensuremath {E_{\text {T}}^{\text {miss}}}. \relax }}{69}{figure.caption.52}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Several example ROC curves. The AUC is also illustrated \cite {auc_example}. \relax }}{69}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Illustration of track coordinates $d_0$ and $z_0$. \relax }}{70}{figure.caption.53}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces A diagram of auto-encoder architecture. The loss is computed as a difference (often the \textit {mean squared error} or MSE) between the input x and the output y \cite {vrnn}. \relax }}{70}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples. \relax }}{70}{figure.caption.54}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The Energy/Particle Flow Network concept, from Ref.\nobreakspace {}\cite {pfn}. The physics input information is represented as arrows on the left, for an arbitrary number of particles. The $\Phi $ transformation converts these arrows to 3 graphs, indicating the $\Phi $ basis dimension $l$ is 3 in this example. The graphs are then summed for all particles to create $\mathcal {O}$, or the event representation. \relax }}{72}{figure.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces A diagram demonstrating how the two jet system is rotated in $(\phi ,\eta )$. \relax }}{71}{figure.caption.55}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces An annotated diagram of the PFN architecture. $y$ and $\phi $ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. PID is presented in the diagram as a 1-dimensional input, but could represent multiple input dimensions. \relax }}{73}{figure.caption.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces The 6 PFN track variables in background MC and signal MC. There are some differences between signal and background, but the track kinematics are largely similar. \relax }}{71}{figure.caption.56}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces An illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \ensuremath {E_{\text {T}}^{\text {miss}}}(MET). In the figure two jet cones $j_1$ and $j_2$ are illustrated, along with their associated momentum vectors $\vec {p_1}$ and $\vec {p_2}$. \relax }}{73}{figure.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces The 6 PFN track variables in data and background MC, after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the phi distribution is due to the modeling of dead TileCal cells by the QCD MC, which will be discussed in Chapter\nobreakspace {}\ref {ch:analysis}. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only. \relax }}{72}{figure.caption.57}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Illustration of track coordinates $d_0$ and $z_0$. \relax }}{74}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces PFN score for background MC, data, and signal, comparing a PFN training on QCD-only vs all-background MC samples. The average AUC for the QCD-only training (left) is 0.93, while the average AUC for the mixed background training (right) is 0.84. The sensitivity estimate across the grid is better for the QCD-only training - from the distribution we can conclude that this is because the sensitivity to MET enhanced signals is greatly reduced. \relax }}{74}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples. \relax }}{74}{figure.caption.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces PFN architecture loss during training as a function of epoch (left) and the evaluated loss over the signal and background (right). \relax }}{74}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces A diagram demonstrating how the two jet system is rotated in $(\eta ,\phi )$. The jet cones and associated jet tracks are illustrated. The dashed tracks represent dark hadrons while the solid tracks represent SM hadrons. The system average $(\bar {\eta },\bar {\phi })$ is shown in red and an example track with coordinates $(\eta _i,\phi _i)$ is shown in purple. \relax }}{75}{figure.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces ROC the PFN score for combined signal (true positive) and QCD background (false positive). \relax }}{75}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces The 6 PFN track variables in background MC (blue) and signal MC (orange) before scaling and rotation. The track kinematics are largely similar, and the variation in the $\phi $ distribution is explained in the text.\relax }}{77}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample. \relax }}{76}{figure.caption.63}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces The 6 PFN track variables in background MC (blue) and signal MC (orange) after scaling and rotation. The $\phi $ distribution is modified by the rotation procedure, as explained in the text.\relax }}{78}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces PFN score for two signals and the total background MC (top), and between data and MC (bottom). The difference between data and MC efficiency is minimal ($<$ 5\%). \relax }}{76}{figure.caption.64}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces The 6 PFN track variables in background MC (blue) and data (orange), after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the $\phi $ distribution due to the inaccuracies of modeling dead TileCal cells in the QCD MC is considered. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only. \relax }}{79}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.14}{\ignorespaces A visual representation of the 64 PFN latent space variables which create the input of the VAE component of ANTELOPE. The left shows a 2D histogram of the PFN latent space index (0-63) versus the value assumed by that index. The right shows 1D histograms of two particular PFN latent space variables. \relax }}{78}{figure.caption.66}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces PFN score for full-background MC (black), data (red), and 2 representative signal points (green). The left plot is from a QCD-only training, while the right plot is from a full-background training. The histograms have been normalized to visualize the shapes better - the actual number of plotted events is shown in the legend. In the left plot we observe that both signal points are strongly classified as signal-like. In the right plot we observe less background contamination in the high score region, but worse signal classification. Both PFN trainings were tested for their effect on the analysis sensitivity and the QCD-only training was found to be favorable. \relax }}{81}{figure.caption.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.15}{\ignorespaces An annotated diagram of the ANTELOPE architecture. \relax }}{79}{figure.caption.67}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces PFN architecture loss during training as a function of epoch (left) and the evaluated score for signal and background training samples (right). The loss vs. epoch plot shows that the network is not overtrained. The score plot shows a good separation between signal and background. \relax }}{82}{figure.caption.62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.16}{\ignorespaces ANTELOPE architecture loss during training as a function of epoch. \relax }}{80}{figure.caption.69}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces ROC for the PFN, using SVJ signal events (true positive) and data (false positive). \relax }}{83}{figure.caption.63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.17}{\ignorespaces ANTELOPE score distribution comparing data and the total background MC (left), with good agreement observed between data and simulated background, and comparing all background MC to signals (right), revealing good discrimination power. \relax }}{81}{figure.caption.71}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces AUC for the PFN, shown for each signal in the SVJ grid. \relax }}{83}{figure.caption.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.18}{\ignorespaces AUC from the ANTELOPE score for each signal in the SVJ grid. \relax }}{82}{figure.caption.72}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Illustration of the PFN score selection, showing the separation between data (black) and 4 signal points (blue and green). The legend information takes the form ``$m_{Z'}$ R$_{inv}$'' for the signal. The PFN score selection value is shown by the pink line. Only events with a score > 0.6 will be accepted for use in the analysis. We see that most background (data) is rejected, while most signal is accepted.\relax }}{84}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Comparing data and the alternate signal models for the PFN score (left) and ANTELOPE score (right). The emerging jet signal is an example of the gain of the model-independent ANTELOPE approach, where it has a bimodal shape in PFN score but is clearly tagged as anomalous by ANTELOPE. \relax }}{83}{figure.caption.74}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces An annotated diagram of the ANTELOPE architecture. Step 1 illustrates the PFN which is fully trained before its use in the ANTELOPE network. Step 2 illustrates the variational auto-encoder. The Gaussian sampling of the latent space is shown, illustrating how the VAE differs from the AE shown in Figure\nobreakspace {}\ref {fig:ae}. \relax }}{86}{figure.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Comparing data and the alternate signal models in terms of sensitivity (S/$\sqrt {B}$) for the PFN and ANTELOPE tools, applying the selection that is used in the analysis. The ANTELOPE network is found to provide significant added sensitivity to alternate signals such as the gluino$\rightarrow $ R-hadron and emerging jets, which have higher \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}than the SVJs. \relax }}{83}{figure.caption.75}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces A visual representation of the 64 PFN $\mathcal {O}$ which create the input for the VAE component of ANTELOPE. The plot is 2D histogram of the PFN $\mathcal {O}$ index (0-63) versus the value assumed by that index. Many entries have a $\mathcal {O}$ value of exactly 0.0. To visually separate these from entries with a small but non-zero $\mathcal {O}$ value, any entries with value = 0.0 are moved to value = -0.01 (leftmost column) for the purpose of the plot only. \relax }}{87}{figure.caption.67}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.21}{\ignorespaces ANTELOPE architecture loss during training as a function of epoch. \relax }}{88}{figure.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Preselection cutflow for data (left) and signal (right). \relax }}{85}{figure.caption.76}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Anomaly score distribution (left), comparing all data (orange) and all SVJ signals (blue). The signals have a small but consistently higher score than the data, indicating that they are tagged as more anomalous by ANTELOPE. A ROC curve for an example signal point is also shown (right). \relax }}{89}{figure.caption.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Energy and momentum analysis variables at preselection, for data, all background MC and representative signal models. $m_T$\nobreakspace {}is the key fit variable, and this plot illustrates the smoothly falling background in comparison to the resonant shape of the signals. $m_T$\nobreakspace {}is further illustrated in Figure\nobreakspace {}\ref {fig:mt_mass}. \relax }}{87}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces AUC from the ANTELOPE score for each signal in the SVJ grid. \relax }}{90}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Orientation analysis variables at preselection, for data, all background MC and representative signal models. While $\Delta \phi $(\ensuremath {E_{\text {T}}^{\text {miss}}}, $j$) variables are not used explicitly in the analysis flow, they help create a picture of the event. \relax }}{88}{figure.caption.78}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Flow of analysis selections, regions, and background estimation/validation fitting strategy. TODO: diagram needs to be corrected \relax }}{89}{figure.caption.79}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Distributions of the subleading jet width width$_{j2}$ (left) and leading jet with width$_{j1}$ (right) in data, background MC and signals at preselection. All SVJ signals are seen to be wider than the background in width$_{j2}$. The same is not true for width$_{j1}$, where some signals are observed to closely match the background. \relax }}{90}{figure.caption.80}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces 2D plots revealing correlations between width$_{j2}$ and $m_T$\nobreakspace {}(left), width$_{j2}$ and ML score (middle), and $m_T$\nobreakspace {}with ML score (right). For the top row, the ML score is the PFN score, and for the bottom three, the ML score is the ANTELOPE score. Minimal correlations are observed and are shown to not sculpt $m_T$, validating these variables for analysis region construction and statistical treatment. \relax }}{91}{figure.caption.81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces $m_T$\nobreakspace {}in simulation across the CR, VR, and SR for both PFN (left) and ANTELOPE (right) selections. \relax }}{92}{figure.caption.82}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Definition of CR, VR, and SR regions using width$_{j2}$ and the ML score, along with the population of each region in data statistics. The SVJ Fit region is shown on top with the PFN score on the x-axis, and Discovery region is shown on the bottom, with the ANTELOPE score on the x-axis. \relax }}{93}{figure.caption.83}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces The resonant shape of the SVJ signals in $m_T$, in contrast to the smoothly falling $m_T$\nobreakspace {}background. The high R$_{inv}$\nobreakspace {}signals (right) boast a wider shape, making them more difficult to detect, while the low R$_{inv}$\nobreakspace {}signals(left) produce a more narrow resonance in $m_T$\nobreakspace {}. \relax }}{94}{figure.caption.84}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using representative MC in the CR (left), VR (middle), and SR (right). \relax }}{96}{figure.caption.86}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using data in the full statistics CR and VR regions. \relax }}{97}{figure.caption.87}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.12}{\ignorespaces $m_T$\nobreakspace {}distribution in the data CR, before (left) and after (right) smoothing. \relax }}{98}{figure.caption.89}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using pseudo-data from the CR template. \relax }}{99}{figure.caption.90}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.14}{\ignorespaces $p$-value histograms from 100 fits to Asimov data in the CR. \relax }}{99}{figure.caption.91}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Example S+B fit on a background $m_T$\nobreakspace {}spectrum with injected signal from the point (4000 GeV, R$_{inv}$=0.2). \relax }}{100}{figure.caption.93}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Measured signal at a variety of injected values (1x, 2x, and 5x$\sqrt {b}$), for all signal points in the grid, R$_{inv}$=0.2 (top left), 0.4 (top right), 0.6 (bottom left), and 0.8 (bottom right). \relax }}{101}{figure.caption.94}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.17}{\ignorespaces 95\% C.L. upper limits for signal models across Z' mass, for four different R$_{inv}$\nobreakspace {}fractions, from the CR region (without systematics). TODO - ATLAS style \relax }}{102}{figure.caption.96}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.18}{\ignorespaces 95\% C.L. upper limits and observed limit for signal models across Z' mass, with varying amounts of signal injected. TODO - ATLAS style \relax }}{103}{figure.caption.97}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Post-fit function and residuals for the ANTELOPE CR and VR. \relax }}{104}{figure.caption.98}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.20}{\ignorespaces BumpHunter fits on the ANTELOPE $m_T$\nobreakspace {}spectra for both the CR (left) and VR (right). In a signal-depleted region, good agreement with the background estimation is observed. \relax }}{105}{figure.caption.101}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.21}{\ignorespaces BumpHunter p-values extracted for 100 Asimov toys for both the ANTELOPE CR (left) and VR (right). \relax }}{106}{figure.caption.102}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.22}{\ignorespaces Example injected gaussian signal. \relax }}{106}{figure.caption.104}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.23}{\ignorespaces Response of the BumpHunter framework to signal injection of $5\sigma $ significance to the model-dependent polynomial fit framework. The local significance (top) and bump location (bottom) are shown. \relax }}{108}{figure.caption.105}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.24}{\ignorespaces Example BH response to gaussian signal injection at 4000 GeV with width of 10\%. \relax }}{108}{figure.caption.106}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Comparing data and the alternate signal models for the PFN score (left) and ANTELOPE score (right). The emerging jet signal (dark blue) and gluino R-hadron signals (red, light green) are an example of the advantage of the model-independent ANTELOPE approach. These signals have a bimodal shape in PFN score but are clearly tagged with a high anomaly score by the ANTELOPE. \relax }}{91}{figure.caption.72}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.1}{\ignorespaces $m_T$\nobreakspace {}in the unblinded SVJ Fit SR with a background-only fit (p-value = 0.265). \relax }}{109}{figure.caption.107}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Energy and momentum analysis variables at preselection, for data, all background MC and representative signal models. $m_T$\nobreakspace {}is the key fit variable, and this plot illustrates the smoothly falling background in comparison to the resonant shape of the signals. $m_T$\nobreakspace {}is further illustrated in Figure\nobreakspace {}\ref {fig:mt_mass}. \relax }}{95}{figure.caption.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Example spurious signal fits, indicating a Gaussian distribution around the mean of spurious signal events. \relax }}{111}{figure.caption.110}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Orientation analysis variables at preselection, for data, all background MC and representative signal models. While $\Delta \phi $(\ensuremath {E_{\text {T}}^{\text {miss}}}, $j$) variables are not used explicitly in the analysis flow, they help create a picture of the event. \relax }}{96}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Spurious signal as a function of resonance mass. The requirement $\mu /\sigma <0.5$ is satisfied for all signal points, where $\mu $ is the mean number of spurious signal events and $\sigma $ is the standard deviation of the number of spurious signal events from 100 pseudo-data experiments. \relax }}{111}{figure.caption.111}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Flow of analysis selections, regions, and background estimation/validation fitting strategy. TODO: diagram needs to be corrected \relax }}{97}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.4}{\ignorespaces $m_T$\nobreakspace {}of the 3500 GeV $Z'$, R$_{inv}$\nobreakspace {}= 0.2 signal point, shown with an example JES variation. The nominal shape (``Nom''), 1$\sigma $ up (``Up''), and 1$\sigma $ down (``down") variations are shown. The variation is seen to have a negligible impact on the signal shape. \relax }}{113}{figure.caption.114}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Distributions of the subleading jet width width$_{j2}$ (left) and leading jet with width$_{j1}$ (right) in data, background MC and signals at preselection. All SVJ signals are seen to be wider than the background in width$_{j2}$. The same is not true for width$_{j1}$, where some signals are observed to closely match the background. \relax }}{98}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5}{\ignorespaces $m_T$\nobreakspace {}of the 3500 GeV $Z'$, R$_{inv}$\nobreakspace {}= 0.2 signal point, shown with the sum in quadrature of all JES and JER variations. The nominal shape (``Nom"), 1$\sigma $ up (``Up"), and 1$\sigma $ down (``down") variations are shown. \relax }}{114}{figure.caption.115}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces 2D plots revealing correlations between width$_{j2}$ and $m_T$\nobreakspace {}(left), width$_{j2}$ and ML score (middle), and $m_T$\nobreakspace {}with ML score (right). For the top row, the ML score is the PFN score, and for the bottom three, the ML score is the ANTELOPE score. Minimal correlations are observed and are shown to not sculpt $m_T$, validating these variables for analysis region construction and statistical treatment. \relax }}{99}{figure.caption.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Signal distribution of $m_T$, varying the ISR, FSR and MPI configuration. \relax }}{114}{figure.caption.117}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces $m_T$\nobreakspace {}in simulation across the CR, VR, and SR for both PFN (left) and ANTELOPE (right) selections. \relax }}{100}{figure.caption.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ masses for R$_{inv}$=0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right); no systematics. \relax }}{116}{figure.caption.118}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Definition of CR, VR, and SR regions using width$_{j2}$ and the ML score, along with the population of each region in data statistics. The SVJ Fit region is shown on top with the PFN score on the x-axis, and Discovery region is shown on the bottom, with the ANTELOPE score on the x-axis. \relax }}{101}{figure.caption.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.8}{\ignorespaces $m_T$\nobreakspace {}in the unblinded ANTELOPE SR with a background-only fit (p-value = 0.74), left. BumpHunter test selecting the most significant data excess with a p-value of 0.8098, right. \relax }}{117}{figure.caption.119}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces The resonant shape of the SVJ signals in $m_T$, in contrast to the smoothly falling $m_T$\nobreakspace {}background. The high R$_{inv}$\nobreakspace {}signals (right) boast a wider shape, making them more difficult to detect, while the low R$_{inv}$\nobreakspace {}signals(left) produce a more narrow resonance in $m_T$\nobreakspace {}. \relax }}{102}{figure.caption.81}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using representative MC in the CR (left), VR (middle), and SR (right). \relax }}{104}{figure.caption.83}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Trigger yield and efficiency for both the MET trigger and small-R jet trigger approach. Each entry represent a signal point, labelled by the $Z'$ mass and the R$_{inv}$\nobreakspace {}fraction.\nobreakspace {} \relax }}{129}{figure.caption.123}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using data in the full statistics CR and VR regions. \relax }}{105}{figure.caption.84}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The factor of improvement in S/$\sqrt {B}$ for each trigger method compared to the untriggered case. \relax }}{130}{figure.caption.124}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces $m_T$\nobreakspace {}distribution in the data CR, before (left) and after (right) smoothing. \relax }}{106}{figure.caption.86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The ratio of S/$\sqrt {B}$ of jet trigger over \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}trigger selection. \relax }}{130}{figure.caption.125}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Background-only $m_T$\nobreakspace {}fits using pseudo-data from the CR template. \relax }}{107}{figure.caption.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Analysis variables where high R$_{inv}$\nobreakspace {} signals a clearly distinct from background and low R$_{inv}$\nobreakspace {} variables. On the contrary, leading jet \ensuremath {p_{\text {T}}}\nobreakspace {} is one of the only variables where low R$_{inv}$\nobreakspace {} signals are distinct from background. \relax }}{132}{figure.caption.126}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces $p$-value histograms from 100 fits to Asimov data in the CR. \relax }}{107}{figure.caption.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces OR of jet and \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}triggers. \relax }}{132}{figure.caption.127}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Example S+B fit on a background $m_T$\nobreakspace {}spectrum with injected signal from the point (4000 GeV, R$_{inv}$=0.2). \relax }}{108}{figure.caption.90}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Measured signal at a variety of injected values (1x, 2x, and 5x$\sqrt {b}$), for all signal points in the grid, R$_{inv}$=0.2 (top left), 0.4 (top right), 0.6 (bottom left), and 0.8 (bottom right). \relax }}{109}{figure.caption.91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces \relax }}{133}{figure.caption.128}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces 95\% C.L. upper limits for signal models across Z' mass, for four different R$_{inv}$\nobreakspace {}fractions, from the CR region (without systematics). TODO - ATLAS style \relax }}{110}{figure.caption.93}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces \relax }}{134}{figure.caption.130}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces 95\% C.L. upper limits and observed limit for signal models across Z' mass, with varying amounts of signal injected. TODO - ATLAS style \relax }}{111}{figure.caption.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.3}{\ignorespaces AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample (top) and the total MC background (bottom). Note the three missing points will be added shortly - they were delayed due to a DAOD production mistake. \relax }}{135}{figure.caption.131}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Post-fit function and residuals for the ANTELOPE CR and VR. \relax }}{112}{figure.caption.95}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of PFN AUC (top), SIC (middle), and sensitivity in the $m_T$\nobreakspace {}mass window (bottom) for a single PFN model (left) vs. two models, trained on R$_{inv}$\nobreakspace {}$<$ 0.5 and $>$ 0.5 separately. \relax }}{136}{figure.caption.132}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces BumpHunter fits on the ANTELOPE $m_T$\nobreakspace {}spectra for both the CR (left) and VR (right). In a signal-depleted region, good agreement with the background estimation is observed. \relax }}{113}{figure.caption.98}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Preferred cuts on the PFN score for each point in the grid, comparing the effect of adding the NCB preselection. \relax }}{137}{figure.caption.133}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces BumpHunter p-values extracted for 100 Asimov toys for both the ANTELOPE CR (left) and VR (right). \relax }}{114}{figure.caption.99}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Scans done to check for optimality of PFN training parameters. \relax }}{138}{figure.caption.134}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Example injected gaussian signal. \relax }}{114}{figure.caption.101}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.7}{\ignorespaces \relax }}{138}{figure.caption.135}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Response of the BumpHunter framework to signal injection of $5\sigma $ significance to the model-dependent polynomial fit framework. The local significance (top) and bump location (bottom) are shown. \relax }}{116}{figure.caption.102}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.8}{\ignorespaces $\phi $ Performance comparison between single jet and jet system ML approach \relax }}{139}{figure.caption.136}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.9}{\ignorespaces $\phi $ Comparison in the AUC score across the grid for the mixed background strategy vs the QCD only strategy. The bottom table highlights that the QCD only strategy gives superior sensitivity across the signal grid. \relax }}{140}{figure.caption.137}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.10}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}in data before and after Tight event cleaning is applied. \relax }}{141}{figure.caption.138}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.11}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}vs jet1 \ensuremath {p_{\text {T}}}in data before and after Tight event cleaning is applied. \relax }}{142}{figure.caption.139}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.12}{\ignorespaces $\eta $ vs $\phi $ for leading and subleading jets, before and after the application of tight cleaning. \relax }}{142}{figure.caption.140}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Added NCB preselection and impact on \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}shape. \relax }}{143}{figure.caption.141}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.14}{\ignorespaces NCB preselection impact on data and signal yields. \relax }}{144}{figure.caption.142}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.15}{\ignorespaces Impact of tight cleaning and non-collision background preselection. \relax }}{145}{figure.caption.143}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.16}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}$\phi $ in data, before (left) and after (right) application of the TileCal correction tool. \relax }}{145}{figure.caption.144}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Example BH response to gaussian signal injection at 4000 GeV with width of 10\%. \relax }}{116}{figure.caption.103}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Index of jets truth matched (by requirement of $\Delta $R < 0.4) with dark quark. \relax }}{146}{figure.caption.145}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces $m_T$\nobreakspace {}in the unblinded SVJ Fit SR with a background-only fit (p-value = 0.265). \relax }}{117}{figure.caption.104}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Percent of jets with $\Delta $R(j,\ensuremath {E_{\text {T}}^{\text {miss}}}) < 0.4 comparing two jet identification strategies. Leading and subleading jets are seen to be the better metric for identifying jets associated with the dark quark decay. \relax }}{147}{figure.caption.146}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Example spurious signal fits, indicating a Gaussian distribution around the mean of spurious signal events. \relax }}{119}{figure.caption.107}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Spurious signal as a function of resonance mass. The requirement $\mu /\sigma <0.5$ is satisfied for all signal points, where $\mu $ is the mean number of spurious signal events and $\sigma $ is the standard deviation of the number of spurious signal events from 100 pseudo-data experiments. \relax }}{119}{figure.caption.108}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.4}{\ignorespaces $m_T$\nobreakspace {}of the 3500 GeV $Z'$, R$_{inv}$\nobreakspace {}= 0.2 signal point, shown with an example JES variation. The nominal shape (``Nom''), 1$\sigma $ up (``Up''), and 1$\sigma $ down (``down") variations are shown. The variation is seen to have a negligible impact on the signal shape. \relax }}{121}{figure.caption.111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5}{\ignorespaces $m_T$\nobreakspace {}of the 3500 GeV $Z'$, R$_{inv}$\nobreakspace {}= 0.2 signal point, shown with the sum in quadrature of all JES and JER variations. The nominal shape (``Nom"), 1$\sigma $ up (``Up"), and 1$\sigma $ down (``down") variations are shown. \relax }}{122}{figure.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Signal distribution of $m_T$, varying the ISR, FSR and MPI configuration. \relax }}{122}{figure.caption.114}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ masses for R$_{inv}$=0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right); no systematics. \relax }}{124}{figure.caption.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.8}{\ignorespaces $m_T$\nobreakspace {}in the unblinded ANTELOPE SR with a background-only fit (p-value = 0.74), left. BumpHunter test selecting the most significant data excess with a p-value of 0.8098, right. \relax }}{125}{figure.caption.116}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Example determinations of the 60\% mass window means for several signal points. \relax }}{149}{figure.caption.147}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Trigger yield and efficiency for both the MET trigger and small-R jet trigger approach. Each entry represent a signal point, labelled by the $Z'$ mass and the R$_{inv}$\nobreakspace {}fraction.\nobreakspace {} \relax }}{138}{figure.caption.120}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Signal mass resolution for $m_T$\nobreakspace {}binning for the signal grid in (R$_{inv}$, mass) space. \relax }}{149}{figure.caption.148}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The factor of improvement in S/$\sqrt {B}$ for each trigger method compared to the untriggered case. \relax }}{139}{figure.caption.121}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {D.3}{\ignorespaces $m_T$\nobreakspace {}bins based on the signal mass resolution and the minimum 100 GeV width requirement, for each R$_{inv}$\nobreakspace {}signal category. \relax }}{150}{figure.caption.149}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The ratio of S/$\sqrt {B}$ of jet trigger over \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}trigger selection. \relax }}{139}{figure.caption.122}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Analysis variables where high R$_{inv}$\nobreakspace {} signals a clearly distinct from background and low R$_{inv}$\nobreakspace {} variables. On the contrary, leading jet \ensuremath {p_{\text {T}}}\nobreakspace {} is one of the only variables where low R$_{inv}$\nobreakspace {} signals are distinct from background. \relax }}{141}{figure.caption.123}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.5}{\ignorespaces OR of jet and \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}triggers. \relax }}{141}{figure.caption.124}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces \relax }}{142}{figure.caption.125}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.2}{\ignorespaces \relax }}{143}{figure.caption.126}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Comparison of PFN AUC (top) and sensitivity in the $m_T$\nobreakspace {}mass window (bottom) for a single PFN model (left) vs. two models trained on R$_{inv}$\nobreakspace {}$<$ 0.5 and $>$ 0.5 separately (right). \relax }}{144}{figure.caption.127}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Scans done to check for optimality of PFN training parameters. \relax }}{145}{figure.caption.128}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.5}{\ignorespaces $\phi $ Performance comparison between single jet and jet system ML approach \relax }}{146}{figure.caption.129}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.6}{\ignorespaces $\phi $ Comparison in the AUC score across the grid for the mixed background strategy vs the QCD only strategy. The bottom table highlights that the QCD only strategy gives superior sensitivity across the signal grid. \relax }}{147}{figure.caption.130}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.7}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}in data before and after Tight event cleaning is applied. \relax }}{148}{figure.caption.131}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.8}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}vs jet1 \ensuremath {p_{\text {T}}}in data before and after Tight event cleaning is applied. \relax }}{149}{figure.caption.132}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.9}{\ignorespaces $\eta $ vs $\phi $ for leading and subleading jets, before and after the application of tight cleaning. \relax }}{149}{figure.caption.133}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Added NCB preselection and impact on \ensuremath {E_{\text {T}}^{\text {miss}}}\nobreakspace {}shape. \relax }}{150}{figure.caption.134}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.11}{\ignorespaces NCB preselection impact on data and signal yields. \relax }}{151}{figure.caption.135}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Impact of tight cleaning and non-collision background preselection. \relax }}{152}{figure.caption.136}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.13}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}$\phi $ in data, before (left) and after (right) application of the TileCal correction tool. \relax }}{152}{figure.caption.137}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Index of jets truth matched (by requirement of $\Delta $R < 0.4) with dark quark. \relax }}{153}{figure.caption.138}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Percent of jets with $\Delta $R(j,\ensuremath {E_{\text {T}}^{\text {miss}}}) < 0.4 comparing two jet identification strategies. Leading and subleading jets are seen to be the better metric for identifying jets associated with the dark quark decay. \relax }}{154}{figure.caption.139}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Example determinations of the 60\% mass window means for several signal points. \relax }}{156}{figure.caption.140}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Signal mass resolution for $m_T$\nobreakspace {}binning for the signal grid in (R$_{inv}$, mass) space. \relax }}{156}{figure.caption.141}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.3}{\ignorespaces $m_T$\nobreakspace {}bins based on the signal mass resolution and the minimum 100 GeV width requirement, for each R$_{inv}$\nobreakspace {}signal category. \relax }}{157}{figure.caption.142}%

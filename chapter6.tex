@@ -13,7 +13,7 @@ The 139 \fb~integrated luminosity of proton-proton collision data used for physi
 	\label{fig:atlas_grl}}
 \end{figure}
 
-Events for this analysis are further required to pass a single-jet trigger selection, where events are required to have a jet at trigger-level with a \pt~that exceeds a certain value. 
+Events for this analysis are further required to pass a single-jet trigger selection, where events are required to have at least one jet with a \pt~that exceeds a certain value. 
 The lowest \pt~unprescaled\footnote{An unprescaled trigger records every event that meets the trigger requirement. A prescaled trigger only records a fraction of events that meet the trigger requirement.} single jet trigger threshold for each period is as follows: 
 
 \begin{itemize}
@@ -22,7 +22,7 @@ The lowest \pt~unprescaled\footnote{An unprescaled trigger records every event t
 \item 2018:  \pt $\geq$ 420 GeV
 \end{itemize}
 
-A post-trigger selection of jet \pt~> 450 GeV ensures all these triggers are fully within their efficiency plateaus. The jet collection used is anti-$k_t$ EM particle flow jets with a radius parameter of R = 0.4, also referred to as small-R jets. \par
+A post-trigger selection of \textit{leading} jet \pt~> 450 GeV ensures these triggers are fully efficient, meaning that the jets are comfortably above the trigger threshold. The jet in the event with the highest \pt~is termed the \textit{leading jet} (or $j_1$), while the jet with the second highest \pt~is termed the \textit{subleading} jet (or $j_2$). The jet collection used is anti-$k_t$ EM particle flow jets with a radius parameter of R = 0.4, also referred to as small-R jets. \par
 
 Due to the variance in visible and invisible momenta due to the \rinv~parameter of the signal model, many signals also have significant \met.
 The use of a \met~trigger to select events was considered, and the single jet approach described here was found to preserve more signal events across the grid, particularly in the high resonance mass and low ~\rinv~region of phase space. These studies are documented in Appendix~\ref{app:trigger}.\par
@@ -98,9 +98,10 @@ The mass choices for the dark quark and the dark hadrons are also summarized in 
     Parameter & Value \\
     \hline
      $N_{c_D}$ & 3.0 \\
-     $g_{q_D}$& 1.0\\
-     $\Lambda_D$ & 10.0\\
+     $\Lambda_D$ & 10.0 GeV\\
      $N_{f_D}$ & 2.0\\
+     $g_q$ & 0.25\\
+     $g_{q_D}$ & 0.5\\
     \hline
   \end{tabular}
   \caption{Fixed parameters in the Pythia8 HV model}
@@ -125,7 +126,7 @@ This change is minimal in impact because \rinv~is set explicitly (rather than al
   \label{tab:model_mdark}
 \end{table}
 
-The mediator mass $m_{Z'}$ and the fraction of invisible particles in the final state \rinv~vary, and are used to define the search grid. $m_{Z'}$ varies between 2.0 TeV and 5.0 TeV, while~\rinv~ varies from 0.2 to 0.8. \rinv~values of 0.2, 0.4, 0.6, and 0.8 are generated for each $m_{Z'}$ mass point. Table \ref{tab:sig_grid} illustrates the signal grid and the associated cross-section for each signal.
+The mediator mass $m_{Z'}$ and the fraction of invisible particles in the final state \rinv~vary, and are used to define the search grid. $m_{Z'}$ varies between 2.0 TeV and 5.0 TeV, while~\rinv~ varies from 0.2 to 0.8. \rinv~values of 0.2, 0.4, 0.6, and 0.8 are generated for each $m_{Z'}$ mass point. Table \ref{tab:sig_grid} illustrates the signal grid and the associated cross-section for each signal. There are a total of 24 signal points (6 $Z'$ masses $\times$ 4 \rinv~settings) considered in this analysis.
 
 \begin{table}
 \centering
@@ -141,7 +142,7 @@ The mediator mass $m_{Z'}$ and the fraction of invisible particles in the final 
      5000 &  0.757 \\
     \hline
   \end{tabular}
-  \caption{Mass points and cross sections of the SVJ search signal grid}
+  \caption{Mass points and cross sections of the SVJ search signal grid. The cross section is determined only by the $Z'$ mass and is not impacted by the \rinv. }
   \label{tab:sig_grid}
 \end{table}
 

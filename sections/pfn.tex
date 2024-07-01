@@ -1,11 +1,14 @@
 %------------------------------------------------
-\subsection{Particle Flow Network (Supervised)}
+\section{Particle Flow Network (Supervised)}
 \label{subsec:supervised}
-\subsubsection{Architecture Fundamentals}
+The supervised machine learning approach maximizes discovery sensitivity for the SVJ signals considered in this thesis.
+The networks learns the features of the SVJ signals, allowing the network to be highly efficient in selecting events that resemble the SVJ signal.
 
-A Particle Flow Network (PFN)~\cite{pfn} architecture is selected for two reasons: \textit{permutation invariant input modeling} to best describe the events consisting of an unordered set of particles, and a \textit{low-level input modeling} using tracks to take advantage of the available high-dimensional information to best exploit available correlations within the event. Permutation invariant input modeling is an architecture priority as ordered input modeling has been observed to bias the performance of low-level modeling tools as in \cite{vrnn}. Low-level input modeling is an architecture priority to capture the intricacies of dark QCD showers with may not express themselves in higher level variables, as explored in \cite{darkqcd}. A comparison to a high-level \textit{boosted decision tree} (BDT) is available in Appendix~\ref{app:bdtvspfn}.
+\subsection{Architecture Fundamentals}
 
-The PFN is used to model input events as an unordered set of tracks. Given the inherently unordered and variable-length nature of particles in an event, this choice of modeling as a \textit{set} can enable the model to better learn the salient features of the dataset that enable a signal-to-background classification. Constructing the PFN involves the creation of new basis variables $\Phi$ for each particle in the event. Permutation invariance is enforced by summing over the $\Phi$ basis for every particle in the event to create a new permutation invariant latent space basis $\mathcal{O}$. Finally the classifier $F$ is a function of the sum over this new basis. The creation of the latent space basis $\mathcal{O}$ from $M$ particles $\vec{p}$ with $d$ features each can be expressed as:
+A Particle Flow Network (PFN)~\cite{pfn} architecture is selected for two reasons: \textit{permutation invariant input modeling} to best describe the events consisting of an unordered set of particles, and a \textit{low-level input modeling} to take advantage of the ability of neural networks to uncover patterns in high-dimensional data. \textit{Low-level} refers to using detector level information such as individual particle tracks, rather than \textit{high-level} information such as reconstructed jet objects. Low-level input modeling is chosen to capture the intricacies of dark QCD showers with may not express themselves in high level objects, as explored in \cite{darkqcd}. Permutation invariant input modeling is chosen as the most accurate representation of a set of particles. In previous work such as Ref.~\cite{vrnn}, ordered input modeling has been observed to \textit{bias} the performance of low-level modeling tools. In this case bias means that the performance of the tool was observed to change substantially depending on the input ordering; however, there is no physics motivation for choosing any particular order. 
+
+The input to the PFN is a collection of particles and their associated physics information, such as momentum and trajectory. Constructing the PFN involves the creation of new basis variables $\Phi$ for each particle in the input event. This transformation is summarized as $\vec{p_i} \rightarrow \vec{\Phi_i}$ where $\vec{p_i}$ is the physics information for the $i$th particle in the event, and $\vec{\Phi_i}$ is that same information encoded into the $\Phi$ basis. Permutation invariance is enforced by summing over the $\Phi$ basis for every particle in the event to create a new permutation invariant event representation $\mathcal{O}$. The creation of $\mathcal{O}$ from $M$ particles $\vec{p}$ with $d$ physics features each can be expressed as:
 
 \begin{equation}
   \mathcal{O}(\{\vec{p_1},...,\vec{p_M}\}) = \sum_{i=1}^M \Phi_i(\vec{p_i})
@@ -16,27 +19,27 @@ where $\Phi : \mathbb{R}^d \rightarrow \mathbb{R}^l$ is a per particle mapping, 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.7\textwidth]{figures/ml/pfn_paper}
-    \caption{The Energy/Particle Flow Network concept, from Ref.~\cite{pfn}.
+    \caption{The Energy/Particle Flow Network concept, from Ref.~\cite{pfn}. The physics input information is represented as arrows on the left, for an arbitrary number of particles. The $\Phi$ transformation converts these arrows to 3 graphs, indicating the $\Phi$ basis dimension $l$ is 3 in this example. The graphs are then summed for all particles to create $\mathcal{O}$, or the event representation.
     \label{fig:pfn_paper}}
 \end{figure}
 
-Figure~\ref{fig:pfn_arch} provides an annotated diagram of the PFN architecture as used in this analysis. 
+The $\Phi$ basis transformation is implemented via a deep neural network. The output of the neural network is summed as indicated in Equation~\ref{eq:pfn} to create the new permutation invariant event representation $\mathcal{O}$. $\mathcal{O}$ then becomes the input of a second deep neural network $F$. $F$ is a classifier network which separates signal and background events. Figure~\ref{fig:pfn_arch} provides an annotated diagram of the PFN architecture as used in this analysis. 
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.9\textwidth]{figures/ml/pfn_arch}
-    \caption{An annotated diagram of the PFN architecture. $y$ and $\phi$ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input.
+   \includegraphics[width=0.8\textwidth]{figures/ml/pfn_arch}
+    \caption{An annotated diagram of the PFN architecture. $y$ and $\phi$ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. PID is presented in the diagram as a 1-dimensional input, but could represent multiple input dimensions.
         \label{fig:pfn_arch}}
 \end{figure}
 
 %--------------------
-\subsubsection{Input Modeling, Scaling, and Rotation}
+\subsection{Input Modeling, Scaling, and Rotation}
 \label{sec:input_model}
-In this implementation, the particle input information comes from all tracks associated to the leading and subleading jets. The track association method is Ghost association, as discussed in Section~\ref{sec:ghost}. A single jet tagger strategy was also considered, but utilizing tracks from both leading jets creates a complete low-level picture of the event, which both focuses on the objects most likely to be associated to the decay of the dark quark (as will be justified in Chapter~\ref{ch:analysis}) and the relationship between those objects. If we consider the dijet topology of semi-visible jets as illustrated in Figure~\ref{fig:svj_pic}, the advantage of modeling both leading jets simultaneously becomes clear. In the semi-visible jet model presented in \cite{darkqcd}, \met in the event is expected to arise due to an imbalance in the number of visible tracks of the two jets associated to the dark quark decay.\par
+In this implementation, the particle input information comes from all tracks associated to the leading and subleading jets. The track association method is Ghost association, as discussed in Section~\ref{sec:ghost}. A single jet tagger strategy was also considered, but utilizing tracks from both leading jets creates a more complete low-level picture of the event. The choice of the two leading jets is justified in Chapter~\ref{ch:analysis}. If we consider the dijet topology of semi-visible jets as illustrated in Figure~\ref{fig:svj_pic}, the advantage of modeling both leading jets simultaneously becomes clear. In the semi-visible jet model presented in \cite{darkqcd}, \met in the event is expected to arise due to an imbalance in the number of visible tracks of the two jets associated to the dark quark decay.\par
 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.4\textwidth]{figures/ml/dijet_topology}
-    \caption{A illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \met.
+    \caption{An illustration of the expected dijet behavior of semi-visible jets, where one jet is closely aligned with \met (MET). In the figure two jet cones $j_1$ and $j_2$ are illustrated, along with their associated momentum vectors $\vec{p_1}$ and $\vec{p_2}$. 
         \label{fig:svj_pic}}
 \end{figure}
 
@@ -56,95 +59,122 @@ Each track is described using six variables: the four-vector of the track (\pt, 
     \label{fig:ntracks}}
 \end{figure}
 
-These tracks (up to 160 total) are the input to the PFN. Referencing Equation~\ref{eq:pfn}, this corresponds to $M = 160$ and $d = 6$. The two leading jets and their associated tracks are rotated so that the center of the system is aligned with $(\eta,\phi) = (0,0)$. Each track is normalized to its relative fraction of the total dijet system energy and transverse momentum- this enforces agnosticism to the total energy and transverse momentum of the event. The rotation and scaling are motivated by the procedures described in~\cite{pfn} to improve the optimality of the PFN  learning. Figure~\ref{fig:jet_rotate} illustrates the rotation process.
+These tracks (up to 160 total) are the input to the PFN. Referencing Equation~\ref{eq:pfn}, this corresponds to $M = 160$ and $d = 6$. The two leading jets and their associated tracks are rotated so that the vector sum of the jets, or system average, is aligned with $(\eta,\phi) = (0,0)$. The rotation can be summarized as 
+\begin{equation}
+ \eta_{i}' = \eta_i - \bar{\eta},  \\
+ \phi_{i}' = \phi_i - \bar{\phi}
+\end{equation}
+where ($\bar{\eta}, \bar{\phi}$) is the average angle of the dijet system,  ($\eta_{i}, \phi_{i}$) are the original track coordinates, and ($\eta_{i}', \phi_{i}'$) are the rotated track coordinates. Figure~\ref{fig:jet_rotate} illustrates the rotation process. The rotation ensures that the information used by the algorithm is the relative orientation of the jets (and associated tracks) to each other, not their absolute position in the detector. Each track is normalized to its relative fraction of the total dijet system energy and transverse momentum; this enforces agnosticism to the total energy and transverse momentum of the event. The rotation and scaling are motivated by the procedures described in Ref.~\cite{pfn} to improve the performance of the PFN. 
 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.65\textwidth]{figures/ml/jet_rotate}
-    \caption{A diagram demonstrating how the two jet system is rotated in $(\phi,\eta)$.
+    \caption{A diagram demonstrating how the two jet system is rotated in $(\eta,\phi)$. The jet cones and associated jet tracks are illustrated. The dashed tracks represent dark hadrons while the solid tracks represent SM hadrons. The system average $(\bar{\eta},\bar{\phi})$ is shown in red and an example track with coordinates $(\eta_i,\phi_i)$ is shown in purple.
     \label{fig:jet_rotate}}
 \end{figure}
 
-Finally, each of the 6 track variables is scaled so that its range is [0,1]. This is a common preprocessing step that ensures the input data is bounded over a similar range, so that arbitrarily large values don't develop an outsized impact on the model. Figure~\ref{fig:pfn_bkgsig_input} show each of 6 track variables before and after scaling and rotation have been applied, demonstrating the impact of these procedures, as well as the track level similarities differences between the background SM QCD processes and the signal SVJ processes. Figure~\ref{fig:pfn_datamc_input} illustrates that the data is well modeled by the MC at track level.
+Finally, each of the 6 track variables is scaled so that its range is [0,1]. This is a common preprocessing step that ensures the input data is bounded over a similar range, so that arbitrarily large values don't develop an outsized impact on the model. The track momentum and energy normalization mentioned above naturally enforces that these values are restrained between [0,1]. The $\eta$ and $\phi$ values are naturally bounded, so for these values the $\eta$ tracking range\footnote{This range is dictated by the $|\eta|$coverage range of the Inner Detector, as shown in Table~\ref{tab:atlas_requirements}} of [-2.5, 2,5] and the full $\phi$ range [$-\pi$, $\pi$] are mapped to [0,1]. The displacement variables are restricted to [0,1] via the standard \textsc{MinMaxScaler}~\cite{scikit-learn} method which determines the minimum and maximum values observed in training, and maps those boundaries to 0 and 1 respectively. \par
+
+Figure~\ref{fig:pfn_bkgsig_input_kin} shows the kinematics of each of 6 track variables for background and signal. Figure~\ref{fig:pfn_bkgsig_input_rot} shows each of the 6 track variables after scaling and rotation have been applied, demonstrating the impact of these procedures, as well as the track level similarities and differences between the background SM QCD processes and the signal SVJ processes. Figure~\ref{fig:pfn_datamc_input} illustrates that the data is well modeled by the MC at track level. \par
+
+The $\phi$ distribution is of note for its jagged appearance in QCD MC. This arises due to dead tile calorimeter cells in certain $\phi$ regions, the effects of which are seen in data and modeled in QCD MC but not modeled in SVJ signal MC. Appendix~\ref{subsec:tileCal} contains more information about how the issue was addressed in data. The distribution is not of concern for the PFN training because of the rotation process, which replaces the information about absolute detector $\phi$ measurements with the relative $\phi'$ measurement. This is illustrated in Figure~\ref{fig:pfn_bkgsig_input_rot}, where it is observed that for both signal and background the tracks are clustered back to back, centered at $-\pi$/2 and $\pi$/2 ( 0.25 and 0.75 after scaling). The only remaining difference is that the signal tracks are more likely to be close to the system average $\bar{\phi}$ than the background jet tracks. This is demonstrated by the excess of signal events in the center of the $\phi'$ plot. This orientation difference is a real feature of the signal model, confirmed in Figure~\ref{fig:presel_vars2} which illustrates that signal jets are more likely to have low $\Delta\phi$ than background jets. 
 
 \begin{figure}[!htbp]
-\centering
-   \includegraphics[width=\textwidth]{figures/ml/pfn_bkgsig_input}
-    \caption{The 6 PFN track variables in background MC and signal MC. There are some differences between signal and background, but the track kinematics are largely similar. 
-     \label{fig:pfn_bkgsig_input}}
+    \centering
+     \includegraphics[width=0.9\textwidth]{figures/ml/pfn_bkgsig_input_kin}
+     \caption{The 6 PFN track variables in background MC (blue) and signal MC (orange) before scaling and rotation. The track kinematics are largely similar, and the variation in the $\phi$ distribution is explained in the text.}
+      \label{fig:pfn_bkgsig_input_kin}
 \end{figure}
 
 \begin{figure}[!htbp]
-\centering
-   \includegraphics[width=0.7\textwidth]{figures/ml/pfn_datamc_input}
-    \caption{The 6 PFN track variables in data and background MC, after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the phi distribution is due to the modeling of dead TileCal cells by the QCD MC, which will be discussed in Chapter~\ref{ch:analysis}. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only.
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/ml/pfn_bkgsig_input_rot}
+     \caption{The 6 PFN track variables in background MC (blue) and signal MC (orange) after scaling and rotation. The $\phi$ distribution is modified by the rotation procedure, as explained in the text.}
+     \label{fig:pfn_bkgsig_input_rot}
+\end{figure}
+
+\begin{figure}[!htbp]
+   \centering
+   \includegraphics[width=0.9\textwidth]{figures/ml/pfn_datamc_input}
+    \caption{The 6 PFN track variables in background MC (blue) and data (orange), after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the $\phi$ distribution due to the inaccuracies of modeling dead TileCal cells in the QCD MC is considered. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only.
     \label{fig:pfn_datamc_input}}
 \end{figure}
 
+\clearpage
+
 %--------------------
-\subsubsection{Training}
+\subsection{Training}
 \label{sec:pfn_training}
 
-As seen in Figure~\ref{fig:pfn_arch}, two separate architectures are defined and combined to do the supervised training. The PFN uses a masking layer to suppress any zero-padded inputs, making the architecture length agnostic. The masking layer ignores any all-zero inputs in the summation layer. Additionally, The summation layer in the PFN enforces permutation invariance, so the network is unordered. The $\Phi$ network has 3 dense layers of dimensionality 75 with \textsc{relu} activation, with 27.5k trainable parameters and an output $\Phi$ latent space dimension of 64. \par
+As seen in Figure~\ref{fig:pfn_arch}, two networks are defined and combined for the PFN architecture. In our implementation the input layer has a dimension of 6, accounting for the 6 track variables described in the previous section. The first network, termed the $\Phi$ network, creates the per-particle set representation as illustrated in Figure~\ref{fig:pfn_paper}. The $\Phi$ network has 2 hidden layers each of dimension 75, and an output later of dimension 64. These dimensions were chosen via an optimization procedure which balanced network complexity (achieved with more dimensions) against training time (achieved with fewer dimensions). The two hidden layers and $\Phi$ output layer all use a \textsc{relu} activation function~\cite{scikit-learn}, following the work of Ref.~\cite{pfn}. 
 
-The classifier $F$ network similarly has 3 dense layers with 75 nodes with \textsc{relu} activation, and a final softmax layer to determine the event-level classification with a categorical cross-entropy loss. The Adam optimizer is used with an initial learning rate of 0.001. \par
+The input layer of the classifier $F$ network is required to have the same dimension as the output layer of the $\Phi$ network, and therefore takes dimension 64. This network contains 3 hidden layers with 75 nodes each, and again uses \textsc{relu} activation~\cite{scikit-learn} . The final layer is the binary classifier result with dimension 2, which uses a \textsc{softmax} activation~\cite{scikit-learn} that is well suited for classification. The loss function for the complete PFN network is \textsc{CategoricalCrossentropy}~\cite{scikit-learn}, which is a standard loss function for DNN classifiers. The standard Adam optimizer~\cite{adam}~\cite{scikit-learn} is used with a learning rate of 0.001. The learning rate was reduced from the nominal learning rate of 0.01 presented in Ref.~\cite{pfn} to prevent overtraining.\par
 
-The PFN is trained in a fully supervised way using SVJ signal MC and QCD MC events. Although several SM processes are expected to contaminate the SR (see Chapter~\ref{ch:analysis}), QCD is the dominant background. Training against a QCD-only sample is determined to produced better results than training on a more complete background - when training with a background which represents samples that are more enriched in \met, the ability of the PFN to identify high \met signals is reduced. When training with a QCD-only background, there is greater contamination from \met enhanced backgrounds in the final SR - however the increased signal acceptance means that overall sensitivity is still higher with a QCD-only training. This can be seen in the comparison of output classifier distributions in Figure~\ref{fig:fn_MC_training_mixture}.
+The PFN is a supervised algorithm, and is therefore trained on a labeled mixture of signal and background events. The signal input is an even mixture of all signal points considered in this analysis. Although the full simulated background for this analysis is composed of several SM processes as discussed in Section~\ref{subsec:bkg_mc}, QCD is the dominant background. Training with a QCD-only background sample is determined to produce better results than training using the full background mixture. Including MC backgrounds that are enriched in~\met (recall Figure~\ref{fig:bkg_mc}) reduces the ability of the PFN to classify SVJ signals. This is illustrated in the comparison of output classifier distributions in Figure~\ref{fig:pfn_MC_training_mixture}. The signals used for training are the same in both cases. When training with a QCD-only background, high \met~data and MC is more likely to be classified as signal like; however the increased signal performance means that overall \textit{sensitivity}\footnote{Sensitivity is a measure of the ability of an analysis to detect the signal, discussed further in Section~\ref{sec:eventsel}} is higher with a QCD-only training. Additional studies on the optimal PFN training event mixture are available in Appendix~\ref{app:pfn_qp}. \par
 
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.9\textwidth]{figures/ml/pfn_MC_training_mixture}
-    \caption{PFN score for background MC, data, and signal, comparing a PFN training on QCD-only vs all-background MC samples. The average AUC for the QCD-only training (left) is 0.93, while the average AUC for the mixed background training (right) is 0.84. The sensitivity estimate across the grid is better for the QCD-only training - from the distribution we can conclude that this is because the sensitivity to MET enhanced signals is greatly reduced.
-    \label{fig:fn_MC_training_mixture}}
+   \includegraphics[width=0.98\textwidth]{figures/ml/pfn_MC_training_mixture}
+    \caption{PFN score for full-background MC (black), data (red), and 2 representative signal points (green). The left plot is from a QCD-only training, while the right plot is from a full-background training. The histograms have been normalized to visualize the shapes better - the actual number of plotted events is shown in the legend. In the left plot we observe that both signal points are strongly classified as signal-like. In the right plot we observe less background contamination in the high score region, but worse signal classification. Both PFN trainings were tested for their effect on the analysis sensitivity and the QCD-only training was found to be favorable. 
+    \label{fig:pfn_MC_training_mixture}}
 \end{figure}
 
-500k events from both background and signal are used in training, where the signal is a combined file of all simulated signal points and the full QCD background which is sampled according to it's MC weights to produce the proper \pt~input shape. A study was done to check the optimality of the inclusive signal model PFN as compared to one trained on high and low \rinv~points separately, to better capture the differences in high and low~\met~ across signals and backgrounds, but a small effect is found and the decision is taken to keep the inclusive model (Appendix~\ref{app:pfn_qp}).\par
-
-The network is trained for 100 epochs. A train/test/validation split of 78\%, 20\%, and 2\% is used for the final PFN training. Figure~\ref{fig:pfn_loss} shows the loss during training, which is stable and flattens by the end of training, and the final evaluated losses that provide signal-background discrimination over the test set.
+500k QCD MC background events and 500k SVJ signal events are used to train the network. The network is trained for 100 epochs. 20\% of the training events are used for training validation. Figure~\ref{fig:pfn_loss} shows the loss during training, which is stable and shows no indication of overtraining, and the final score that provides signal-background discrimination.
 
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.45\textwidth]{figures/ml/pfn_loss}    
-   \includegraphics[width=0.45\textwidth]{figures/ml/pfn_score}    
-    \caption{PFN architecture loss during training as a function of epoch (left) and the evaluated loss over the signal and background (right).
+   \includegraphics[width=0.9\textwidth]{figures/ml/pfn_loss_score}    
+    \caption{PFN architecture loss during training as a function of epoch (left) and the evaluated score for signal and background training samples (right). The loss vs. epoch plot shows that the network is not overtrained. The score plot shows a good separation between signal and background.
     \label{fig:pfn_loss}}
 \end{figure}
 
-Optimization studies were performed on the PFN, varying the number of training epochs, number of training events, batch size, learning rate, number of neurons, and dimension of the $\Phi$ space. A summary of these studies is presented in Appendix~\ref{app:pfn_qp}. The model presented here represents an optimal choice across these parameters.
+Optimization studies were performed on the PFN, varying the number of training epochs, number of training events, learning rate, number of nodes, and dimension of the $\Phi$ basis. A summary of these studies is presented in Appendix~\ref{app:pfn_qp}. The model presented here represents an optimal choice across these parameters.
 
 %--------------------
-\subsubsection{Performance}
+\subsection{Performance}
+\label{sec:pfn_performance}
 
-The performance of the PFN can be assessed via the area-under-curve (AUC) of the receiver operating characteristic (ROC) associated to evaluating the PFN on the test set of signal and background events. Figure~\ref{fig:pfn_roc} shows the ROC curve of the PFN when classifying the QCD background from the combined signal, with an AUC of 0.93. Figure~\ref{fig:pfn_AUC_score_grid} shows the AUC of the PFN across the SVJ signal grid, demonstrating strong discrimination capability even in the varying corners of phase space. 
-Figure~\ref{fig:pfn_score_all} shows the output score distribution in two signals, data, and the total background MC.
-A selection of PFN score $>$ 0.6 for all SR events is chosen to maximize signal sensitivity across the grid. 
+The performance of the PFN is assessed via the AUC for each SVJ signal point.
+Although the PFN is trained against QCD MC only, the performance is evaluated using data as the background sample, since the ultimate task of the PFN is to separate SVJ signals from data, which is dominated by SM processes.
+
+Figure~\ref{fig:pfn_roc} shows the ROC curve of one such signal point, illustrating a smooth response.
+Figure~\ref{fig:pfn_AUC_score_grid} shows the AUC of the PFN across the SVJ signal grid, demonstrating that AUC $>0.5$ is satisfied for all SVJ signals.
+
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.7\textwidth]{figures/ml/pfn_roc}
-    \caption{ROC the PFN score for combined signal (true positive) and QCD background (false positive).
+    \caption{ROC for the PFN, using SVJ signal events (true positive) and data (false positive).
     \label{fig:pfn_roc}}
 \end{figure}
+
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.7\textwidth]{figures/ml/pfn_AUC_grid}
-    \caption{AUC from the PFN score for each signal in the SVJ grid, shown versus the QCD-only training sample.
+    \caption{AUC for the PFN, shown for each signal in the SVJ grid.
     \label{fig:pfn_AUC_score_grid}}
 \end{figure}
 
+Figure~\ref{fig:pfn_score_all} shows the output score distribution for data and four signals, illustrating the range of scores received by data events in comparison to signal events.
+As expected, most data events receive a background-like score (close to 0.0), indicating that the data is dominated by SM processes consistent with the background.
+Most signal events receive a signal-like score (close to 1.0).
+An optimization procedure determined that a selection of \textbf{PFN score > 0.6} can improve signal sensitivity across the grid.
+The optimization procedure considered the cut that would maximize sensitivity as measured by $s/\sqrt{b}$, where $s$ the number of signal events accepted and $b$ is the number of background events selected.
+This score selection is incorporated into the analysis design described in Chapter~\ref{ch:analysis}. 
 
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.45\textwidth]{figures/ml/pfn_score_all}
-   \includegraphics[width=0.45\textwidth]{figures/ml/mlscore_effComp}
-    \caption{PFN score for two signals and the total background MC (top), and between data and MC (bottom). The difference between data and MC efficiency is minimal ($<$ 5\%).
-    \label{fig:pfn_score_all}}
+   \includegraphics[width=0.5\textwidth]{figures/ml/pfn_score_all}
+   \caption{Illustration of the PFN score selection, showing the separation between data (black) and 4 signal points (blue and green). The legend information takes the form ``$m_{Z'}$ \rinv'' for the signal. The PFN score selection value is shown by the pink line. Only events with a score > 0.6 will be accepted for use in the analysis. We see that most background (data) is rejected, while most signal is accepted.}
+   \label{fig:pfn_score_all}
 \end{figure}
 
-Another supervised approach was studied using a BDT as the primary selection tool, trained over high-level variables describing each event. 
-Studies comparing the PFN and BDT approaches are provided in Appendix~\ref{app:bdtvspfn}.
-Ultimately the low-level high-dimensional approach offered by the PFN was selected for its increased performance and lessened kinematic dependence.
-
-Appendix~\ref{app:ml} shows more studies on the ML methods and comparisons of varying approaches. 
+%The agreement between data and background MC is illustrated in Figure~\ref{fig:mlscore_effComp}. The agreement is generally good, although some slope is observed in the ratio between the two shapes. The data has a small bias towards higher PFN scores compared to the background MC. However, the PFN score is only used in the analysis to make a selection on data events (PFN score > 0.6). The difference in selection efficiency for data and background MC <5.0\%, which is negligible for this analysis. 
+%\begin{figure}[!htbp]
+%\centering
+%   \includegraphics[width=0.5\textwidth]{figures/ml/mlscore_effComp}
+%    \caption{PFN score comparison between normalized data and background MC shapes. Some slope is observed in the ratio panel.
+%    \label{fig:mlscore_effComp}}
+%\end{figure}
 
 \clearpage
 
