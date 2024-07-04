@@ -3,13 +3,13 @@
 \label{subsec:fit_bh}
 
 Model-independent fits for the discovery region are performed using \textsc{pyBumpHunter} \cite{bumphunt}.
-The strategy consists of comparing the data in a given \mt~spectrum of interest to a background estimation derived by performing the polynomial fit and sampling from the post-fit function into a histogram.
+The strategy consists of comparing the data in a given \mt~spectrum to a background estimation derived by performing the polynomial fit.
 
 The polynomial fit is done to an \mt~distribution with 180 bins (25 GeV wide), half the width of the fits in the SVJ Fit region (50 GeV wide). %90 bins, as with the PFN 
 The narrower bins allow for rebinning based on the \textit{signal mass resolution} of the SVJ signals.
 The binning strategy is outlined in Appendix~\ref{app:binning}.
 
-Figure~\ref{fig:bkgfit_data_crvr_antelope} shows the fit and residuals with of the polynomial with the narrower binning in the CR and the Discovery VR data.
+Figure~\ref{fig:bkgfit_data_crvr_antelope} shows the fit and residuals of the polynomial with the narrower binning in the CR and the Discovery VR data.
 Table~\ref{fig:postfit_param_antelope} shows the post-fit values of the fit parameters and their uncertainties for the CR and VR. 
 These results indicate good ability of the 5-parameter polynomial to model the ANTELOPE selected data.
 
@@ -27,7 +27,7 @@ These results indicate good ability of the 5-parameter polynomial to model the A
     \label{fig:postfit_param_antelope}}
 \end{table}
 
-The studies shown in Section~\ref{subsec:fit_bkgonly} validate the robustness of the background polynomial fit. 
+The studies previously shown in Section~\ref{subsec:fit_bkgonly} validate the robustness of the background polynomial fit. 
 The narrower bins are the only difference for polynomial fitting between the SVJ Fit and Discovery Fit strategies, and they are not observed to reduce the quality or consistency of the fit. 
 
 %----------------------------------------------------------------------------------------
@@ -38,11 +38,13 @@ The signal mass resolution binning strategy described in Appendix~\ref{app:binni
 While the SVJ signals help inform the binning, the binning is still broadly applicable to a variety of potential signal models.
 The mass resolution of any resonant signal generally widens as the mass of the mediator particle increases.
 A similar strategy and binning was used in the generic heavy resonance search presented in Ref.~\cite{yxh}.
-The resulting set of 15 bins to be used in the BumpHunter fits varies in width from 100 GeV at the \mt~core to 925 GV in the \mt~tail. 
+The resulting set of 15 bins to be used in the BumpHunter (BH) fits varies in width from 100 GeV at the \mt~core to 925 GeV in the \mt~tail. 
 
 Figure~\ref{fig:antelope_bh_crvr} shows the result of running BumpHunter over the rebinned CR and VR \mt~spectra.
-The background estimation is given by polynomial fit function. 
-The high p-values (>0.01) indicate good agreement with the background estimation.
+The background estimation is given by the polynomial fit function. 
+The BH $p$-values (>0.05) indicate agreement with the background estimation.
+The $p$-value of the polynomial fit which gives the background estimation is also reported.
+The location of the largest bump identified by BH is indicated on the plot. 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/stats/antelope_bh_crvr}
@@ -51,14 +53,14 @@ The high p-values (>0.01) indicate good agreement with the background estimation
 \end{figure}
 
 Figure~\ref{fig:bh_asimov_pvals} shows BumpHunter p-values over 100 Asimov trials, where each toy is scaled to the statistics of the SR.
-The agreement is generally very good, as the p-values trend towards higher values.
+The agreement is generally very good, as the $p$-values trend towards higher values.
 No fits with a \textit{spurious signal} are found.
-A spurious signal would be indicated by a fit with a p-value $<$ 0.01, indicting a bump of at least $2\sigma$ significance.
+A spurious signal would be indicated by a fit with a BH p-value $<$ 0.01, indicting a bump of at least $2\sigma$ significance.
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.45\textwidth]{figures/stats/bh_asimov_pvals_cr}
    \includegraphics[width=0.45\textwidth]{figures/stats/bh_asimov_pvals_vr}
-    \caption{BumpHunter p-values extracted for 100 Asimov toys for both the ANTELOPE CR (left) and VR (right).
+    \caption{BumpHunter p-values extracted for 100 Asimov toys for both the ANTELOPE CR (left) and VR (right). Fits where the 
     \label{fig:bh_asimov_pvals}}
 \end{figure}
 
@@ -67,7 +69,7 @@ A spurious signal would be indicated by a fit with a p-value $<$ 0.01, indicting
 \label{subsec:bhsiginj}
 
 To explore a model independent signal hypothesis, signal injection tests in the ANTELOPE region are done with generic Gaussian shapes.
-Two Gaussian models are built with a mean ranging from 2000 GeV to 5000 GeV and a standard deviation equal to 10 or 20\% the mean value.
+Two Gaussian models are built with a mean ranging from 2000 GeV to 5000 GeV and a standard deviation (or \textit{width}) equal to 10 or 20\% the mean value.
 Figure~\ref{fig:gauss_inj} illustrates an injected Gaussian and its effect on the \mt~distribution.
 The 20\% gaussian represents the widest possible signals we might be sensitive to with a BH strategy, while the 10\% injection represents a narrower signal peak. 
 

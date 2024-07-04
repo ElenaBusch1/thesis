@@ -6,7 +6,7 @@ The final results of this analysis are the polynomial fit to the \mt~distributio
 \label{sec:results_svj}
 Figure~\ref{fig:unblinded_PFN_bonly} shows the unblinded \mt~spectrum in the SVJ Fit SR with a background-only fit. 
 The fit is successful and has a p-value of 0.265, indicating the data is compatible with the background hypothesis. 
-Table~\ref{tab:unblinded_params} gives the values and uncertainties for the five parameters of the polynomial fit.
+Table~\ref{tab:unblinded_params} gives the values and uncertainties for the five parameters of the polynomial fit function given in Equation~\ref{eq:bkgpoly}. 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.5\textwidth]{figures/results/unblinded_PFN_bonly}
@@ -31,6 +31,7 @@ Table~\ref{tab:unblinded_params} gives the values and uncertainties for the five
 %\end{figure}
 
 \subsection{Systematics}
+\label{sec:syst}
 As is typically done in dijet resonance searches using a polynomial fit \cite{dijet_uncert}, the systematic uncertainties in this analysis are applied only to the signal and not to the background.
 This is because the background expectation is determined entirely from the data in the SR via the polynomial fit.
 Therefore the only uncertainty on the background is the statistical uncertainty, which is reflected in the uncertainty associated to each of the five freely floating parameters determined in the fit.
@@ -43,31 +44,26 @@ Finally, uncertainties on the MC simulation of the SVJ theory model are also con
 %------------------------------------------------------------
 \subsubsection{Spurious Signal}
 
-The spurious signal uncertainty is assessed following the prescription in Ref.\cite{smooth_bkg}.
-In this procedure, the spurious signal is defined using pseudo-data experiments, which are drawn from a smoothed template as described in Section~\ref{subsec:fit_bkgonly}.
-A spurious signal uncertainty is included in the fit as a \textit{yield} uncertainty on each signal point.
+The spurious signal uncertainty is assessed following the prescription in Ref.~\cite{smooth_bkg}.
+Asimov pseudo-datasets as described in Section~\ref{subsec:fit_bkgonly} are used to estimate the spurious signal.
+The spurious signal uncertainty is included in the fit as a systematic uncertainty on the \textit{yield} of each signal point.
 
-The spurious signal $\mu_{\text{spur}}$ is quantified for each signal as the mean number of signal events fitted across 100 signal-free pseudo-data experiments. 
-To determine if the amount of spurious signal is tolerable, the threshold $\mu_{\text{spur}}$/$\sigma_{\text{spur}} < 0.5$ is used \cite{smooth_bkg}.
-$\sigma_{\text{spur}}$ for each signal point is the standard deviation on the number of fitted signal events across the 100 pseudo-data experiments.
-Figure~\ref{fig:spursig_ex} gives examples of these pseudo-data experiments, revealing Gaussian distributions from which the mean and standard deviation used for this measurement are taken.
+The spurious signal $\text{S}_{\text{spur}}$ is quantified for each signal as the mean number of signal events fitted across 100 signal-free pseudo-data experiments. 
+To determine if the amount of spurious signal is tolerable, the threshold $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}} < 0.5$ is used as recommended in Ref.~\cite{smooth_bkg}.
+$\sigma_{\text{fit}}$ is the standard deviation on the number of fitted signal events for each signal point across the 100 pseudo-data experiments, and represents the statistical uncertainty on the number of fitted signal events.
+The approximate total uncertainty on the fitted signal event yield is therefore $\sigma_\text{tot} \approx \sqrt{\sigma_\text{fit}^2 + \text{S}_\text{spur}^2}$ with the addition of the spurious signal systematic.
+The requirement $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}} < 0.5$ enforces that the increase in the total measurement uncertainty $\sigma_\text{tot}$ is tolerable at < 15\% ($\sqrt{1+0.5^2} \approx 1.12$ for $\text{S}_{\text{spur}} = 0.5\sigma_\text{fit}$).
+
 %Figure~\ref{fig:spursig_nevents} shows the determined spurious signal as a function of Z' resonance mass, for both low and high \rinv~points.
 
-Figure~\ref{fig:spursig} shows the $\mu_{\text{spur}}$/$\sigma_{\text{spur}}$ metric.
-The requirement for $\mu_{\text{spur}}$/$\sigma_{\text{spur}}$ < 0.5 is easily satisfied across the signal grid.
-\begin{figure}[!htbp]
-\centering
-   \includegraphics[width=0.8\textwidth]{figures/systs/spursig_ex}
-    \caption{Example spurious signal fits, indicating a Gaussian distribution around the mean of spurious signal events.
-    \label{fig:spursig_ex}}
-\end{figure}
+Figure~\ref{fig:spursig} shows the $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}}$ metric.
+The requirement for $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}}$ < 0.5 is easily satisfied across the signal grid.
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/systs/spursig}
-    \caption{Spurious signal as a function of resonance mass. The requirement $\mu/\sigma <0.5$ is satisfied for all signal points, where $\mu$ is the mean number of spurious signal events and $\sigma$ is the standard deviation of the number of spurious signal events from 100 pseudo-data experiments.
+    \caption{Spurious signal envelope as a function of resonance mass. The requirement $\text{S}_\text{spur}/\sigma_\text{fit} <0.5$ is satisfied for all signal points. 100 pseudo-data experiments are used for the measurement.
     \label{fig:spursig}}
 \end{figure}
-
 
 %As an additional verification of the size of the spurious signal, we perform the same check in the VR, as shown in Figure~\ref{fig:spursig_vs_mass_vr}.
 %The size of the fitted spurious signal in the VR is consistent with that of the CR, indicating a good estimate of this uncertainty and extrapolation across regions.
@@ -109,10 +105,11 @@ In the 2000 GeV $Z'$ mass case (which has the lowest relative spurious signal un
 
 The impact of the JES and JER uncertainties on the shape of the \mt~distribution is also considered.
 An example individual JES variation is shown in Figure~\ref{fig:jes_uncert}, illustrating the minimal impact of this uncertainty on the shape of \mt.
+TODO - define up, down
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/results/jes}
-    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with an example JES variation. The nominal shape (``Nom''), 1$\sigma$ up (``Up''), and 1$\sigma$ down (``down") variations are shown. The variation is seen to have a negligible impact on the signal shape.
+    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with an example JES variation. The nominal shape (``Nom''), 1$\sigma$ up (``Up''), and 1$\sigma$ down (``down") variations are shown. The variation is seen to have a negligible impact on the signal shape. Signal only (no background) is shown. 
     \label{fig:jes_uncert}}
 \end{figure}
 
@@ -139,17 +136,19 @@ Ref~\cite{pythia8_tunes} describes how these parameters are condensed into 10 va
 The 10 variations (representing 5 up/down variation pairs) are evaluated for the SVJ signal shapes. 
 Figure~\ref{fig:isrfsr} provides a look at the effect of these variations on the SVJ \mt~signal shape. 
 
+TODO - replace title
 \begin{figure}[!htbp]
 \centering
-   \includegraphics[width=0.7\textwidth]{figures/systs/isrfsr}
+   \includegraphics[width=0.9\textwidth]{figures/systs/isrfsr}
     \caption{Signal distribution of \mt, varying the ISR, FSR and MPI configuration.
     \label{fig:isrfsr}}
 \end{figure}
 
-All 10 variations are determined to be flat within uncertainty, and thus the systematic is considered for its impact on the signal yield.
+There is no substantial sculpting of the \mt~shape from any of the 10 systematic variations; thus the systematic is considered for its impact on the signal yield.
 The variation in the signal yield is at most 5\% (TODO - determine exactly), which is incorporated into the fitted systematics. 
 The spurious signal uncertainty is dominant for all but the lowest mass signal points.
 
+\clearpage
 %------------------------------------------------------------
 \subsection{Interpretation}
 Using a modified frequentist approach \cite{freq}, \textit{exclusion limits} at the 95\% confident level (CL) are derived.
@@ -163,20 +162,22 @@ The final limits on the $Z'$ cross section after the implementation of the syste
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/results/final_limits}
-    \caption{Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ masses for \rinv=0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right); no systematics.
+    \caption{Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ masses for \rinv=0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right).
     \label{fig:unblinded_limits_syst}}
 \end{figure}
 Exclusion of the theoretical model is observed for the 2000 GeV $Z'$ mass point for all \rinv~ values.
 We are unable to exclude the highest mass points due to their low theoretical cross section, and relatively high spurious signal uncertainty.
 The most mass points are excluded for \rinv~= 0.2, which excludes $Z'$ masses up to 3500 GeV.
 
+\clearpage
 %--------------------------------------------------------
 \section{Discovery Result}
 \label{sec:results_svj}
 Figure~\ref{fig:unblinded_antelope_masked} shows the unblinded \mt~spectrum in the Discovery SR with a background-only fit, and the resulting BumpHunter test.
-The polynomial fit is successful and has a B-only p-value of 0.74, indicating the data is compatible with the background hypothesis. 
+The polynomial fit is successful and has a background-only p-value of 0.74, indicating the data is compatible with the background hypothesis. 
 The BumpHunter test gives a p-value of 0.8098, indicating no significant excess.
 The maxiumum local significance is 0.877$\sigma$. 
+TODO: fix plots, what is significance
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/results/unblinded_antelope_unmasked}

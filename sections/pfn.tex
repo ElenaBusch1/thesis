@@ -6,7 +6,7 @@ The networks learns the features of the SVJ signals, allowing the network to be 
 
 \subsection{Architecture Fundamentals}
 
-A Particle Flow Network (PFN)~\cite{pfn} architecture is selected for two reasons: \textit{permutation invariant input modeling} to best describe the events consisting of an unordered set of particles, and a \textit{low-level input modeling} to take advantage of the ability of neural networks to uncover patterns in high-dimensional data. \textit{Low-level} refers to using detector level information such as individual particle tracks, rather than \textit{high-level} information such as reconstructed jet objects. Low-level input modeling is chosen to capture the intricacies of dark QCD showers with may not express themselves in high level objects, as explored in \cite{darkqcd}. Permutation invariant input modeling is chosen as the most accurate representation of a set of particles. In previous work such as Ref.~\cite{vrnn}, ordered input modeling has been observed to \textit{bias} the performance of low-level modeling tools. In this case bias means that the performance of the tool was observed to change substantially depending on the input ordering; however, there is no physics motivation for choosing any particular order. 
+A Particle Flow Network (PFN)~\cite{pfn} architecture is selected for two reasons: \textit{permutation invariant input modeling} to best describe the events consisting of an unordered set of particles, and a \textit{low-level input modeling} to take advantage of the ability of neural networks to uncover patterns in high-dimensional data. \textit{Low-level} refers to using detector level information such as individual particle tracks, rather than \textit{high-level} information such as reconstructed jet objects. Low-level inputs are generally high-dimensional; for instance, an event may have only 2 jets (dim-2), but each jet consists of 70 particles (dim-140). Low-level input modeling is chosen to capture the intricacies of dark QCD showers with may not express themselves in high level objects, as explored in Ref.~\cite{darkqcd}. Permutation invariant input modeling is chosen as the most accurate representation of a set of particles. In previous work such as Ref.~\cite{vrnn}, ordered input modeling has been observed to \textit{bias} the performance of low-level modeling tools. In this case bias means that the performance of the tool was observed to change substantially depending on the input ordering; however, there is no physics motivation for choosing any particular order. 
 
 The input to the PFN is a collection of particles and their associated physics information, such as momentum and trajectory. Constructing the PFN involves the creation of new basis variables $\Phi$ for each particle in the input event. This transformation is summarized as $\vec{p_i} \rightarrow \vec{\Phi_i}$ where $\vec{p_i}$ is the physics information for the $i$th particle in the event, and $\vec{\Phi_i}$ is that same information encoded into the $\Phi$ basis. Permutation invariance is enforced by summing over the $\Phi$ basis for every particle in the event to create a new permutation invariant event representation $\mathcal{O}$. The creation of $\mathcal{O}$ from $M$ particles $\vec{p}$ with $d$ physics features each can be expressed as:
 
@@ -27,14 +27,14 @@ The $\Phi$ basis transformation is implemented via a deep neural network. The ou
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.8\textwidth]{figures/ml/pfn_arch}
-    \caption{An annotated diagram of the PFN architecture. $y$ and $\phi$ represent geometric information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. PID is presented in the diagram as a 1-dimensional input, but could represent multiple input dimensions.
+    \caption{An annotated diagram of the PFN architecture~\cite{pfn}. $y$ and $\phi$ represent geometric trajectory information for the input particles, $z$ represents energy information, and PID encompasses any other particle ID information in the input. PID is presented in the diagram as a 1-dimensional input, but could represent multiple input dimensions.
         \label{fig:pfn_arch}}
 \end{figure}
 
 %--------------------
 \subsection{Input Modeling, Scaling, and Rotation}
 \label{sec:input_model}
-In this implementation, the particle input information comes from all tracks associated to the leading and subleading jets. The track association method is Ghost association, as discussed in Section~\ref{sec:ghost}. A single jet tagger strategy was also considered, but utilizing tracks from both leading jets creates a more complete low-level picture of the event. The choice of the two leading jets is justified in Chapter~\ref{ch:analysis}. If we consider the dijet topology of semi-visible jets as illustrated in Figure~\ref{fig:svj_pic}, the advantage of modeling both leading jets simultaneously becomes clear. In the semi-visible jet model presented in \cite{darkqcd}, \met in the event is expected to arise due to an imbalance in the number of visible tracks of the two jets associated to the dark quark decay.\par
+In this implementation, the particle input information comes from all tracks associated to the leading and subleading jets. The track association method is Ghost association, as discussed in Section~\ref{sec:ghost}. A single jet tagger strategy was also considered, but utilizing tracks from both leading jets creates a more complete low-level picture of the event. The choice of the two leading jets is justified in Chapter~\ref{ch:analysis}. If we consider the dijet topology of semi-visible jets as illustrated in Figure~\ref{fig:svj_pic}, the advantage of modeling both leading jets simultaneously becomes clear. In the semi-visible jet model presented in Ref.~\cite{darkqcd}, \met~in the event is expected to arise due to an imbalance in the number of visible tracks of the two jets associated to the dark quark decay.\par
 
 \begin{figure}[!htbp]
 \centering
@@ -59,11 +59,13 @@ Each track is described using six variables: the four-vector of the track (\pt, 
     \label{fig:ntracks}}
 \end{figure}
 
-These tracks (up to 160 total) are the input to the PFN. Referencing Equation~\ref{eq:pfn}, this corresponds to $M = 160$ and $d = 6$. The two leading jets and their associated tracks are rotated so that the vector sum of the jets, or system average, is aligned with $(\eta,\phi) = (0,0)$. The rotation can be summarized as 
-\begin{equation}
- \eta_{i}' = \eta_i - \bar{\eta},  \\
- \phi_{i}' = \phi_i - \bar{\phi}
-\end{equation}
+These tracks (up to 160 total) are the input to the PFN. Referencing Equation~\ref{eq:pfn}, this corresponds to $M = 160$ (number of particles) and $d = 6$ (number of features per particle). The two leading jets and their associated tracks are rotated so that the vector sum of the jets, or system average, is aligned with $(\eta,\phi) = (0,0)$. The rotation can be summarized as 
+\begin{subequations}
+    \begin{align}
+       \eta_{i}' &= \eta_i - \bar{\eta},  \\
+        \phi_{i}' &= \phi_i - \bar{\phi}
+    \end{align}
+\end{subequations}
 where ($\bar{\eta}, \bar{\phi}$) is the average angle of the dijet system,  ($\eta_{i}, \phi_{i}$) are the original track coordinates, and ($\eta_{i}', \phi_{i}'$) are the rotated track coordinates. Figure~\ref{fig:jet_rotate} illustrates the rotation process. The rotation ensures that the information used by the algorithm is the relative orientation of the jets (and associated tracks) to each other, not their absolute position in the detector. Each track is normalized to its relative fraction of the total dijet system energy and transverse momentum; this enforces agnosticism to the total energy and transverse momentum of the event. The rotation and scaling are motivated by the procedures described in Ref.~\cite{pfn} to improve the performance of the PFN. 
 
 \begin{figure}[!htbp]

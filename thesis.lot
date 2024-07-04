@@ -8,33 +8,37 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces General performance goals of the ATLAS detector \cite {atlas_overview}. \relax }}{27}{table.caption.18}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces General performance goals of the ATLAS detector \cite {atlas_overview}. \relax }}{26}{table.caption.17}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Fixed parameters in the Pythia8 HV model\relax }}{65}{table.caption.45}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Fixed parameters in the Pythia8 HV model\relax }}{64}{table.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Values for $m_{dark}$\relax }}{65}{table.caption.46}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Values for $m_{dark}$\relax }}{64}{table.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Mass points and cross sections of the SVJ search signal grid. The cross section is determined only by the $Z'$ mass and is not impacted by the R$_{inv}$. \relax }}{65}{table.caption.47}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Mass points and cross sections of the SVJ search signal grid. The cross section is determined only by the $Z'$ mass and is not impacted by the R$_{inv}$. \relax }}{64}{table.caption.46}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.1}{\ignorespaces Preselection cuts for data (left) and signal (right). \relax }}{94}{table.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.2}{\ignorespaces Post-fit parameters for the PFN CR and VR. $p1$ can also be considered $N_{bkg}$ or the normalization factor. \relax }}{106}{table.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.3}{\ignorespaces Post-fit parameters for the ANTELOPE CR and VR. \relax }}{113}{table.caption.95}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Post-fit parameters for the PFN SR. $p1$ can also be considered $N_{bkg}$ or the normalization factor. \relax }}{119}{table.caption.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.2}{\ignorespaces Summary of Experimental Uncertainties and their impact on the yield of MC signal events.\relax }}{121}{table.caption.108}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Preselection cuts for data (left) and signal (right). \relax }}{93}{table.caption.73}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.2}{\ignorespaces Post-fit parameters for the PFN CR and VR. $p1$ can also be considered $N_{bkg}$ or the normalization factor. \relax }}{105}{table.caption.85}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.3}{\ignorespaces Post-fit parameters for the ANTELOPE CR and VR. \relax }}{112}{table.caption.96}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces Post-fit parameters for the PFN SR. $p1$ can also be considered $N_{bkg}$ or the normalization factor. \relax }}{118}{table.caption.105}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.2}{\ignorespaces Summary of Experimental Uncertainties and their impact on the yield of MC signal events.\relax }}{120}{table.caption.110}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,7 +1,27 @@
 \chapter{Analysis Strategy}
 \label{ch:analysis}
 
-This chapter will present the strategies used to isolate ATLAS data events most consistent with the SVJ model and to estimate the relevant background. The data and MC samples discussed in Chapter~\ref{ch:mc_data} are studied to create the analysis strategy, and the ML scores discussed in Chapter~\ref{ch:ml_tools} are used to isolate the most signal like events. A \textit{preselection} selects events consistent with the SVJ topology based on basic features of the jets and \met. Preselected events are then split into a \textit{control region} (CR), \textit{validation region} (VR), and \textit{signal region} (SR). The CR is used to estimate the estimate the background and the VR is used to validate that estimation. The SR is blinded during the development of the analysis strategy, and only unblinded to make the final measurements presented in Chapter~\ref{ch:results}. The final result is a polynomial fit of the \textit{transverse mass} (\mt) spectrum in the SR. The preselection, region definitions, and polynomial fit will be discussed in detail in the following sections.
+This chapter will present the strategies used to isolate ATLAS data events most consistent with the SVJ model and to estimate the relevant background. The data and MC samples discussed in Chapter~\ref{ch:mc_data} are studied to create the analysis strategy, and the ML scores discussed in Chapter~\ref{ch:ml_tools} are used to isolate the most signal like events. The background is estimated from the \textit{transverse mass} (\mt) spectrum, which captures the main components of the $Z'$ decay. A \textit{preselection} selects events consistent with the SVJ topology based on basic features of the jets and \met. Preselected events are then split into a \textit{control region} (CR), \textit{validation region} (VR), and \textit{signal region} (SR). The CR and VR are used to validate the background estimation procedure. The SR is blinded during the development of the analysis strategy, and only unblinded to make the final measurements presented in Chapter~\ref{ch:results}. The final result is a polynomial fit of the \textit{transverse mass} (\mt) spectrum in the SR. The preselection, region definitions, and polynomial fit will be discussed in detail in the following sections.
+
+\section{Transverse Mass}
+\label{sec:mt}
+The transverse mass \mt~is chosen as the search variable due to the potential for the SVJ signal to create a resonant shape around the mass of the $Z'$. \mt~is the total transverse mass of the two leading jets and the \met, expressed in Equation~\ref{eq:mt} as:
+
+\begin{equation}
+m_T^2 = [E_{T,jj} + \met~]^2 - [\vec{p}_{T,jj} + \vec{p}_T^{\text{miss}}]^2
+\label{eq:mt}
+\end{equation}
+
+where $E_{T,jj}$ is the transverse energy of the dijet system. We take $E_{T,jj} = m_{jj}^2 + |\vec{p}_{T,jj}|^2$, where $m_{jj}^2$ is the invariant mass of the two leading jets, and $\vec{p}_{T,jj}$ is the vector sum of the \pt~of the two leading jets. \mt~is selected as the search variable in place of simpler invariant mass $m_{jj}$ because substantial energy from the Z' decay is captured in the \met~. Therefore incorporating \met~into \mt~improves the resonance around the mass of the $Z'$. \par
+
+Figure~\ref{fig:mt_mass} illustrates the resonance in \mt~of the SVJ signals. The smoothly falling background is shown in comparison to the resonant shape of the signals, which form a peak just below the associated $Z'$ mass. The lower \rinv~signals form a more distinctive resonance in \mt, while the high \rinv~signals have a much wider \mt~shape.
+\begin{figure}[!htbp]
+\centering
+    \includegraphics[width=0.98\textwidth]{figures/ch8/mt_mass_norm}
+    \includegraphics[width=0.98\textwidth]{figures/ch8/mt_mass_unnorm}
+    \caption{The resonant shape of the SVJ signals (color) in \mt, in contrast to the smoothly falling \mt~background (grey). The top row illustrates unit normal shapes, so that the shape of the signals is more easily seen. The bottom row illustrates the signal and background scaled to their expected yield at preselection, illustrating the relative expected statistics. The \rinv~= 0.8 signals (right) boast a wider shape, making them more difficult to detect, while the \rinv~= 0.2 signals (left) produce a more narrow resonance in \mt~. The signal models are identified in the legend as ``$m_{Z'}$, \rinv''. 
+    \label{fig:mt_mass}}
+\end{figure}
 
 %------------------------------------------------- 
 \section{Preselection}
@@ -19,7 +39,7 @@ Here ``jets" refer to anti-$k_t$ R=0.4 jets, as discussed in Chapter~\ref{ch:par
 \item $\Delta$Y$<$ 2.8 (difference in rapidity between $j_1$ and $j_2$); to ensure central production associated with the hard scatter  
 \item \met $>$ 200 GeV; to restrict the phase space to events with possible dark particles 
 \item \mt $>$ 1.2 TeV, to ensure a smoothly falling \mt~distribution for fitting (Section~\ref{sec:background})
-\item At least 3 tracks for each of the two leading jets $j_1$ and $j_2$; to have adequate information about the shape of the jet for the ML tools
+\item At least 3 tracks for each of the two leading jets $j_1$ and $j_2$; to have adequate tracking information for the ML tools
 \item $\Delta\Phi$($j_1$,$j_2$) $>$ 0.8; to mitigate the presence of non-collision background (Appendix~\ref{app:ncb}).
 \end{itemize}
 
@@ -35,7 +55,7 @@ With the exception of the cuts necessary to reduce the non-collision background,
 
 Vetos are applied to reject any events where an error for a subdetector is flagged. 
 To reject non-collision backgrounds (NCB), such as calorimeter noise, beam halo interactions, or cosmic rays, the standard ATLAS event cleaning procedure is applied.
-As this analysis is very dependent on \met~associated to jets, the \textsc{Tight}~\cite{tight_loose}event cleaning working point is applied. 
+As this analysis is very dependent on \met~associated to jets, the \textsc{Tight}~\cite{tight_loose} event cleaning working point is applied. 
 Tight cleaning requires jets to pass a stricter set of quality requirements compared to the \textsc{Loose}~\cite{tight_loose} cleaning option.
 Due to the alignment between jets and \met~ for SVJ events, it was found that two additional cuts (indicated above) are needed to remove NCB.
 The process for selecting these cuts is presented in Appendix~\ref{app:ncb}. 
@@ -45,13 +65,24 @@ They are therefore the two jets of greatest interest in the event, and used in t
 This choice was determined through studies of the dark quark trajectory in simulation which determined that the leading and subleading jets are most often aligned with the dark quark, and therefore most likely to capture the dark quark hadronization.
 This study can be found in Appendix~\ref{app:truthstudies}.
 
-Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2} show the distribution of signal and background MC in several key analysis variables after preselection is applied.
+Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2} show the distribution of signals, data and background MC in several key analysis variables after preselection is applied.
+The variables illustrated are:
+\begin{itemize}
+\item Transverse mass \mt: key analysis variable which reconstructs the $Z'$ mass, as discussed in Section~\ref{sec:mt}.
+\item Leading jet \pt: the trigger variable, and a component of \mt. 
+\item Subleading jet \pt: dark quark candidate and component of \mt.
+\item Missing transverse energy \met (or MET): component of \mt, and an indication of the presence of dark hadrons. All signals are observed to have more \met than the background.
+\item $\Delta\phi$(j1, j2): difference in trajectory of the two leading jets, measured in the $\phi$ plane (recall the ATLAS detector geometry of Figure~\ref{fig:ATLASgeometry}). Orientation of the jets is of importance to the ML model as discussed in Section
+\item $\Delta$Y(j1, j2): difference in trajectory of the two leading jets, measured in the Y plane (recall Figure~\ref{fig:ATLASgeometry} and the definition of rapidity Equation~\ref{eq:rapidity}). The signals are seen to have lower $\Delta$Y(j1, j2) than the background.
+\item $\Delta\phi$(j1, \met): the angular separation between the leading jet and the \met. The leading jet is predominantly back-to-back with the \met.
+\item $\Delta\phi$(j2, \met): the angular separation between the subleading jet and the \met. The subleading jet is predominantly aligned with the \met, which is a unique feature of this analysis as jets that are closely aligned with \met~are often removed from other ATLAS analyses.
+\end{itemize}
 
 \begin{figure}[!htbp]
 \centering
     \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel1}
     \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel2}
-    \caption{Energy and momentum analysis variables at preselection, for data, all background MC and representative signal models. \mt~is the key fit variable, and this plot illustrates the smoothly falling background in comparison to the resonant shape of the signals. \mt~is further illustrated in Figure~\ref{fig:mt_mass}.
+    \caption{Energy and momentum analysis variables at preselection, for data (black), background MC (grey), and representative signal models (color). The signal models are identified in the legend as ``$m_{Z'}$, \rinv''. 
     \label{fig:presel_vars}}
 \end{figure}
 
@@ -59,10 +90,13 @@ Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2} show the distribu
 \centering
     \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel3}
     \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel4}
-     \caption{Orientation analysis variables at preselection, for data, all background MC and representative signal models. While $\Delta\phi$(\met, $j$) variables are not used explicitly in the analysis flow, they help create a picture of the event.
-    \label{fig:presel_vars2}}
+     \caption{Orientation analysis variables at preselection, for data (black), background MC (grey), and representative signal models (color). The signal models are identified in the legend as ``$m_{Z'}$, \rinv''. 
+      \label{fig:presel_vars2}}
 \end{figure}
 
+The data and background MC are both illustrated in Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2}. The agreement between them is generally observed to be good, particularly in the key analysis variable \mt. The agreement is not required to be perfect as the background MC is not used for the background estimation. The primary motivation for studying the background MC is to uncover and remove issues unique to data such as the NCB, as described further in Appendix~\ref{app:ncb}.
+
+ \clearpage
 %\input{sections/object}
 \input{sections/regions}
 \input{sections/background}

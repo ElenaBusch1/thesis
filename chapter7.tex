@@ -14,7 +14,7 @@ The two different ML algorithms used in this approach will be explored in Sectio
 The machine learning tools presented in this chapter depend on two basic \textit{architectures}.
 An ML architecture refers to the specific neural network design used to create an ML \textit{algorithm} (or \textit{tool}). 
 
-The first basic architecture is a \textit{deep neural network} (DNN) \cite{dnn}.
+The first basic architecture is a deep neural network (DNN)~\cite{dnn}.
 Figure~\ref{fig:dnn} illustrates the concept.
 The hidden layers of a DNN allow the network to store information about the importance of each input feature and the importance of correlations amongst the input features.
 The elements of each layer are known as \textit{nodes}.
@@ -31,7 +31,7 @@ The output of the activation function becomes the value associated to the node, 
 \end{figure}
 
 A \textit{loss function} measures the performance of the model. 
-The \textit{loss} calculated by the loss function compares the output of the model to the correct response.
+The \textit{loss} calculated by the loss function compares the output of the model to the correct response; a lower loss indicates better performance.
 In a \textit{classifier} model the output layer is the probability that the input fits a certain category, for example ``signal'' (1.0) or ``background" (0.0).
 This probability is called the \textit{score}.
 The loss function calculates the accuracy of the scores.
@@ -41,7 +41,7 @@ Figure~\ref{fig:score_example} illustrates a typical classifier score response.
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.5\textwidth]{figures/ml/ml_score_example}
-    \caption{An example score distribution for a binary classifier. A higher score indicates a greater probability of being signal. Most signal events (orange) receive a high score while most background events (blue) receive a low score, indicating good classification.
+    \caption{An example score distribution for a binary classifier. A higher score indicates a greater probability of the event being signal-like. Most signal events (orange) receive a high score while most background events (blue) receive a low score, indicating good classification.
     \label{fig:score_example}}
 \end{figure}
 
@@ -52,7 +52,7 @@ During training, a set of events are set aside to use for \textit{validation}.
 The purpose of the validation data is to prevent \textit{overtraining}.
 If a network is sufficiently large and complex, the network could lose generality by perfectly learning (or ``memorizing'') the correct response for every training event.
 This would minimize the training loss, but could result in the network failing to correctly classify events it hasn't seen before. 
-By evaluating the loss of the validation data the user can determine if the network is overtrained; the training loss should not greatly exceed the validation loss.
+By evaluating the loss of the validation data the user can determine if the network is overtrained; the validation loss should not greatly exceed the training loss.
 
 ML algorithms are often evaluated through a \textit{receiver operating characteristic} (ROC). 
 The ROC compares the true positive rate (correct classification) with the false positive rate (false classification).
@@ -70,7 +70,7 @@ An AUC of 1.0 indicates perfect performance, while an AUC of 0.5 indicates that 
     \label{fig:roc}}
 \end{figure}
 
-The second architecture that is important to this thesis is the \textit{auto-encoder} (AE)~\cite{autoencoders}. 
+The second architecture that is important to this thesis is the auto-encoder (AE)~\cite{autoencoders}. 
 Unlike a DNN, which is a supervised network that depends on the use of correct labels to determine the loss, the AE calculates loss by comparing the input and output layers.
 Figure~\ref{fig:ae} illustrates the concept.
 The network is designed to extract the most salient features of the input via dimensionality reduction.
