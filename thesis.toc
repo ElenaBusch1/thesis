@@ -2,8 +2,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Acknowledgments}{xvii}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Dedication}{xviii}{section*.5}%
-\defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Theory}{1}{part.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}The Standard Model}{2}{chapter.1}%
@@ -62,11 +60,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Liquid Argon Calorimeter}{31}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{32}{subsubsection*.22}%
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{32}{subsubsection*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{33}{subsubsection*.25}%
+\contentsline {subsubsection}{Hadronic End-cap Calorimeter}{33}{subsubsection*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Forward Calorimeter}{34}{subsubsection*.27}%
+\contentsline {subsubsection}{Forward Calorimeter}{34}{subsubsection*.26}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Tile Calorimeter}{34}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
@@ -122,51 +120,51 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.2}Input Modeling, Scaling, and Rotation}{70}{subsection.7.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Training}{79}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.3}Training}{77}{subsection.7.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Performance}{80}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.4}Performance}{78}{subsection.7.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}ANTELOPE (Semi-supervised)}{84}{section.7.3}%
+\contentsline {section}{\numberline {7.3}ANTELOPE (Semi-supervised)}{82}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Architecture Fundamentals}{84}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.1}Architecture Fundamentals}{82}{subsection.7.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Training}{87}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.2}Training}{85}{subsection.7.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Performance}{88}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.3}Performance}{86}{subsection.7.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Model Independence}{89}{paragraph*.70}%
+\contentsline {paragraph}{Model Independence}{87}{paragraph*.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Analysis Strategy}{91}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Analysis Strategy}{89}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Transverse Mass}{91}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Transverse Mass}{89}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Preselection}{93}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Preselection}{91}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}SVJ Fit and Discovery Analysis Strategies}{98}{section.8.3}%
+\contentsline {section}{\numberline {8.3}SVJ Fit and Discovery Analysis Strategies}{96}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Analysis Regions}{99}{section.8.4}%
+\contentsline {section}{\numberline {8.4}Analysis Regions}{97}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Control and Validation Regions}{99}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.1}Control and Validation Regions}{97}{subsection.8.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Signal Region}{102}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.2}Signal Region}{100}{subsection.8.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Background Estimation}{102}{section.8.5}%
+\contentsline {section}{\numberline {8.5}Background Estimation}{100}{section.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Fit Strategy and Validation}{104}{section.8.6}%
+\contentsline {section}{\numberline {8.6}Fit Strategy and Validation}{102}{section.8.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.1}SVJ Fit Strategy}{104}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.1}SVJ Fit Strategy}{102}{subsection.8.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Background Only Fits}{104}{subsubsection*.82}%
+\contentsline {subsubsection}{Background Only Fits}{103}{subsubsection*.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal + Background Fits}{108}{subsubsection*.88}%
+\contentsline {subsubsection}{Signal + Background Fits}{107}{subsubsection*.86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Expected Sensitivity}{110}{subsubsection*.91}%
+\contentsline {subsubsection}{Expected Sensitivity}{109}{subsubsection*.89}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.6.2}Discovery Strategy}{112}{subsection.8.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BumpHunter Fits}{113}{subsubsection*.96}%
+\contentsline {subsubsection}{BumpHunter Fits}{113}{subsubsection*.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BumpHunter Signal Injection}{115}{subsubsection*.99}%
+\contentsline {subsubsection}{BumpHunter Signal Injection}{114}{subsubsection*.97}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Results}{118}{chapter.9}%
 \defcounter {refsection}{0}\relax 
@@ -174,19 +172,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.1}Systematics}{119}{subsection.9.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Spurious Signal}{119}{subsubsection*.105}%
+\contentsline {subsubsection}{Spurious Signal}{119}{subsubsection*.103}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental Uncertainties}{120}{subsubsection*.107}%
+\contentsline {subsubsection}{Experimental Uncertainties}{121}{subsubsection*.105}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theory Uncertainty}{123}{subsubsection*.111}%
+\contentsline {subsubsection}{Theory Uncertainty}{122}{subsubsection*.109}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.2}Interpretation}{124}{subsection.9.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Discovery Result}{126}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{127}{section*.115}%
+\contentsline {chapter}{Conclusion}{127}{section*.113}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{128}{section*.116}%
+\contentsline {chapter}{References}{128}{section*.114}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftchappresnum }{Appendix }
 \defcounter {refsection}{0}\relax 
@@ -208,9 +206,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}$E_T^{miss}$ and $E_T^{miss}$$\phi $ Shapes}{146}{appendix.a.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.1}NCB Preselection}{148}{subsection.a.C.0.1}%
+\contentsline {section}{\numberline {C.1}Tight Cleaning}{146}{section.a.C.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.2}TileCal Correction }{148}{subsection.a.C.0.2}%
+\contentsline {section}{\numberline {C.2}NCB Preselection}{148}{section.a.C.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}TileCal Correction }{148}{section.a.C.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {D}Truth Studies}{151}{appendix.a.D}%
 \defcounter {refsection}{0}\relax 

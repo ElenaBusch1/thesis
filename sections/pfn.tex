@@ -43,7 +43,7 @@ In this implementation, the particle input information comes from all tracks ass
         \label{fig:svj_pic}}
 \end{figure}
 
-Each track is described using six variables: the four-vector of the track (\pt, $\eta$, $\phi$, E), and the track displacement parameters $d_0$ and $z_0$, where $d_0$ measures displacement in the radial direction from the beamline and $z_0$ measures displacement along the beamline from the primary interaction point. Figure~\ref{fig:trackcoordinates} illustrates these coordinates. Up to 80 tracks per jet are allowed, which is a threshold chosen to generally include all the tracks in the jet, which leads to maximal performance. Figure~\ref{fig:ntracks} shows the track multiplicity in the leading and subleading jet for the signal and background samples used in training. \par
+Each track is described using six variables: the four-vector of the track (\pt, $\eta$, $\phi$, E), and the track displacement parameters $d_0$ and $z_0$, where $d_0$ measures displacement in the radial direction from the beamline and $z_0$ measures displacement along the beamline from the primary interaction point. Figure~\ref{fig:trackcoordinates} illustrates these coordinates. Up to 80 tracks per jet are allowed, which is a threshold chosen to generally include all the tracks in the jet, which leads to maximal performance.\par %Figure~\ref{fig:ntracks} shows the track multiplicity in the leading and subleading jet for the signal and background samples used in training. \par
 
 \begin{figure}[!htbp]
 \centering
@@ -52,12 +52,12 @@ Each track is described using six variables: the four-vector of the track (\pt, 
     \label{fig:trackcoordinates}}
 \end{figure}
 
-\begin{figure}[!htbp]
-\centering
-   \includegraphics[width=0.95\textwidth]{figures/ml/ntracks}
-    \caption{Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples.
-    \label{fig:ntracks}}
-\end{figure}
+%\begin{figure}[!htbp]
+%\centering
+ %  \includegraphics[width=0.95\textwidth]{figures/ml/ntracks}
+ %   \caption{Distributions of the track multiplicity in the leading and subleading jets, comparing signal and background PFN training samples.
+%    \label{fig:ntracks}}
+%\end{figure}
 
 These tracks (up to 160 total) are the input to the PFN. Referencing Equation~\ref{eq:pfn}, this corresponds to $M = 160$ (number of particles) and $d = 6$ (number of features per particle). The two leading jets and their associated tracks are rotated so that the vector sum of the jets, or system average, is aligned with $(\eta,\phi) = (0,0)$. The rotation can be summarized as 
 \begin{subequations}
@@ -77,29 +77,29 @@ where ($\bar{\eta}, \bar{\phi}$) is the average angle of the dijet system,  ($\e
 
 Finally, each of the 6 track variables is scaled so that its range is [0,1]. This is a common preprocessing step that ensures the input data is bounded over a similar range, so that arbitrarily large values don't develop an outsized impact on the model. The track momentum and energy normalization mentioned above naturally enforces that these values are restrained between [0,1]. The $\eta$ and $\phi$ values are naturally bounded, so for these values the $\eta$ tracking range\footnote{This range is dictated by the $|\eta|$coverage range of the Inner Detector, as shown in Table~\ref{tab:atlas_requirements}} of [-2.5, 2,5] and the full $\phi$ range [$-\pi$, $\pi$] are mapped to [0,1]. The displacement variables are restricted to [0,1] via the standard \textsc{MinMaxScaler}~\cite{scikit-learn} method which determines the minimum and maximum values observed in training, and maps those boundaries to 0 and 1 respectively. \par
 
-Figure~\ref{fig:pfn_bkgsig_input_kin} shows the kinematics of each of 6 track variables for background and signal. Figure~\ref{fig:pfn_bkgsig_input_rot} shows each of the 6 track variables after scaling and rotation have been applied, demonstrating the impact of these procedures, as well as the track level similarities and differences between the background SM QCD processes and the signal SVJ processes. Figure~\ref{fig:pfn_datamc_input} illustrates that the data is well modeled by the MC at track level. \par
+Figure~\ref{fig:pfn_datamc_input} illustrates that the data is well modeled by the MC at track level. Figure~\ref{fig:pfn_bkgsig_input_kin} shows the kinematics of each of 6 track variables for background and signal. Figure~\ref{fig:pfn_bkgsig_input_rot} shows each of the 6 track variables after scaling and rotation have been applied, demonstrating the impact of these procedures, as well as the track level similarities and differences between the background SM QCD processes and the signal SVJ processes. \par
 
 The $\phi$ distribution is of note for its jagged appearance in QCD MC. This arises due to dead tile calorimeter cells in certain $\phi$ regions, the effects of which are seen in data and modeled in QCD MC but not modeled in SVJ signal MC. Appendix~\ref{subsec:tileCal} contains more information about how the issue was addressed in data. The distribution is not of concern for the PFN training because of the rotation process, which replaces the information about absolute detector $\phi$ measurements with the relative $\phi'$ measurement. This is illustrated in Figure~\ref{fig:pfn_bkgsig_input_rot}, where it is observed that for both signal and background the tracks are clustered back to back, centered at $-\pi$/2 and $\pi$/2 ( 0.25 and 0.75 after scaling). The only remaining difference is that the signal tracks are more likely to be close to the system average $\bar{\phi}$ than the background jet tracks. This is demonstrated by the excess of signal events in the center of the $\phi'$ plot. This orientation difference is a real feature of the signal model, confirmed in Figure~\ref{fig:presel_vars2} which illustrates that signal jets are more likely to have low $\Delta\phi$ than background jets. 
 
 \begin{figure}[!htbp]
+   \centering
+   \includegraphics[width=0.99\textwidth]{figures/ml/pfn_datamc_input}
+    \caption{The 6 PFN track variables in background MC (blue) and data (orange), after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the $\phi$ distribution due to the inaccuracies of modeling dead TileCal cells in the QCD MC is considered. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only.
+    \label{fig:pfn_datamc_input}}
+\end{figure}
+
+\begin{figure}[!htbp]
     \centering
-     \includegraphics[width=0.9\textwidth]{figures/ml/pfn_bkgsig_input_kin}
+     \includegraphics[width=0.99\textwidth]{figures/ml/pfn_bkgsig_input_kin}
      \caption{The 6 PFN track variables in background MC (blue) and signal MC (orange) before scaling and rotation. The track kinematics are largely similar, and the variation in the $\phi$ distribution is explained in the text.}
       \label{fig:pfn_bkgsig_input_kin}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.9\textwidth]{figures/ml/pfn_bkgsig_input_rot}
+    \includegraphics[width=0.99\textwidth]{figures/ml/pfn_bkgsig_input_rot}
      \caption{The 6 PFN track variables in background MC (blue) and signal MC (orange) after scaling and rotation. The $\phi$ distribution is modified by the rotation procedure, as explained in the text.}
      \label{fig:pfn_bkgsig_input_rot}
-\end{figure}
-
-\begin{figure}[!htbp]
-   \centering
-   \includegraphics[width=0.9\textwidth]{figures/ml/pfn_datamc_input}
-    \caption{The 6 PFN track variables in background MC (blue) and data (orange), after the scaling and rotation procedure is applied. There is excellent modeling of the data by the MC within the track variables. The slight discrepancy in the $\phi$ distribution due to the inaccuracies of modeling dead TileCal cells in the QCD MC is considered. The level of discrepancy is determined to be within tolerance given that the final result with be data driven and the QCD model is used in the PFN training only.
-    \label{fig:pfn_datamc_input}}
 \end{figure}
 
 \clearpage

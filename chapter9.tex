@@ -1,6 +1,6 @@
 \chapter{Results}
 \label{ch:results}
-The final results of this analysis are the polynomial fit to the \mt~distribution in the SVJ Fit SR, and the BumpHunter evaluation of the \mt~distribution in the Discovery SR. In the SVJ Fit region, systematic uncertainties are evaluated on the signal model, and \textit{limits}\footnote{A limit is an upper bound of the branching ratio of a signal process} on the observed $Z'$ production cross-section are set. 
+The final results of this analysis are the polynomial fit to the \mt~distribution in the SVJ Fit SR, and the BumpHunter evaluation of the \mt~distribution in the Discovery SR. In the SVJ Fit region, systematic uncertainties are evaluated on the signal model, and \textit{limits}\footnote{A limit is an upper bound of the branching ratio of a signal process} on the observed $Z'$ production cross section are set. 
 
 \section{SVJ Fit Result}
 \label{sec:results_svj}
@@ -55,13 +55,12 @@ The approximate total uncertainty on the fitted signal event yield is therefore 
 The requirement $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}} < 0.5$ enforces that the increase in the total measurement uncertainty $\sigma_\text{tot}$ is tolerable at < 15\% ($\sqrt{1+0.5^2} \approx 1.12$ for $\text{S}_{\text{spur}} = 0.5\sigma_\text{fit}$).
 
 %Figure~\ref{fig:spursig_nevents} shows the determined spurious signal as a function of Z' resonance mass, for both low and high \rinv~points.
-
 Figure~\ref{fig:spursig} shows the $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}}$ metric.
 The requirement for $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}}$ < 0.5 is easily satisfied across the signal grid.
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/systs/spursig}
-    \caption{Spurious signal envelope as a function of resonance mass. The requirement $\text{S}_\text{spur}/\sigma_\text{fit} <0.5$ is satisfied for all signal points. 100 pseudo-data experiments are used for the measurement.
+    \caption{Spurious signal metric as a function of resonance mass. The requirement $\text{S}_\text{spur}/\sigma_\text{fit} <0.5$ is satisfied for all signal points. 100 pseudo-data experiments are used for the measurement.
     \label{fig:spursig}}
 \end{figure}
 
@@ -74,6 +73,10 @@ The requirement for $\text{S}_{\text{spur}}$/$\sigma_{\text{fit}}$ < 0.5 is easi
  %   \label{fig:spursig_vs_mass_vr}}
 %\end{figure}
 
+The average size of $\text{S}_{\text{spur}}$ is 209 events, and it ranges from 23 events for some \rinv~=0.2 signals to 470 events for some \rinv~=0.8 signals.
+For most points the spurious signal uncertainty is about 50\% of the expected signal yield, though it ranges from 4.2\% for $m_{Z'}$ = 2000 to over 100\% for $m_{Z'}$ = 5000 GeV.
+The experimental and theory uncertainties presented in the following sections are generally negligible in the fit due to the size of the spurious signal uncertainty.
+They are included for completeness, and are significant for the $m_{Z'}$ = 2000 GeV, \rinv~= 0.2 and $m_{Z'}$ = 2500 GeV, \rinv~= 0.2 signal points, where the spurious signal uncertainty is < 5\%. 
 %------------------------------------------------------------
 \subsubsection{Experimental Uncertainties}
 The main experimental uncertainties are on the recorded luminosity, \textit{jet energy scale}, and \textit{jet energy resolution}.
@@ -85,8 +88,7 @@ A flat yield uncertainty of 0.83\% is applied for all signals, corresponding to 
 
 The JES and JER uncertainties are evaluated on each signal point for their impact on both the yield and shape of the \mt~distribution.
 Table~\ref{tab:exp_syst} summarizes the range impact on the yield for each uncertainty.
-The impact of these uncertainties on the signal yield is generally negligible in comparison to the spurious signal systematic, which ranges from 4.2\% in the case of the lowest $Z'$ mass points to >100\% in the case of the highest $Z'$ mass points.
-In the 2000 GeV $Z'$ mass case (which has the lowest relative spurious signal uncertainty), the maximum yield difference due to experimental uncertainty is 0.53\%, or almost an order of magnitude reduced compared to the spurious signal uncertainty.
+The impact of these uncertainties on the signal yield is generally very small in comparison to the spurious signal systematic.
 
 \begin{table}
 \centering
@@ -105,23 +107,25 @@ In the 2000 GeV $Z'$ mass case (which has the lowest relative spurious signal un
 
 The impact of the JES and JER uncertainties on the shape of the \mt~distribution is also considered.
 An example individual JES variation is shown in Figure~\ref{fig:jes_uncert}, illustrating the minimal impact of this uncertainty on the shape of \mt.
-TODO - define up, down
+The ``up'' and ``down'' variations refer to varying the nominal JES or JER setting by 1$\sigma$ up or down.
+In principle these uncertainties can shift the mean of the \mt~distribution left or right, causing a substantial change in shape.
+However, the impact of these uncertainties on the shape of \mt~in the SR is seen to be very small.
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.6\textwidth]{figures/results/jes}
-    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with an example JES variation. The nominal shape (``Nom''), 1$\sigma$ up (``Up''), and 1$\sigma$ down (``down") variations are shown. The variation is seen to have a negligible impact on the signal shape. Signal only (no background) is shown. 
+    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with an example JES uncertainty variation on the calorimeter noise. The nominal shape, 1$\sigma$ up, and 1$\sigma$ down variations are shown. The variation is seen to have minimal impact on the signal shape. Signal only (no background) is shown. 
     \label{fig:jes_uncert}}
 \end{figure}
 
 To make a conservative estimate of their impact on the shape, all shape uncertainty sources are summed in quadrature, bin-by-bin.
-This results in a maximum ``up'' variation and a maximum ``down'' variation.
-The the impact of these maximal shape variations on the $Z'$ production cross-section limit is evaluated, and uncertainty on this limit is propagated to the final limit bands. 
-The impact is generally seen to be quite small, changing the limit variation by 0.2 fb at most. 
+This results in a maximum 1$\sigma$ ``up'' variation and a maximum 1$\sigma$ ``down'' variation. 
+The the impact of these maximal shape variations on the $Z'$ production cross section limit is evaluated, and uncertainty on this limit is propagated to the final limit bands. 
+The impact is generally seen to be quite small, changing the limit variation by 0.61 fb at most. 
 An example of the variations summed in quadrature is shown in Figure~\ref{fig:jetcp_sumq}. 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.62\textwidth]{figures/results/jetcp_sumq}
-    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with the sum in quadrature of all JES and JER variations. The nominal shape (``Nom"), 1$\sigma$ up (``Up"), and 1$\sigma$ down (``down") variations are shown.
+    \caption{\mt~of the 3500 GeV $Z'$, \rinv~= 0.2 signal point, shown with the sum in quadrature of all JES and JER variations. The nominal shape before systematic variations, the maximal 1$\sigma$ ``up", and maximal 1$\sigma$ ``down" variations are shown. Even summed in quadrature, the effect of the JES and JER variations on the shape of the signal is seen to be small.
     \label{fig:jetcp_sumq}}
 \end{figure}
 
@@ -136,23 +140,23 @@ Ref~\cite{pythia8_tunes} describes how these parameters are condensed into 10 va
 The 10 variations (representing 5 up/down variation pairs) are evaluated for the SVJ signal shapes. 
 Figure~\ref{fig:isrfsr} provides a look at the effect of these variations on the SVJ \mt~signal shape. 
 
-TODO - replace title
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.9\textwidth]{figures/systs/isrfsr}
-    \caption{Signal distribution of \mt, varying the ISR, FSR and MPI configuration.
+    \caption{Signal distribution of \mt, varying the ISR (Var1), FSR (Var2) and MPI (Var3a-c) configurations.
     \label{fig:isrfsr}}
 \end{figure}
 
 There is no substantial sculpting of the \mt~shape from any of the 10 systematic variations; thus the systematic is considered for its impact on the signal yield.
-The variation in the signal yield is at most 5\% (TODO - determine exactly), which is incorporated into the fitted systematics. 
+The variation in the signal yield is at most 1.2\%.
+A conservative 2\% yield uncertainty is applied to account for the uncertainty on the theory model.
 The spurious signal uncertainty is dominant for all but the lowest mass signal points.
 
-\clearpage
 %------------------------------------------------------------
 \subsection{Interpretation}
 Using a modified frequentist approach \cite{freq}, \textit{exclusion limits} at the 95\% confident level (CL) are derived.
-Exclusion limits refer to determining the maximum (or \textit{limiting}) signal cross-section compatible with the observed data spectrum, such that any theory resulting in a signal cross-section above the limit is excluded with 95\% confidence. 
+The process was first described in Section~\ref{subsec:fit_expsens} and is reviewed here.
+Exclusion limits refer to determining the maximum (or \textit{limiting}) signal cross section compatible with the observed data spectrum, such that any theory resulting in a signal cross section above the limit is excluded with 95\% confidence. 
 The limit is determined from a maximum likelihood test statistic \cite{likelihood}, which determines the likelihood of observing the given data spectrum using the background hypothesis, signal hypothesis, and uncertainty parameters.
 Compatibility of the signal model with the observed distribution is tested by generating pseudo-data based on the background estimation and including varying amounts of signal.
 Through analysis of these pseudo-data experiments, the maximum number of signals events that is compatible with the observed data distribution can be determined.
@@ -162,7 +166,7 @@ The final limits on the $Z'$ cross section after the implementation of the syste
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/results/final_limits}
-    \caption{Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ masses for \rinv=0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right).
+    \caption{Expected and observed 95\% CL limits in the unblinded SR, as a function of $Z'$ mass for \rinv~= 0.2 (top left), 0.4 (top right), 0.6 (bottom left), 0.8 (bottom right).
     \label{fig:unblinded_limits_syst}}
 \end{figure}
 Exclusion of the theoretical model is observed for the 2000 GeV $Z'$ mass point for all \rinv~ values.
@@ -176,8 +180,8 @@ The most mass points are excluded for \rinv~= 0.2, which excludes $Z'$ masses up
 Figure~\ref{fig:unblinded_antelope_masked} shows the unblinded \mt~spectrum in the Discovery SR with a background-only fit, and the resulting BumpHunter test.
 The polynomial fit is successful and has a background-only p-value of 0.74, indicating the data is compatible with the background hypothesis. 
 The BumpHunter test gives a p-value of 0.8098, indicating no significant excess.
-The maxiumum local significance is 0.877$\sigma$. 
-TODO: fix plots, what is significance
+The maximum local significance is 0.877$\sigma$, located at 1700 GeV.
+
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/results/unblinded_antelope_unmasked}

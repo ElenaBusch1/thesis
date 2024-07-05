@@ -17,12 +17,21 @@ The polynomial chosen is a standard 5-parameter function used in several similar
 f(x) = p_1(1-x)^{p_2}x^{p_3+p_4 lnx+p_5ln^2x}
 \label{eq:bkgpoly}
 \end{equation}
-Here x = m$_{T}$/$\sqrt{s}$ (transverse mass scaled to the $pp$ collision center of mass energy), and $p_i$ are free parameters.
+Here x = m$_{T}$/$\sqrt{s}$ (transverse mass scaled to the $pp$ collision center of mass energy) and $p_i$ are free parameters.
 The fit function is required to be fully positive, and the \mt~distribution is fit to 90 even-width bins.
 The resulting fit shape is used as the background estimation for both the SVJ Fit strategy and the Discovery strategy. 
 Validation of the fit and its ability to both model the background and detect signal are shown in Section~\ref{sec:fit_strategy}.
-Higher order polynomials were also considered, but an F-test was performed and the five parameter function was determined to be adequate and optimal for capturing the shape of the background.
 
+Higher order polynomials were also considered, but an F-test was performed according to the recommendations in Ref.~\cite{smooth_bkg}, and the five parameter function was determined to be adequate and optimal for capturing the shape of the background.
+The F-test uses the test statistic 
+\begin{equation}
+F = \frac{\frac{\chi_{\text{nom}}^2 - \chi_{\text{alt}}^2}{n_\text{alt} - n_\text{nom}}}{\frac{ \chi_{\text{alt}}^2}{n-n_\text{alt} }}
+\end{equation}
+where $\chi_{\text{nom}}^2$ and $\chi_{\text{alt}}^2$ are the $\chi^2$ values for the polynomial data fits using the nominal (in this case, 5 parameter) model and the alternate model (in this case, 6 or 7 parameter model).
+$n_\text{nom}$ and $n_\text{alt}$ are the number of free parameters in the nominal or alternate model, and $n$ is the number of bins used for the fit.
+In the asymptotic limit $F$ follows the Fisher-Snedecor distribution, so that $F$ can be converted to a $p$-value $p(F)$ to determine if the alternate model provides a better fit to the data, indicated by $p(F) < 0.05$.
+We find $p(F) >> 0.05$ for a 6 and or 7 parameter polynomial function, indicating there is no improvement from increasing to 6 or 7 parameters.
+Comparing a nominal model with 4 parameters to the 5 parameter model, we find $p(F) = 0.013$, indicating that the 5 parameter model is preferable to the 4 parameter model.
 
 
 

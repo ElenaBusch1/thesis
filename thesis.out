@@ -1,95 +1,95 @@
 \BOOKMARK [0][-]{section*.4}{Acknowledgments}{}% 1
-\BOOKMARK [0][-]{section*.5}{Dedication}{}% 2
-\BOOKMARK [-1][-]{part.1}{I Theory}{}% 3
-\BOOKMARK [0][-]{chapter.1}{The Standard Model}{part.1}% 4
-\BOOKMARK [1][-]{section.1.1}{Phenomenology: Particles and Forces}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.1}{Particles}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.2}{Forces}{section.1.1}% 7
-\BOOKMARK [1][-]{section.1.2}{QCD and Jets}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.3}{Symmetries}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{Spontaneous Symmetry Breaking and The Higgs Mechanism}{section.1.3}% 10
-\BOOKMARK [1][-]{section.1.4}{Experimental Validation of the Standard Model}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.5}{Limitations of the Standard Model}{chapter.1}% 12
-\BOOKMARK [0][-]{chapter.2}{Physics Beyond the Standard Model}{part.1}% 13
-\BOOKMARK [1][-]{section.2.1}{Hidden Valley Models}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{Dark QCD}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Semi-visible Jets}{chapter.2}% 16
-\BOOKMARK [-1][-]{part.2}{II Experiment}{}% 17
-\BOOKMARK [0][-]{chapter.3}{The Large Hadron Collider}{part.2}% 18
-\BOOKMARK [1][-]{section.3.1}{Accelerator Physics}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.1.1}{The Journey of a Proton}{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.2}{Magnets}{section.3.1}% 21
-\BOOKMARK [1][-]{section.3.2}{Luminosity}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.3}{LHC Timeline}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{The ATLAS Detector}{part.2}% 24
-\BOOKMARK [1][-]{section.4.1}{Coordinate System and Geometry}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{Inner Detector}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.2.1}{Pixel Detector}{section.4.2}% 27
-\BOOKMARK [2][-]{subsection.4.2.2}{Semiconductor Tracker}{section.4.2}% 28
-\BOOKMARK [2][-]{subsection.4.2.3}{Transition Radiation Tracker}{section.4.2}% 29
-\BOOKMARK [1][-]{section.4.3}{Calorimeters}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.3.1}{Liquid Argon Calorimeter}{section.4.3}% 31
-\BOOKMARK [2][-]{subsection.4.3.2}{Tile Calorimeter}{section.4.3}% 32
-\BOOKMARK [1][-]{section.4.4}{Muon Spectrometer}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.5}{Magnet System}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.6}{Forward Detectors}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.7}{Trigger and Data Acquisition}{chapter.4}% 36
-\BOOKMARK [0][-]{chapter.5}{Particle Reconstruction and Identification}{part.2}% 37
-\BOOKMARK [1][-]{section.5.1}{Inner Detector Tracks}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.2}{Photons and Electrons}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.3}{Muons}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.4}{Jets}{chapter.5}% 41
-\BOOKMARK [2][-]{subsection.5.4.1}{Calorimeter Clusters}{section.5.4}% 42
-\BOOKMARK [2][-]{subsection.5.4.2}{Particle Flow Algorithm}{section.5.4}% 43
-\BOOKMARK [2][-]{subsection.5.4.3}{Jet Clustering}{section.5.4}% 44
-\BOOKMARK [2][-]{subsection.5.4.4}{Ghost Track Association}{section.5.4}% 45
-\BOOKMARK [1][-]{section.5.5}{Missing Transverse Energy}{chapter.5}% 46
-\BOOKMARK [-1][-]{part.3}{III Search}{}% 47
-\BOOKMARK [0][-]{chapter.6}{Monte Carlo and Data}{part.3}% 48
-\BOOKMARK [1][-]{section.6.1}{Data}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.2}{Simulation}{chapter.6}% 50
-\BOOKMARK [2][-]{subsection.6.2.1}{Simulated Backgrounds}{section.6.2}% 51
-\BOOKMARK [2][-]{subsection.6.2.2}{Signal Simulation}{section.6.2}% 52
-\BOOKMARK [0][-]{chapter.7}{Machine Learning Tools}{part.3}% 53
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 54
-\BOOKMARK [2][-]{subsection.7.1.1}{Machine Learning Fundamentals}{section.7.1}% 55
-\BOOKMARK [1][-]{section.7.2}{Particle Flow Network \(Supervised\)}{chapter.7}% 56
-\BOOKMARK [2][-]{subsection.7.2.1}{Architecture Fundamentals}{section.7.2}% 57
-\BOOKMARK [2][-]{subsection.7.2.2}{Input Modeling, Scaling, and Rotation}{section.7.2}% 58
-\BOOKMARK [2][-]{subsection.7.2.3}{Training}{section.7.2}% 59
-\BOOKMARK [2][-]{subsection.7.2.4}{Performance}{section.7.2}% 60
-\BOOKMARK [1][-]{section.7.3}{ANTELOPE \(Semi-supervised\)}{chapter.7}% 61
-\BOOKMARK [2][-]{subsection.7.3.1}{Architecture Fundamentals}{section.7.3}% 62
-\BOOKMARK [2][-]{subsection.7.3.2}{Training}{section.7.3}% 63
-\BOOKMARK [2][-]{subsection.7.3.3}{Performance}{section.7.3}% 64
-\BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 65
-\BOOKMARK [1][-]{section.8.1}{Transverse Mass}{chapter.8}% 66
-\BOOKMARK [1][-]{section.8.2}{Preselection}{chapter.8}% 67
-\BOOKMARK [1][-]{section.8.3}{SVJ Fit and Discovery Analysis Strategies}{chapter.8}% 68
-\BOOKMARK [1][-]{section.8.4}{Analysis Regions}{chapter.8}% 69
-\BOOKMARK [2][-]{subsection.8.4.1}{Control and Validation Regions}{section.8.4}% 70
-\BOOKMARK [2][-]{subsection.8.4.2}{Signal Region}{section.8.4}% 71
-\BOOKMARK [1][-]{section.8.5}{Background Estimation}{chapter.8}% 72
-\BOOKMARK [1][-]{section.8.6}{Fit Strategy and Validation}{chapter.8}% 73
-\BOOKMARK [2][-]{subsection.8.6.1}{SVJ Fit Strategy}{section.8.6}% 74
-\BOOKMARK [2][-]{subsection.8.6.2}{Discovery Strategy}{section.8.6}% 75
-\BOOKMARK [0][-]{chapter.9}{Results}{part.3}% 76
-\BOOKMARK [1][-]{section.9.1}{SVJ Fit Result}{chapter.9}% 77
-\BOOKMARK [2][-]{subsection.9.1.1}{Systematics}{section.9.1}% 78
-\BOOKMARK [2][-]{subsection.9.1.2}{Interpretation}{section.9.1}% 79
-\BOOKMARK [1][-]{section.9.2}{Discovery Result}{chapter.9}% 80
-\BOOKMARK [0][-]{section*.115}{Conclusion}{part.3}% 81
-\BOOKMARK [0][-]{section*.116}{References}{part.3}% 82
-\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 83
-\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 84
-\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 85
-\BOOKMARK [2][-]{subsection.a.B.1.1}{Signal Contamination}{section.a.B.1}% 86
-\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 87
-\BOOKMARK [1][-]{section.a.B.3}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 88
-\BOOKMARK [1][-]{section.a.B.4}{PFN Training Composition}{appendix.a.B}% 89
-\BOOKMARK [0][-]{appendix.a.C}{ETmiss and ETmiss Shapes}{part.3}% 90
-\BOOKMARK [1][-]{subsection.a.C.0.1}{NCB Preselection}{appendix.a.C}% 91
-\BOOKMARK [2][-]{subsection.a.C.0.2}{TileCal Correction }{subsection.a.C.0.1}% 92
+\BOOKMARK [-1][-]{part.1}{I Theory}{}% 2
+\BOOKMARK [0][-]{chapter.1}{The Standard Model}{part.1}% 3
+\BOOKMARK [1][-]{section.1.1}{Phenomenology: Particles and Forces}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Particles}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{Forces}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{QCD and Jets}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Symmetries}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Spontaneous Symmetry Breaking and The Higgs Mechanism}{section.1.3}% 9
+\BOOKMARK [1][-]{section.1.4}{Experimental Validation of the Standard Model}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{Limitations of the Standard Model}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Physics Beyond the Standard Model}{part.1}% 12
+\BOOKMARK [1][-]{section.2.1}{Hidden Valley Models}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Dark QCD}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Semi-visible Jets}{chapter.2}% 15
+\BOOKMARK [-1][-]{part.2}{II Experiment}{}% 16
+\BOOKMARK [0][-]{chapter.3}{The Large Hadron Collider}{part.2}% 17
+\BOOKMARK [1][-]{section.3.1}{Accelerator Physics}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{The Journey of a Proton}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{Magnets}{section.3.1}% 20
+\BOOKMARK [1][-]{section.3.2}{Luminosity}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.3}{LHC Timeline}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{The ATLAS Detector}{part.2}% 23
+\BOOKMARK [1][-]{section.4.1}{Coordinate System and Geometry}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Inner Detector}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{Pixel Detector}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.2}{Semiconductor Tracker}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.3}{Transition Radiation Tracker}{section.4.2}% 28
+\BOOKMARK [1][-]{section.4.3}{Calorimeters}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.3.1}{Liquid Argon Calorimeter}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.2}{Tile Calorimeter}{section.4.3}% 31
+\BOOKMARK [1][-]{section.4.4}{Muon Spectrometer}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.5}{Magnet System}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.6}{Forward Detectors}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.7}{Trigger and Data Acquisition}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Particle Reconstruction and Identification}{part.2}% 36
+\BOOKMARK [1][-]{section.5.1}{Inner Detector Tracks}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.2}{Photons and Electrons}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Muons}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Jets}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.4.1}{Calorimeter Clusters}{section.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.4.2}{Particle Flow Algorithm}{section.5.4}% 42
+\BOOKMARK [2][-]{subsection.5.4.3}{Jet Clustering}{section.5.4}% 43
+\BOOKMARK [2][-]{subsection.5.4.4}{Ghost Track Association}{section.5.4}% 44
+\BOOKMARK [1][-]{section.5.5}{Missing Transverse Energy}{chapter.5}% 45
+\BOOKMARK [-1][-]{part.3}{III Search}{}% 46
+\BOOKMARK [0][-]{chapter.6}{Monte Carlo and Data}{part.3}% 47
+\BOOKMARK [1][-]{section.6.1}{Data}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{Simulation}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.2.1}{Simulated Backgrounds}{section.6.2}% 50
+\BOOKMARK [2][-]{subsection.6.2.2}{Signal Simulation}{section.6.2}% 51
+\BOOKMARK [0][-]{chapter.7}{Machine Learning Tools}{part.3}% 52
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 53
+\BOOKMARK [2][-]{subsection.7.1.1}{Machine Learning Fundamentals}{section.7.1}% 54
+\BOOKMARK [1][-]{section.7.2}{Particle Flow Network \(Supervised\)}{chapter.7}% 55
+\BOOKMARK [2][-]{subsection.7.2.1}{Architecture Fundamentals}{section.7.2}% 56
+\BOOKMARK [2][-]{subsection.7.2.2}{Input Modeling, Scaling, and Rotation}{section.7.2}% 57
+\BOOKMARK [2][-]{subsection.7.2.3}{Training}{section.7.2}% 58
+\BOOKMARK [2][-]{subsection.7.2.4}{Performance}{section.7.2}% 59
+\BOOKMARK [1][-]{section.7.3}{ANTELOPE \(Semi-supervised\)}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.3.1}{Architecture Fundamentals}{section.7.3}% 61
+\BOOKMARK [2][-]{subsection.7.3.2}{Training}{section.7.3}% 62
+\BOOKMARK [2][-]{subsection.7.3.3}{Performance}{section.7.3}% 63
+\BOOKMARK [0][-]{chapter.8}{Analysis Strategy}{part.3}% 64
+\BOOKMARK [1][-]{section.8.1}{Transverse Mass}{chapter.8}% 65
+\BOOKMARK [1][-]{section.8.2}{Preselection}{chapter.8}% 66
+\BOOKMARK [1][-]{section.8.3}{SVJ Fit and Discovery Analysis Strategies}{chapter.8}% 67
+\BOOKMARK [1][-]{section.8.4}{Analysis Regions}{chapter.8}% 68
+\BOOKMARK [2][-]{subsection.8.4.1}{Control and Validation Regions}{section.8.4}% 69
+\BOOKMARK [2][-]{subsection.8.4.2}{Signal Region}{section.8.4}% 70
+\BOOKMARK [1][-]{section.8.5}{Background Estimation}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.6}{Fit Strategy and Validation}{chapter.8}% 72
+\BOOKMARK [2][-]{subsection.8.6.1}{SVJ Fit Strategy}{section.8.6}% 73
+\BOOKMARK [2][-]{subsection.8.6.2}{Discovery Strategy}{section.8.6}% 74
+\BOOKMARK [0][-]{chapter.9}{Results}{part.3}% 75
+\BOOKMARK [1][-]{section.9.1}{SVJ Fit Result}{chapter.9}% 76
+\BOOKMARK [2][-]{subsection.9.1.1}{Systematics}{section.9.1}% 77
+\BOOKMARK [2][-]{subsection.9.1.2}{Interpretation}{section.9.1}% 78
+\BOOKMARK [1][-]{section.9.2}{Discovery Result}{chapter.9}% 79
+\BOOKMARK [0][-]{section*.113}{Conclusion}{part.3}% 80
+\BOOKMARK [0][-]{section*.114}{References}{part.3}% 81
+\BOOKMARK [0][-]{appendix.a.A}{Trigger Studies}{part.3}% 82
+\BOOKMARK [0][-]{appendix.a.B}{Machine Learning Approaches}{part.3}% 83
+\BOOKMARK [1][-]{section.a.B.1}{Unsupervised: AE vs. ANTELOPE}{appendix.a.B}% 84
+\BOOKMARK [2][-]{subsection.a.B.1.1}{Signal Contamination}{section.a.B.1}% 85
+\BOOKMARK [1][-]{section.a.B.2}{PFN Optimality Checks}{appendix.a.B}% 86
+\BOOKMARK [1][-]{section.a.B.3}{Single Jet vs Jet System ML Approach}{appendix.a.B}% 87
+\BOOKMARK [1][-]{section.a.B.4}{PFN Training Composition}{appendix.a.B}% 88
+\BOOKMARK [0][-]{appendix.a.C}{ETmiss and ETmiss Shapes}{part.3}% 89
+\BOOKMARK [1][-]{section.a.C.1}{Tight Cleaning}{appendix.a.C}% 90
+\BOOKMARK [1][-]{section.a.C.2}{NCB Preselection}{appendix.a.C}% 91
+\BOOKMARK [1][-]{section.a.C.3}{TileCal Correction }{appendix.a.C}% 92
 \BOOKMARK [0][-]{appendix.a.D}{Truth Studies}{part.3}% 93
 \BOOKMARK [1][-]{section.a.D.1}{Jet dR Matching}{appendix.a.D}% 94
 \BOOKMARK [0][-]{appendix.a.E}{MC Fitting}{part.3}% 95
