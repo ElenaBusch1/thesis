@@ -2,7 +2,7 @@
 
 \section{SVJ Fit and Discovery Analysis Strategies}
 \label{sec:strategies}
-As was introduced in Chapter~\ref{ch:ml_tools} this analysis is interested in achieving dual goals: to make the best possible measurement of the SVJ signal model generated for this analysis, and to broadly search for any signals consistent with dark QCD behavior and inconsistent with a Standard-Model-only background hypothesis. To this end, two parallel analysis strategies are developed.\par
+As was introduced in Chapter~\ref{ch:ml_tools} this analysis is interested in achieving dual goals: to make the best possible measurement of the SVJ signal model generated for this analysis, and to broadly search for any signals consistent with dark QCD behavior and inconsistent with a Standard Model background hypothesis. To this end, two parallel analysis strategies are developed.\par
 
 The SVJ Fit strategy uses the supervised PFN ML score in defining the signal region. Recall, the PFN is trained over simulated MC background and a combination of all MC SVJ signals. This gives this ML tool high sensitivity to the particular nuances of the SVJ shower predicted by the modeled theory. In addition to using the supervised ML tool, the SVJ Fit analysis strategy sets limits on the expected cross section of each signal point in the SVJ signal grid. To achieve this, the shape of the SVJ signals are considered in the final fit, as will be elaborated on Section~\ref{subsec:fit_exclusion}. The combination of the supervised PFN ML score and the signal-shape sensitive fitting strategy allows for the greatest possible sensitivity to the modeled signal process, thus allowing the analysis the best chance at discovery of this model, or enabling the analysis to set the best possible limits on the observed cross section.\par
 
@@ -26,7 +26,7 @@ The final background estimation will come from a polynomial fit to the \mt~distr
 The control and validation regions are needed to develop and test this fit in data.
  
 To define the CR selection, a variable is needed that isolates background from all signals across the (\rinv, $m_Z$) grid, which is challenging due to the varying nature of the signal models in quantities such as \met~and \pt~, as illustrated in Figure~\ref{fig:presel_vars}. 
-The variable \textit{jet width} is chosen, which is the calorimeter measurement of the spread of the clusters which are used to define the jet ~\cite{jetwidth}.
+The variable \textit{jet width} is chosen, which is the calorimeter measurement of the spread of the clusters which are used to define the jet~\cite{jetwidth}.
 The concept is illustrated in Figure~\ref{fig:jet2_calo}.
 Jets with only one very energetic cluster have a small width, while jets with many lower energy clusters have a large width.
 \begin{figure}[!htbp]
@@ -37,7 +37,7 @@ Jets with only one very energetic cluster have a small width, while jets with ma
 \end{figure}
 
 Figure~\ref{fig:jet2width} shows jet width specifically for the subleading jet, in data, background MC and signal at preselection.
-The leading jet width, which was determined to be less useful for isolating signal from background is also shown.
+The leading jet width, which was determined to be less useful for isolating signal from background, is also shown.
 The subleading jet is more likely to be aligned with \met, which is why the signal jet width is consistently wider in the subleading jet, but not the leading jet.  %, using v12 of the ntuples.
 A selection of width$_{j2} <$ 0.05 is chosen for the CR, with the VR and SR therefore having a selection of width$_{j2}$ $\geq$ 0.05.
  
@@ -67,7 +67,7 @@ There are therefore three variables that are crucial to the analysis strategy: w
 We check the expected shape of \mt~across the CR, VR, and SR using background MC to ensure the shape is smoothly falling across all 3 regions.
 Figure~\ref{fig:crvrsr_mt} shows the distribution of \mt~across the CR, VR, and SR, for both the PFN (supervised) and ANTELOPE (semi-supervised) strategies.
 No significant bumps or sculpting are observed.
-Some slope is observed in the ratio of the CR to the VR/SR shapes; however, the chosen background estimation strategy of polynomial fitting is expected to accommodate this slope.
+Some slope is observed in the ratio of the CR to the VR/SR shapes; however, the chosen background estimation strategy of polynomial fitting (to be discussed in Section~\ref{sec:background}) is expected to accommodate this slope.
 Further, testing the ability of the background polynomial to fit shapes with a variety of slopes increases our confidence in the ability to background polynomial to fit the blinded SR \mt~distribution.%, which could be more problematic for a bump-hunt analysis.
 \begin{figure}[!htbp]
 \centering

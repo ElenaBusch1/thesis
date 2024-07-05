@@ -1,18 +1,18 @@
 \chapter{Analysis Strategy}
 \label{ch:analysis}
 
-This chapter will present the strategies used to isolate ATLAS data events most consistent with the SVJ model and to estimate the relevant background. The data and MC samples discussed in Chapter~\ref{ch:mc_data} are studied to create the analysis strategy, and the ML scores discussed in Chapter~\ref{ch:ml_tools} are used to isolate the most signal like events. The background is estimated from the \textit{transverse mass} (\mt) spectrum, which captures the main components of the $Z'$ decay. A \textit{preselection} selects events consistent with the SVJ topology based on basic features of the jets and \met. Preselected events are then split into a \textit{control region} (CR), \textit{validation region} (VR), and \textit{signal region} (SR). The CR and VR are used to validate the background estimation procedure. The SR is blinded during the development of the analysis strategy, and only unblinded to make the final measurements presented in Chapter~\ref{ch:results}. The final result is a polynomial fit of the \textit{transverse mass} (\mt) spectrum in the SR. The preselection, region definitions, and polynomial fit will be discussed in detail in the following sections.
+This chapter will present the strategies used to isolate ATLAS data events most consistent with the SVJ model and to estimate the relevant background. The data and MC samples discussed in Chapter~\ref{ch:mc_data} are studied to create the analysis strategy, and the ML scores discussed in Chapter~\ref{ch:ml_tools} are used to isolate the most signal like events. The background is estimated from the \textit{transverse mass} (\mt) spectrum, which captures the main components of the $Z'$ decay. A \textit{preselection} selects events consistent with the SVJ topology based on basic features of the jets and \met. Preselected events are then split into a \textit{control region} (CR), \textit{validation region} (VR), and \textit{signal region} (SR). The CR and VR are used to validate the background estimation procedure. The SR is blinded during the development of the analysis strategy, and only unblinded to make the final measurements presented in Chapter~\ref{ch:results}. The final result is a polynomial fit of the transverse mass spectrum in the SR. The preselection, region definitions, and polynomial fit will be discussed in detail in the following sections.
 
 \section{Transverse Mass}
 \label{sec:mt}
-The transverse mass \mt~is chosen as the search variable due to the potential for the SVJ signal to create a resonant shape around the mass of the $Z'$. \mt~is the total transverse mass of the two leading jets and the \met, expressed in Equation~\ref{eq:mt} as:
+The transverse mass \mt~is chosen as the search variable due to the potential for the SVJ signal to create a resonant shape around the mass of the $Z'$. \mt~is the total transverse mass of the two leading\footnote{Recall the definition of the leading jets from Chapter~\ref{ch:mc_data}, meaning the two jets with highest \pt~ in the event.} jets and the \met, expressed in Equation~\ref{eq:mt} as:
 
 \begin{equation}
 m_T^2 = [E_{T,jj} + \met~]^2 - [\vec{p}_{T,jj} + \vec{p}_T^{\text{miss}}]^2
 \label{eq:mt}
 \end{equation}
 
-where $E_{T,jj}$ is the transverse energy of the dijet system. We take $E_{T,jj} = m_{jj}^2 + |\vec{p}_{T,jj}|^2$, where $m_{jj}^2$ is the invariant mass of the two leading jets, and $\vec{p}_{T,jj}$ is the vector sum of the \pt~of the two leading jets. \mt~is selected as the search variable in place of simpler invariant mass $m_{jj}$ because substantial energy from the Z' decay is captured in the \met~. Therefore incorporating \met~into \mt~improves the resonance around the mass of the $Z'$. \par
+where $E_{T,jj}$ is the transverse energy of the dijet system created by the two leading jets. We take $E_{T,jj} = m_{jj}^2 + |\vec{p}_{T,jj}|^2$, where $m_{jj}^2$ is the invariant mass of the two leading jets, and $\vec{p}_{T,jj}$ is the vector sum of the \pt~of the two leading jets. \mt~is selected as the search variable in place of simpler invariant mass $m_{jj}$ because substantial energy from the Z' decay is captured in the \met~. \par
 
 Figure~\ref{fig:mt_mass} illustrates the resonance in \mt~of the SVJ signals. The smoothly falling background is shown in comparison to the resonant shape of the signals, which form a peak just below the associated $Z'$ mass. The lower \rinv~signals form a more distinctive resonance in \mt, while the high \rinv~signals have a much wider \mt~shape.
 \begin{figure}[!htbp]
@@ -30,6 +30,7 @@ Figure~\ref{fig:mt_mass} illustrates the resonance in \mt~of the SVJ signals. Th
 The preselection isolates the phase space of events that most closely match the SVJ signal topology. Each cut was determined to reduce the background and enhance signal sensitivity.
 The list of preselection cuts and the motivation behind each cut are as follows. 
 Here ``jets" refer to anti-$k_t$ R=0.4 jets, as discussed in Chapter~\ref{ch:part_reco}.
+Table~\ref{fig:presel_cutflow} shows the impact of these cuts in sequence for data and signal.
 
 \begin{itemize}
 \item At least 2 jets; in order to reconstruct the resonance mass
@@ -43,7 +44,6 @@ Here ``jets" refer to anti-$k_t$ R=0.4 jets, as discussed in Chapter~\ref{ch:par
 \item $\Delta\Phi$($j_1$,$j_2$) $>$ 0.8; to mitigate the presence of non-collision background (Appendix~\ref{app:ncb}).
 \end{itemize}
 
-Table~\ref{fig:presel_cutflow} shows the impact of these cuts in sequence for data and signal.
 \begin{table}[!htbp]
 \centering
    \includegraphics[width=0.95\textwidth]{figures/eventsel/preselection/presel_cutflow}
@@ -71,7 +71,7 @@ The variables illustrated are:
 \item Transverse mass \mt: key analysis variable which reconstructs the $Z'$ mass, as discussed in Section~\ref{sec:mt}.
 \item Leading jet \pt: the trigger variable, and a component of \mt. 
 \item Subleading jet \pt: dark quark candidate and component of \mt.
-\item Missing transverse energy \met (or MET): component of \mt, and an indication of the presence of dark hadrons. All signals are observed to have more \met than the background.
+\item Missing transverse energy \met~(or MET): component of \mt, and an indication of the presence of dark hadrons. All signals are observed to have more \met~than the background.
 \item $\Delta\phi$(j1, j2): difference in trajectory of the two leading jets, measured in the $\phi$ plane (recall the ATLAS detector geometry of Figure~\ref{fig:ATLASgeometry}). Orientation of the jets is of importance to the ML model as discussed in Section~\ref{sec:input_model}. 
 \item $\Delta$Y(j1, j2): difference in trajectory of the two leading jets, measured in the Y plane (recall Figure~\ref{fig:ATLASgeometry} and the definition of rapidity Equation~\ref{eq:rapidity}). The signals are seen to have lower $\Delta$Y(j1, j2) than the background.
 \item $\Delta\phi$(j1, \met): the angular separation between the leading jet and the \met. The leading jet is predominantly back-to-back with the \met.
@@ -94,7 +94,7 @@ The variables illustrated are:
       \label{fig:presel_vars2}}
 \end{figure}
 
-The data and background MC are both illustrated in Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2}. The agreement between them is generally observed to be good, particularly in the key analysis variable \mt. The agreement is not required to be perfect as the background MC is not used for the background estimation. The primary motivation for studying the background MC is to uncover and remove issues unique to data such as the NCB, as described further in Appendix~\ref{app:ncb}.
+The data and background MC are both illustrated in Figure~\ref{fig:presel_vars} and Figure~\ref{fig:presel_vars2}. The agreement between them is generally observed to be good, particularly in the key analysis variable \mt. The agreement is not required to be perfect as the background MC is not used for the background estimation. The primary motivation for studying the background MC is to uncover and remove issues unique to data such as the non-collision background.
 
  \clearpage
 %\input{sections/object}

@@ -6,7 +6,7 @@ Model-independent fits for the discovery region are performed using \textsc{pyBu
 The strategy consists of comparing the data in a given \mt~spectrum to a background estimation derived by performing the polynomial fit.
 This allows the background estimation method for the Discovery strategy to remain the same as for the SVJ Fit strategy, but introduces a bump hunt for model independent signal interpretation. 
 
-The polynomial fit is done to an \mt~distribution with 180 bins (25 GeV wide), which half the width of the bins used in the SVJ Fit strategy (50 GeV wide). %90 bins, as with the PFN 
+The polynomial fit is done to an \mt~distribution with 180 bins (25 GeV wide), which is half the width of the bins used in the SVJ Fit strategy (50 GeV wide). %90 bins, as with the PFN 
 The narrower bins allow for rebinning based on the \textit{signal mass resolution} of the SVJ signals.
 The binning strategy is outlined in Appendix~\ref{app:binning}.
 
@@ -44,7 +44,7 @@ The resulting set of 15 bins to be used in the BumpHunter (BH) fits varies in wi
 Figure~\ref{fig:antelope_bh_crvr} shows the result of running BumpHunter over the rebinned CR and VR \mt~spectra.
 The background estimation is given by the polynomial fit function. 
 The BH $p$-values (>0.05) indicate agreement with the background estimation.
-The BH $p$-value for the VR is notably somewhat low, but within the realm of statistical fluctuations, and is thus not a cause for concern.
+The BH $p$-value for the VR is somewhat low at 0.07, but within the realm of statistical fluctuations, and is thus not a cause for concern.
 The $p$-value of the polynomial fit which gives the background estimation is also reported.
 The location of the largest bump identified by BH is indicated on the plot. 
 \begin{figure}[!htbp]
@@ -75,7 +75,7 @@ A spurious signal would be indicated by a fit with a BH p-value $<$ 0.01 or a ma
 \label{subsec:bhsiginj}
 
 To explore a model independent signal hypothesis, signal injection tests in the ANTELOPE region are done with generic Gaussian shapes.
-Two Gaussian models are built with a mean ranging from 2000 GeV to 5000 GeV and a standard deviation (or \textit{width}) equal to 10 or 20\% the mean value.
+Two Gaussian models are built with a mean ranging from 2000 GeV to 5000 GeV and a standard deviation (or \textit{width}) equal to 10 or 20\% of the mean value.
 Figure~\ref{fig:gauss_inj} illustrates an injected Gaussian and its effect on the \mt~distribution.
 The 20\% gaussian represents the widest possible signals we might be sensitive to with a BH strategy, while the 10\% injection represents a narrower signal peak. 
 As the SVJ model and other dark QCD models generally predict wide signal shapes due to the presence of \met~in the final state, narrower Gaussians were not explored.
@@ -83,7 +83,7 @@ As the SVJ model and other dark QCD models generally predict wide signal shapes 
 \begin{figure}[!htbp]
 \centering
    \includegraphics[width=0.5\textwidth]{figures/stats/gauss_inj}
-    \caption{Example injected gaussian signal, with mean = 3000 GeV and width of 20\% (expressed as 0.2).
+    \caption{Example injected gaussian signal, with mean = 3000 GeV and width of 20\%.
     \label{fig:gauss_inj}}
 \end{figure}
 
@@ -92,7 +92,7 @@ As the SVJ model and other dark QCD models generally predict wide signal shapes 
 
 An estimated $5\sigma$ of signal is injected for these tests.
 The estimate is derived from the amount of signal necessary to produce a 5$\sigma$ excess in the polynomial fit.
-It is an underestimate of the expected significance to the BumpHunter, as the flexibility of the polynomial fit absorbs some of the signal.
+It is an underestimate of the expected significance to the BumpHunter, as the flexibility of the background-only polynomial fit absorbs some of the signal.
 Therefore we do not expect to measure $5\sigma$ significance with the BH approach, but rather hope to see that some level of signal (at least $\geq2\sigma$ local significance) is observed by the BumpHunter method.
 
 Results are obtained by averaging over 100 toys for each injection.
@@ -105,7 +105,7 @@ Figure~\ref{fig:bh_bump_example} shows an example of the identified bump.
 \centering
    \includegraphics[width=0.65\textwidth]{figures/stats/siginj_bh_localsig.pdf}
    \includegraphics[width=0.65\textwidth]{figures/stats/siginj_bh_bumploc.pdf}
-    \caption{Response of the BumpHunter framework to gaussian signal injection is shown. The local significance (top plot) and bump location in GeV (bottom plot) are shown. With the exception of the 5.0 TeV 20\% width signal, the BH identifies bumps with a significance > 2.0$\sigma$ in approximately the correct location.
+    \caption{Response of the BumpHunter framework to gaussian signal injection is shown. The local significance (top plot) and bump location in GeV (bottom plot) are shown. With the exception of the 5.0 TeV 20\% width signal (expressed as 0.2), the BH identifies bumps with a significance > 2.0$\sigma$ in approximately the correct location.
     \label{fig:siginj_bh}}
 \end{figure}
 
